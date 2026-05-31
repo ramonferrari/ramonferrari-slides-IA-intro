@@ -7,7 +7,7 @@ const { currentPage, total } = useNav()
 </script>
 <template>
   <footer class="rf-bottom-bar">
-    <a href="http://esdigital.petrobras.com.br" target="_blank">esdigital.petrobras.com.br</a>
+    <a href="http://ramonferrari.dev" target="_blank">ramonferrari.dev</a>
     <span class="rf-bottom-page">{{ currentPage }}/{{ total }}</span>
   </footer>
 </template>
