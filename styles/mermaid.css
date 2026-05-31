@@ -1,0 +1,131 @@
+/* ─────────────────────────────────────────────
+   MERMAID DIAGRAM STYLES — INTEGRATED WITH THEME
+───────────────────────────────────────────── */
+.mermaid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.03)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 28px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  overflow: visible;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+  font-family: "JetBrains Mono", monospace !important;
+  filter: drop-shadow(0 0 24px rgba(53, 153, 110, 0.28)) !important;
+}
+
+/* NODES - Defaults (can be overridden by 'style' in mermaid code) */
+.mermaid .node rect,
+.mermaid .node circle,
+.mermaid .node ellipse,
+.mermaid .node polygon,
+.mermaid .node path {
+  fill: rgba(255, 255, 255, 0.04);
+  stroke: #35996e;
+  stroke-width: 1.5px;
+}
+
+/* LABELS & TEXT - Forced consistency */
+.mermaid .label,
+.mermaid .nodeLabel,
+.mermaid .edgeLabel,
+.mermaid .label foreignObject,
+.mermaid .label foreignObject div,
+.mermaid .label foreignObject span,
+.mermaid text,
+.mermaid tspan {
+  color: rgba(255, 255, 255, 0.92) !important;
+  fill: rgba(255, 255, 255, 0.92) !important;
+  font-family: "JetBrains Mono", monospace !important;
+  font-size: 15px !important;
+  line-height: 1.4 !important;
+}
+
+.mermaid foreignObject {
+  overflow: visible !important;
+}
+
+/* EDGES & ARROWS */
+.mermaid .edgePath path {
+  stroke: #35996e;
+  stroke-width: 2px;
+  stroke-linecap: round;
+}
+
+.mermaid marker path {
+  fill: #35996e;
+  stroke: #35996e;
+}
+
+.mermaid marker {
+  fill: #35996e;
+}
+
+/* Support for flow animation */
+.mermaid .edgePath.animated path {
+  stroke-dasharray: 6 !important;
+  animation: flowAnimation 40s linear infinite !important;
+}
+
+/* CLUSTERS */
+.mermaid .cluster rect {
+  fill: rgba(255, 255, 255, 0.06);
+  stroke: rgba(53, 153, 110, 0.3);
+  stroke-width: 1.5px;
+}
+
+.mermaid .cluster text {
+  color: rgba(255, 255, 255, 0.62) !important;
+  fill: rgba(255, 255, 255, 0.62) !important;
+}
+
+/* LIGHT MODE */
+html.light .mermaid svg {
+  filter: drop-shadow(0 0 24px rgba(53, 153, 110, 0.12)) !important;
+}
+
+html.light .mermaid .node rect,
+html.light .mermaid .node circle,
+html.light .mermaid .node ellipse,
+html.light .mermaid .node polygon,
+html.light .mermaid .node path {
+  fill: rgba(255, 255, 255, 0.72);
+  stroke: #2f8d65;
+}
+
+html.light .mermaid .edgePath path,
+html.light .mermaid marker path,
+html.light .mermaid marker {
+  fill: #2f8d65;
+  stroke: #2f8d65;
+}
+
+html.light .mermaid text,
+html.light .mermaid .label,
+html.light .mermaid .nodeLabel,
+html.light .mermaid .edgeLabel,
+html.light .mermaid .label foreignObject div {
+  fill: #111827 !important;
+  color: #111827 !important;
+}
+
+/* ANIMATION */
+@keyframes flowAnimation {
+  to {
+    stroke-dashoffset: -1000;
+  }
+}

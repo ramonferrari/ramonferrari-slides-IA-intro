@@ -1,0 +1,1002 @@
+{
+  "mantere_reasoning_2013": {
+    "title": "Reasoning in Organization Science",
+    "year": "2013",
+    "apa_citet": "Mantere & Ketokivi (2013)",
+    "apa_citep": "(Mantere & Ketokivi, 2013)",
+    "apa_reference": "Mantere, Ketokivi (2013). Reasoning in Organization Science. Academy of Management Review. https://doi.org/10.5465/amr.2011.0188",
+    "abstract": "",
+    "url": "http://journals.aom.org/doi/10.5465/amr.2011.0188",
+    "doi": "10.5465/amr.2011.0188"
+  },
+  "xiong_semiconductor_2025": {
+    "title": "Semiconductor supply chain resilience and disruption: insights, mitigation, and future directions",
+    "year": "2025",
+    "apa_citet": "Xiong et al. (2025)",
+    "apa_citep": "(Xiong et al., 2025)",
+    "apa_reference": "Xiong, Wu, Yeung (2025). Semiconductor supply chain resilience and disruption: insights, mitigation, and future directions. International Journal of Production Research. https://doi.org/10.1080/00207543.2024.2387074",
+    "abstract": "In recent years, the semiconductor supply chain has experienced dramatic changes, due to geopolitical tensions and public health events, which have provided insights into supply chain disruptions and the shortage economy. This review synthesises current research on semiconductor supply chain disruptions to offer a comprehensive analysis of the vulnerabilities of the semiconductor supply chain and resilience strategies. We begin with an overview of the key characteristics and complexities of the semiconductor supply chain. Focusing on geopolitical security issues and public health events, we provide a comprehensive overview of the challenges faced and mitigation strategies adopted. Moreover, we identify important gaps in the literature and propose future research directions, emphasising the need for innovative supply chain management practices and decentralised networks for necessary redundancy. Our analysis contributes to the ongoing discussion on how the robustness and adaptability of the semiconductor supply chain, to ensure its sustainability in the face of a rapidly changing global landscape.",
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00207543.2024.2387074",
+    "doi": "10.1080/00207543.2024.2387074"
+  },
+  "luo_rise_2023": {
+    "title": "The rise of techno-geopolitical uncertainty: Implications of the United States CHIPS and Science Act",
+    "year": "2023",
+    "apa_citet": "Luo & Van Assche (2023)",
+    "apa_citep": "(Luo & Van Assche, 2023)",
+    "apa_reference": "Luo, Van Assche (2023). The rise of techno-geopolitical uncertainty: Implications of the United States CHIPS and Science Act. Journal of International Business Studies. https://doi.org/10.1057/s41267-023-00620-3",
+    "abstract": "",
+    "url": "https://link.springer.com/10.1057/s41267-023-00620-3",
+    "doi": "10.1057/s41267-023-00620-3"
+  },
+  "lecun_deep_2015a": {
+    "title": "Deep learning",
+    "year": "2015",
+    "apa_citet": "LeCun et al. (2015)",
+    "apa_citep": "(LeCun et al., 2015)",
+    "apa_reference": "LeCun, Bengio, Hinton (2015). Deep learning. Nature. https://doi.org/10.1038/nature14539",
+    "abstract": "",
+    "url": "https://www.nature.com/articles/nature14539",
+    "doi": "10.1038/nature14539"
+  },
+  "fugener_roles_2026": {
+    "title": "Roles of Artificial Intelligence in Collaboration with Humans: Automation, Augmentation, and the Future of Work",
+    "year": "2026",
+    "apa_citet": "Fügener et al. (2026)",
+    "apa_citep": "(Fügener et al., 2026)",
+    "apa_reference": "Fügener, Walzner, Gupta (2026). Roles of Artificial Intelligence in Collaboration with Humans: Automation, Augmentation, and the Future of Work. Management Science. https://doi.org/10.1287/mnsc.2024.05684",
+    "abstract": "Humans will see significant changes in the future of work as collaboration with artificial intelligence (AI) will become commonplace. This work explores the benefits of AI in the setting of judgment tasks when it replaces humans (automation) and when it works with humans (augmentation). Through an analytical modeling framework, we show that the optimal use of AI for automation or augmentation depends on different types of human-AI complementarity. Our analysis demonstrates that the use of automation increases with higher levels of between-task complementarity. In contrast, the use of augmentation increases with higher levels of within-task complementarity. We integrate both automation and augmentation roles into our task allocation framework, where an AI and humans work on a set of judgment tasks to optimize performance with a given level of available human resources. We validate our framework with an empirical study based on experimental data in which humans classify images with and without AI support. When between-task complementarity and within-task complementarity exist, we see a consistent distribution of work pattern for optimal work configurations; AI automates relatively easy tasks, AI augments humans on tasks with similar human and AI performance, and humans work without AI on relatively difficult tasks. Our work provides several contributions to theory and practice. The findings on the effects of complementarity provide a nuanced view regarding the benefits of automation and augmentation. Our task allocation framework highlights potential job designs for the future of work, especially by considering the often-ignored, critical role of human resource reallocation in improving organizational performance.\n            This paper was accepted by D. J. Wu, Special Issue on the Human-Algorithm Connection.\n            Supplemental Material: The online appendix and data files are available at https://doi.org/10.1287/mnsc.2024.05684 .",
+    "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.2024.05684",
+    "doi": "10.1287/mnsc.2024.05684"
+  },
+  "fugener_will_2021": {
+    "title": "Will Humans-in-the-Loop Become Borgs? Merits and Pitfalls of Working with AI",
+    "year": "2021",
+    "apa_citet": "Fügener et al. (2021)",
+    "apa_citep": "(Fügener et al., 2021)",
+    "apa_reference": "Fügener et al. (2021). Will Humans-in-the-Loop Become Borgs? Merits and Pitfalls of Working with AI. MIS Quarterly. https://doi.org/10.25300/MISQ/2021/16553",
+    "abstract": "We analyze how advice from an AI affects complementarities between humans and AI, in particular what humans know that an AI does not know: “unique human knowledge.” In a multi-method study consisting of an analytical model, experimental studies, and a simulation study, our main finding is that human choices converge toward similar responses improving individual accuracy. However, as overall individual accuracy of the group of humans improves, the individual unique human knowledge decreases. Based on this finding, we claim that humans interacting with AI behave like “Borgs,” that is, cyborg creatures with strong individual performance but no human individuality. We argue that the loss of unique human knowledge may lead to several undesirable outcomes in a host of human–AI decision environments. We demonstrate this harmful impact on the “wisdom of crowds.” Simulation results based on our experimental data suggest that groups of humans interacting with AI are far less effective as compared to human groups without AI assistance. We suggest mitigation techniques to create environments that can provide the best of both worlds (e.g., by personalizing AI advice). We show that such interventions perform well individually as well as in wisdom of crowds settings.",
+    "url": "https://misq.umn.edu/misq/article/45/3/1527/1891/Will-Humans-in-the-Loop-Become-Borgs-Merits-and",
+    "doi": "10.25300/MISQ/2021/16553"
+  },
+  "fugener_cognitive_2022": {
+    "title": "Cognitive Challenges in Human–Artificial Intelligence Collaboration: Investigating the Path Toward Productive Delegation",
+    "year": "2022",
+    "apa_citet": "Fügener et al. (2022)",
+    "apa_citep": "(Fügener et al., 2022)",
+    "apa_reference": "Fügener et al. (2022). Cognitive Challenges in Human–Artificial Intelligence Collaboration: Investigating the Path Toward Productive Delegation. Information Systems Research. https://doi.org/10.1287/isre.2021.1079",
+    "abstract": "A consensus is beginning to emerge that the next phase of artificial intelligence (AI) induction in business organizations will require humans to work with AI in a variety of work arrangements. This article explores the issues related to human capabilities to work with AI. A key to working in many work arrangements is the ability to delegate work to entities that can do them most efficiently. Modern AI can do a remarkable job of efficient delegation to humans because it knows what it knows well and what it does not. Humans, on the other hand, are poor judges of their metaknowledge and are not good at delegating knowledge work to AI—this might prove to be a big stumbling block to create work environments where humans and AI work together. Humans have often created machines to serve them. The sentiment is perhaps exemplified by Oscar Wilde’s statement that “civilization requires slaves…. Human slavery is wrong, insecure and demoralizing. On mechanical slavery, on the slavery of the machine, the future of the world depends.” However, the time has come when humans might switch roles with machines. Our study highlights capabilities that humans need to effectively work with AI and still be in control rather than just being directed.\n          , \n            We study how humans make decisions when they collaborate with an artificial intelligence (AI) in a setting where humans and the AI perform classification tasks. Our experimental results suggest that humans and AI who work together can outperform the AI that outperforms humans when it works on its own. However, the combined performance improves only when the AI delegates work to humans but not when humans delegate work to the AI. The AI’s delegation performance improved even when it delegated to low-performing subjects; by contrast, humans did not delegate well and did not benefit from delegation to the AI. This bad delegation performance cannot be explained with some kind of algorithm aversion. On the contrary, subjects acted rationally in an internally consistent manner by trying to follow a proven delegation strategy and appeared to appreciate the AI support. However, human performance suffered as a result of a lack of metaknowledge—that is, humans were not able to assess their own capabilities correctly, which in turn led to poor delegation decisions. Lacking metaknowledge, in contrast to reluctance to use AI, is an unconscious trait. It fundamentally limits how well human decision makers can collaborate with AI and other algorithms. The results have implications for the future of work, the design of human–AI collaborative environments, and education in the digital age.",
+    "url": "https://pubsonline.informs.org/doi/10.1287/isre.2021.1079",
+    "doi": "10.1287/isre.2021.1079"
+  },
+  "liu_trustworthy_2026": {
+    "title": "Trustworthy process monitoring based on canonical correlation analysis considering epistemic uncertainty",
+    "year": "2026",
+    "apa_citet": "Liu et al. (2026)",
+    "apa_citep": "(Liu et al., 2026)",
+    "apa_reference": "Liu et al. (2026). Trustworthy process monitoring based on canonical correlation analysis considering epistemic uncertainty. Measurement. https://doi.org/10.1016/j.measurement.2026.121054",
+    "abstract": "",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0263224126007633",
+    "doi": "10.1016/j.measurement.2026.121054"
+  },
+  "simpson_rethinking_2026": {
+    "title": "Rethinking failure as a site for epistemic empathy for educators",
+    "year": "2026",
+    "apa_citet": "Simpson et al. (2026)",
+    "apa_citep": "(Simpson et al., 2026)",
+    "apa_reference": "Simpson et al. (2026). Rethinking failure as a site for epistemic empathy for educators. Learning, Culture and Social Interaction. https://doi.org/10.1016/j.lcsi.2026.100987",
+    "abstract": "",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S2210656126000140",
+    "doi": "10.1016/j.lcsi.2026.100987"
+  },
+  "burkhart_whose_2026": {
+    "title": "Whose knowledge counts for transformative change? – Operationalizing epistemic justice for transdisciplinary knowledge co-production",
+    "year": "2026",
+    "apa_citet": "Burkhart & Schneider (2026)",
+    "apa_citep": "(Burkhart & Schneider, 2026)",
+    "apa_reference": "Burkhart, Schneider (2026). Whose knowledge counts for transformative change? – Operationalizing epistemic justice for transdisciplinary knowledge co-production. Environmental Science & Policy. https://doi.org/10.1016/j.envsci.2026.104322",
+    "abstract": "",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1462901126000158",
+    "doi": "10.1016/j.envsci.2026.104322"
+  },
+  "samuel_learning_2026": {
+    "title": "Learning with machines: Toward a theory of epistemic co-agency",
+    "year": "2026",
+    "apa_citet": "Samuel (2026)",
+    "apa_citep": "(Samuel, 2026)",
+    "apa_reference": "Samuel (2026). Learning with machines: Toward a theory of epistemic co-agency. Computers and Education: Artificial Intelligence. https://doi.org/10.1016/j.caeai.2026.100573",
+    "abstract": "",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666920X26000354",
+    "doi": "10.1016/j.caeai.2026.100573"
+  },
+  "dietz_building_2026": {
+    "title": "Building actionable theories: The role of causal constructs",
+    "year": "2026",
+    "apa_citet": "Dietz (2026)",
+    "apa_citep": "(Dietz, 2026)",
+    "apa_reference": "Dietz (2026). Building actionable theories: The role of causal constructs. The Leadership Quarterly. https://doi.org/10.1016/j.leaqua.2025.101929",
+    "abstract": "",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1048984325000682",
+    "doi": "10.1016/j.leaqua.2025.101929"
+  },
+  "borsboom_theory_2021": {
+    "title": "Theory Construction Methodology: A Practical Framework for Building Theories in Psychology",
+    "year": "2021",
+    "apa_citet": "Borsboom et al. (2021)",
+    "apa_citep": "(Borsboom et al., 2021)",
+    "apa_reference": "Borsboom et al. (2021). Theory Construction Methodology: A Practical Framework for Building Theories in Psychology. Perspectives on Psychological Science. https://doi.org/10.1177/1745691620969647",
+    "abstract": "This article aims to improve theory formation in psychology by developing a practical methodology for constructing explanatory theories:\n              theory construction methodology\n              (TCM). TCM is a sequence of five steps. First, the theorist identifies a domain of\n              empirical phenomena\n              that becomes the target of explanation. Second, the theorist constructs a\n              prototheory\n              , a set of theoretical principles that putatively explain these phenomena. Third, the prototheory is used to construct a\n              formal model\n              , a set of model equations that encode explanatory principles. Fourth, the theorist investigates the\n              explanatory adequacy\n              of the model by formalizing its empirical phenomena and assessing whether it indeed reproduces these phenomena. Fifth, the theorist studies the\n              overall adequacy\n              of the theory by evaluating whether the identified phenomena are indeed reproduced faithfully and whether the explanatory principles are sufficiently parsimonious and substantively plausible. We explain TCM with an example taken from research on intelligence (the mutualism model of intelligence), in which key elements of the method have been successfully implemented. We discuss the place of TCM in the larger scheme of scientific research and propose an outline for a university curriculum that can systematically educate psychologists in the process of theory formation.",
+    "url": "https://journals.sagepub.com/doi/10.1177/1745691620969647",
+    "doi": "10.1177/1745691620969647"
+  },
+  "cornelissen_making_2006": {
+    "title": "Making Sense of Theory Construction: Metaphor and Disciplined Imagination",
+    "year": "2006",
+    "apa_citet": "Cornelissen (2006)",
+    "apa_citep": "(Cornelissen, 2006)",
+    "apa_reference": "Cornelissen (2006). Making Sense of Theory Construction: Metaphor and Disciplined Imagination. Organization Studies. https://doi.org/10.1177/0170840606068333",
+    "abstract": "This article draws upon Karl Weick’s insights into the nature of theorizing, and extends and refines his conception of theory construction as ‘disciplined imagination’. An essential ingredient in Weick’s ‘disciplined imagination’involves his assertion that thought trials and theoretical representations typically involve a transfer from one epistemic sphere to another through the creative use of metaphor. The article follows up on this point and draws out how metaphor works, how processes of metaphorical imagination partake in theory construction, and how insightful metaphors and the theoretical representations that result from them can be selected. The paper also includes a discussion of metaphors-in-use (organizational improvisation as jazz and organizational behaviour as collective mind) which Weick proposed in his own writings. The whole purpose of this exercise is to theoretically augment and ground the concept of ‘disciplined imagination’, and in particular to refine the nature of thought trials and selection within it. In doing so, I also aim to provide pointers for the use of metaphorical imagination in the process of theory construction.",
+    "url": "https://journals.sagepub.com/doi/10.1177/0170840606068333",
+    "doi": "10.1177/0170840606068333"
+  },
+  "deroncele-acosta_qualitative_2024": {
+    "title": "Qualitative Research From Grounded Theory to Build a Scientific Framework on the Researcher’s Epistemic Competence",
+    "year": "2024",
+    "apa_citet": "Deroncele-Acosta et al. (2024)",
+    "apa_citep": "(Deroncele-Acosta et al., 2024)",
+    "apa_reference": "Deroncele-Acosta et al. (2024). Qualitative Research From Grounded Theory to Build a Scientific Framework on the Researcher’s Epistemic Competence. International Journal of Qualitative Methods. https://doi.org/10.1177/16094069241284218",
+    "abstract": "The Epistemic Competence of the Researcher is a critical success factor for ethical, rigorous, and creative research performance, but it requires a deep epistemological and methodological mastery, however, the current scientific literature has not yet achieved a conceptual arrangement, that allows researchers and educators to have a comprehensive theoretical framework for a holistic understanding of this competence. The objective of this study was to build a comprehensive theory on the epistemic competence of the researcher. A qualitative approach was used, deploying an open interview and the grounded theory method. Ten experts in social science didactics from 7 Latin American universities and 3 Spanish universities participated. The interviews were processed manually and with the support of ATLAS.TI software, finding 23 emerging categories that were contrasted with the results of a term co-occurrence network of 6081 studies imported from Scopus. From the cross-check of empirical and theoretical results, the following concepts were selected to coincide. Finally, the theoretical framework established was made up of the following concepts: 1.- knowledge building and conceptual change, 2.- epistemological beliefs, 3.- concept mapping and knowledge creation, 4.- conceptual understanding, 5.- conceptual framework, 6.- concept formation, 7.- epistemic beliefs, 8.- science education (learning science and science teaching) 9.- cognitive complexity, 10.- personal epistemology, 11.- virtue epistemology, 12.- formal logic, 13.- epistemic cognition, 14.- nature of science, 15.- epistemic emotions. A proposal for teaching and learning science from this epistemic perspective is established. Future studies should continue to explore the concepts and categories that this work leaves open.",
+    "url": "https://journals.sagepub.com/doi/10.1177/16094069241284218",
+    "doi": "10.1177/16094069241284218"
+  },
+  "zhang_epistemic_2022": {
+    "title": "Epistemic agency for costructuring expansive knowledge‐building practices",
+    "year": "2022",
+    "apa_citet": "Zhang et al. (2022)",
+    "apa_citep": "(Zhang et al., 2022)",
+    "apa_reference": "Zhang et al. (2022). Epistemic agency for costructuring expansive knowledge‐building practices. Science Education. https://doi.org/10.1002/sce.21717",
+    "abstract": "Abstract\n            \n              As a hallmark of authentic science practices, students need to enact epistemic agency to shape/reshape the key aspects of their inquiry work as a collaborative community. This study elaborates an emergent temporal mechanism for engaging students' epistemic agency: “reflective structuration” by which members of a classroom community coconstruct ever‐evolving inquiry directions and group structures as their collective inquiry work proceeds. Using an interactional ethnography method, we examined how students (\n              n\n               = 22) in a Grade 5 classroom coconstructed shared inquiry directions and flexible group structures to guide their sustained inquiry about human body systems over 7 months supported by a collaborative online environment. Rich data were collected to trace the work of the eye inquiry group as a telling case. With their teacher's support, students took agentic moves to construct an evolving set of wondering areas as a way to frame what their whole class needed to investigate. Flexible groups, such as the eye inquiry group, emerged and evolved in the various areas, leading to progressively deepening inquiry and extensive idea exchanges among students. Implications for research and practice are discussed.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1002/sce.21717",
+    "doi": "10.1002/sce.21717"
+  },
+  "ma_impact_2026": {
+    "title": "The Impact of <span style=\"font-variant:small-caps;\">GenAI</span> on Epistemic Construction, Friction and Regulation: Doctoral Researchers' Duoethnography",
+    "year": "2026",
+    "apa_citet": "Ma et al. (2026)",
+    "apa_citep": "(Ma et al., 2026)",
+    "apa_reference": "Ma et al. (2026). The Impact of <span style=\"font-variant:small-caps;\">GenAI</span> on Epistemic Construction, Friction and Regulation: Doctoral Researchers' Duoethnography. European Journal of Education. https://doi.org/10.1111/ejed.70330",
+    "abstract": "ABSTRACT\n            This study focuses on the process by which doctoral researchers construct epistemic sovereignty and control in AI‐assisted writing. This study employs a duoethnographic approach to analyse the reflective dialogues of two multidisciplinary doctoral researchers. It examines their use of ChatGPT and DeepSeek for academic writing through a theoretical framework of self‐training, epistemic construction, and epistemic friction. The main findings are as follows: (1) The quasi‐subjective language output presented by GenAI tools blurs the academic identity boundaries of researchers, prompting doctoral researchers to reevaluate their initiative in writing; (2) There is a significant tension between the synchronous generation logic relied upon by GenAI and the inherent diachronic reasoning methods of human beings, revealing the epistemic contradiction between the pursuit of efficiency and in‐depth exploration; (3) Although the standardised responses of GenAI may potentially suppress academic innovation, they can also inspire researchers to develop a reflective resistance strategy, thereby promoting epistemic creation and breakthroughs. Based on the findings, this study explains the core process of how doctoral researchers, in human‐computer interaction, can activate a self‐regulation mechanism to cope with epistemic friction and, in the long run, achieve epistemic symbiosis and the production of original knowledge.",
+    "url": "https://onlinelibrary.wiley.com/doi/10.1111/ejed.70330",
+    "doi": "10.1111/ejed.70330"
+  },
+  "thompson_ontological_2011": {
+    "title": "Ontological Shift or Ontological Drift? Reality Claims, Epistemological Frameworks, and Theory Generation in Organization Studies",
+    "year": "2011",
+    "apa_citet": "Thompson (2011)",
+    "apa_citep": "(Thompson, 2011)",
+    "apa_reference": "Thompson (2011). Ontological Shift or Ontological Drift? Reality Claims, Epistemological Frameworks, and Theory Generation in Organization Studies. Academy of Management Review. https://doi.org/10.5465/amr.2010.0070",
+    "abstract": "",
+    "url": "http://journals.aom.org/doi/10.5465/amr.2010.0070",
+    "doi": "10.5465/amr.2010.0070"
+  },
+  "haig_repositioning_2025": {
+    "title": "Repositioning Construct Validity Theory: From Nomological Networks to Pragmatic Theories and Their Evaluation by Explanatory Means",
+    "year": "2025",
+    "apa_citet": "Haig (2025)",
+    "apa_citep": "(Haig, 2025)",
+    "apa_reference": "Haig (2025). Repositioning Construct Validity Theory: From Nomological Networks to Pragmatic Theories and Their Evaluation by Explanatory Means. Perspectives on Psychological Science. https://doi.org/10.1177/17456916231195852",
+    "abstract": "In this article, I argue for a number of important changes to the conceptual foundations of construct validity theory. I begin by suggesting that construct validity theorists should shift their attention from the validation of constructs to the process of evaluating scientific theories. This shift in focus is facilitated by distinguishing construct validation (understood as theory evaluation) from test validation, thereby freeing it from its long-standing focus on psychological measurement. In repositioning construct validity theory in this way, researchers should jettison the outmoded but superficially popular notion that theories are nomological networks in favor of a more plausible pragmatic view of their natures, such as the idea that theories are explanatorily coherent networks. Consistent with this shift in understanding the nature of theories, my recommendation is that construct validation should embrace an explanationist perspective on the theory evaluation process to complement its focus on hypothetico-deductive theory testing. On this view, abductive research methods have an important role to play. The revisionist perspective on construct validity proposed here is discussed in light of relevant developments in scientific methodology and is applied to an influential account of the validation process that has shaped research practice.",
+    "url": "https://journals.sagepub.com/doi/10.1177/17456916231195852",
+    "doi": "10.1177/17456916231195852"
+  },
+  "wang_accuracy_1996": {
+    "title": "Beyond Accuracy: What Data Quality Means to Data Consumers",
+    "year": "1996",
+    "apa_citet": "Wang & Strong (1996)",
+    "apa_citep": "(Wang & Strong, 1996)",
+    "apa_reference": "Wang, Strong (1996). Beyond Accuracy: What Data Quality Means to Data Consumers. Journal of Management Information Systems. https://doi.org/10.1080/07421222.1996.11518099",
+    "abstract": "Poor data quality (DQ) can have substantial social and economic impacts. Although firms are improving data quality with practical approaches and tools, their improvement efforts tend to focus narrowly on accuracy. We believe that data consumers have a much broader data quality conceptualization than IS professionals realize. The purpose of this paper is to develop a framework that captures the aspects of data quality that are important to data consumers. A two-stage survey and a two-phase sorting study were conducted to develop a hierarchical framework for organizing data quality dimensions. This framework captures dimensions of data quality that are important to data consumers. Intrinsic DQ denotes that data have quality in their own right. Contextual DQ highlights the requirement that data quality must be considered within the context ofthe task at hand. Representational DQ and accessibility DQ emphasize the importance of the role of systems. These findings are consistent with our understanding that high-quality data should be intrinsically good, contextually appropriate for the task, clearly represented, and accessible to the data consumer. Our framework has been used effectively in industry and government. Using this framework, IS managers were able to better understand and meet their data consumers’ data quality needs. The salient feature of this research study is that quality attributes of data are collected from data consumers instead of being defined theoretically or based on researchers’ experience. Although exploratory, this research provides a basis for future studies that measure data quality along the dimensions of this framework.",
+    "url": "https://doi.org/10.1080/07421222.1996.11518099",
+    "doi": "10.1080/07421222.1996.11518099"
+  },
+  "behrend_participant_2025": {
+    "title": "Participant Interactions with Artificial Intelligence: Using Large Language Models to Generate Research Materials for Surveys and Experiments",
+    "year": "2025",
+    "apa_citet": "Behrend & Landers (2025)",
+    "apa_citep": "(Behrend & Landers, 2025)",
+    "apa_reference": "Behrend, Landers (2025). Participant Interactions with Artificial Intelligence: Using Large Language Models to Generate Research Materials for Surveys and Experiments. Journal of Business and Psychology. https://doi.org/10.1007/s10869-025-10035-6",
+    "abstract": "Researchers are increasingly exploring the use of large language models (LLMs) to develop materials for surveys and experiments. However, clear guidance on effective implementation remains limited. In this paper, we propose a decision-making framework comprising five use cases for integrating large language models into psychological survey and experimental methods: (1) LLM as research assistant; (2) LLM as adaptive content creator; (3) LLM as external resource; (4) LLM as conversation partner, and (5) LLM as research confederate. To support these applications, we introduce the open-source Qualtrics-AI Link (QUAIL), a software designed to integrate content generated by ChatGPT’s LLM foundation model into the Qualtrics platform. Across contexts, and for all scenarios involving the use of LLMs in research material creation, we provide guidance on the technical steps necessary to support both internal and external validity. These include effective prompt engineering, model selection, alpha and beta testing, launching, and monitoring. We conclude with a discussion of relevant ethical considerations, cautions, and resources for auditing validity claims. Throughout, we emphasize that good research design and adherence to ethical principles should guide decision-making, and that researcher expertise in both LLMs and research design is essential to ensure valid participant interactions when using LLM-based tools.",
+    "url": "https://doi.org/10.1007/s10869-025-10035-6",
+    "doi": "10.1007/s10869-025-10035-6"
+  },
+  "gonzalez_cognitive_2025": {
+    "title": "A cognitive approach to human–AI complementarity in dynamic decision-making",
+    "year": "2025",
+    "apa_citet": "Gonzalez & Heidari (2025)",
+    "apa_citep": "(Gonzalez & Heidari, 2025)",
+    "apa_reference": "Gonzalez, Heidari (2025). A cognitive approach to human–AI complementarity in dynamic decision-making. Nature Reviews Psychology. https://doi.org/10.1038/s44159-025-00499-x",
+    "abstract": "As artificial intelligence (AI) becomes increasingly integrated into complex decision-making environments, there is a growing need to develop AI systems that complement human capabilities. AI and humans offer distinct strengths: AI excels at processing large datasets, identifying statistical patterns and optimizing predefined objectives, whereas humans are skilled at navigating uncertainty, novelty and interpersonal challenges. The synergy between humans and AI is particularly vital in dynamic decision-making domains — such as disaster response situations — in which rapid analysis of AI results must be balanced with human judgement and ethical considerations. In this Perspective, we provide a conceptual framework to integrate human decision-making with AI, focusing on cognitive AI: a computational approach that models human cognitive processes to create AI systems that learn and make decisions in ways similar to those of humans. We discuss the elements and necessary capabilities of cognitive AI and how to realize human–AI complementarity in decision-making while considering ethical risks. By advancing these areas, researchers can lay the groundwork for adaptive and cognitively grounded human–AI teamwork that is aligned with human values and goals.",
+    "url": "https://www.nature.com/articles/s44159-025-00499-x",
+    "doi": "10.1038/s44159-025-00499-x"
+  },
+  "cai_user_2026": {
+    "title": "User cognitive fit in human-AI interaction: Exploring the link between input representation and generative output complexity",
+    "year": "2026",
+    "apa_citet": "Cai & Zhou (2026)",
+    "apa_citep": "(Cai & Zhou, 2026)",
+    "apa_reference": "Cai, Zhou (2026). User cognitive fit in human-AI interaction: Exploring the link between input representation and generative output complexity. Computers in Human Behavior. https://doi.org/10.1016/j.chb.2026.108927",
+    "abstract": "Generative artificial intelligence (AI) has transformed knowledge production into an interactive process in which user inputs actively influence generative outputs. Yet, little is known about how different forms of input representation affect the complexity of generative. Building on cognitive fit theory, this study examines how the characteristics of user input jointly determine output complexity in human–AI interaction. Using a large corpus of over sixty thousand conversations, we adopt a multimethod approach that combines fixed-effects modeling with interpretable machine learning (XGBoost, SHAP, and time-sensitive pattern analysis). The results reveal a nonlinear and dynamic relationship between input representation fit and output complexity, indicating that both low-fit and high-fit inputs can increase output complexity through distinct mechanisms. We further demonstrate that these effects differ according to interaction depth and temporal context, suggesting that representational alignment is not static but dynamically recalibrated during iterative exchanges. The study enhances the cognitive fit theory by conceptualizing fit as an adaptive alignment process in generative environments instead of a fixed match between human cognition and system representation. The findings highlight the necessity for AI systems that support adaptive prompting and context-aware feedback to enhance collaborative generative improvement.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0747563226000245",
+    "doi": "10.1016/j.chb.2026.108927"
+  },
+  "3ytjh87s": {
+    "title": "",
+    "year": "n.d.",
+    "apa_citet": "Unknown (n.d.)",
+    "apa_citep": "(Unknown, n.d.)",
+    "apa_reference": "Unknown (n.d.). .",
+    "abstract": "",
+    "url": "",
+    "doi": ""
+  },
+  "wang_overview_2024": {
+    "title": "Overview of Data Quality : Examining the Dimensions, Antecedents, and Impacts of Data Quality",
+    "year": "2024",
+    "apa_citet": "Wang et al. (2024)",
+    "apa_citep": "(Wang et al., 2024)",
+    "apa_reference": "Wang et al. (2024). Overview of Data Quality : Examining the Dimensions, Antecedents, and Impacts of Data Quality. Journal of the Knowledge Economy. https://doi.org/10.1007/s13132-022-01096-6",
+    "abstract": "",
+    "url": "https://link.springer.com/10.1007/s13132-022-01096-6",
+    "doi": "10.1007/s13132-022-01096-6"
+  },
+  "kabashkin_cognitive_2025": {
+    "title": "Cognitive Atrophy Paradox of AI–Human Interaction: From Cognitive Growth and Atrophy to Balance",
+    "year": "2025",
+    "apa_citet": "Kabashkin (2025)",
+    "apa_citep": "(Kabashkin, 2025)",
+    "apa_reference": "Kabashkin (2025). Cognitive Atrophy Paradox of AI–Human Interaction: From Cognitive Growth and Atrophy to Balance. Information. https://doi.org/10.3390/info16111009",
+    "abstract": "The rapid integration of artificial intelligence (AI) into professional, educational, and everyday cognitive processes has created a dual dynamic of cognitive growth and cognitive atrophy. This study introduces a unified theoretical and quantitative framework to analyze these opposing tendencies and their equilibrium, conceptualized as the cognitive co-evolution model. The model interprets human–AI interaction as a nonlinear process in which reflective engagement enhances metacognitive skills, while over-delegation to automation reduces analytical autonomy. To quantify this balance, the paper proposes the cognitive sustainability index (CSI) as a composite measure integrating five behavioral parameters representing autonomy, reflection, creativity, delegation, and reliance. Simulation examples and domain-specific illustrations, including the case of software developers, demonstrate how CSI values can reveal distinct cognitive zones ranging from atrophy to synergy. Building upon these findings, the paper develops the framework of applied cognitive management, which links cognitive monitoring with adaptive interventions across individual, educational, professional, and institutional levels. The results highlight the need for organizations and policymakers to monitor cognitive sustainability as a strategic indicator of digital transformation. Maintaining CSI above the sustainability threshold ensures that automation enhances rather than replaces human reasoning, creativity, and ethical responsibility. The study concludes by outlining methodological challenges and future research directions toward a quantitative science of cognitive sustainability and co-evolutionary human–AI ecosystems.",
+    "url": "https://www.mdpi.com/2078-2489/16/11/1009",
+    "doi": "10.3390/info16111009"
+  },
+  "sarahkristinlier_generative_2025": {
+    "title": "Generative Artificial Intelligence and Large Language Models – A Trustworthiness Process Model",
+    "year": "2025",
+    "apa_citet": "Lier et al. (2025)",
+    "apa_citep": "(Lier et al., 2025)",
+    "apa_reference": "Lier, Nowikow, Breitner (2025). Generative Artificial Intelligence and Large Language Models – A Trustworthiness Process Model. ICIS 2025 Proceedings. https://aisel.aisnet.org/icis2025/gen_ai/gen_ai/15",
+    "abstract": "Experts and non-experts increased their usage of Generative Artificial Intelligence (GenAI) and its Large Language Models (LLMs). GenAI is established in companies, organizations, and societies, e.g., supporting grounded decisions and enabling big data analyses. However, misuse risk, inefficient overuse, and discrimination are high. Trustworthy Artificial Intelligence (TAI) requirements and guidelines increase the chances of GenAI and mitigate its challenges. We address chances and challenges through a mixed qualitative and quantitative approach. First, we conducted an integrative literature review of 18 core publications. Second, we interviewed ten experts and analyzed 14 regulatory frameworks. Third, we identify 15 requirements and guidelines and deduce the TrustMap process model. TrustMap comprises four phases for TAI implementation and monitoring, offering a practical, iterative framework that integrates normative principles, regulatory requirements and guidelines, and implementation strategies. Lastly, we summarize our results and findings for theory and practice, discuss our limitations, and deduce a further research agenda.",
+    "url": "https://aisel.aisnet.org/icis2025/gen_ai/gen_ai/15",
+    "doi": ""
+  },
+  "junyiliu_bias_2025": {
+    "title": "Bias Mitigation in Large Language Models: Streamed Correction of Chain-of-Thought",
+    "year": "2025",
+    "apa_citet": "Liu & Kok (2025)",
+    "apa_citep": "(Liu & Kok, 2025)",
+    "apa_reference": "Liu, Kok (2025). Bias Mitigation in Large Language Models: Streamed Correction of Chain-of-Thought. ICIS 2025 Proceedings. https://aisel.aisnet.org/icis2025/gen_ai/gen_ai/7",
+    "abstract": "Large language models (LLMs) have become foundational in information systems, yet remain vulnerable to reasoning distortions, particularly under biased prompts. This paper introduces a modular correction mechanism for streamed chain-of-thought (CoT) reasoning, enabling real-time detection and revision of intermediate errors without altering model parameters. The framework integrates three diagnostic modules—logical structure validation, causal sufficiency via NLI and causal graphs, and semantic redundancy analysis—to identify and locally correct flawed reasoning steps. Experiments on BBH and SHARC datasets show consistent improvements in logical consistency and robustness across proprietary (GPT-3.5, GPT-4o) and open-source (Mistral, LLaMA) models, especially under biased conditions. Our findings highlight the potential of step-level correction to enhance interpretability and trustworthiness of LLMs in high-stakes IS applications such as compliance and policy analysis.",
+    "url": "https://aisel.aisnet.org/icis2025/gen_ai/gen_ai/7",
+    "doi": ""
+  },
+  "anvu-minh_benchmarking_2025": {
+    "title": "Benchmarking Evidence-Augmented Large Language Models for Misinformation Fact-Checking: An Information Systems Perspective on Scale and Augmentation",
+    "year": "2025",
+    "apa_citet": "Vu-Minh et al. (2025)",
+    "apa_citep": "(Vu-Minh et al., 2025)",
+    "apa_reference": "Vu-Minh et al. (2025). Benchmarking Evidence-Augmented Large Language Models for Misinformation Fact-Checking: An Information Systems Perspective on Scale and Augmentation. ICIS 2025 Proceedings. https://aisel.aisnet.org/icis2025/cyb_security/cyb_security/19",
+    "abstract": "The proliferation of misinformation challenges the integrity of digital information ecosystems, a core concern for Information Systems (IS). Automated fact-checking offers a potential solution, yet the reliability of Large Language Models (LLMs) for this task remains variable. This study investigates the interplay between LLM scale and retrieval-augmented generation (RAG) – the practice of providing external evidence – for fact-checking accuracy. Across three tasks tied to various research questions, we benchmark eight LLM variants, including Google's Gemini and OpenAI's GPT-4 families, on the Politifact-based LIAR dataset (n=1,267 claims), comparing performance with and without evidence augmentation. We show that top-tier LLMs (e.g., GPT-4.5) already beat legacy fact-checking systems with no extra engineering, whereas models with smaller scales might only become viable when paired with a simple evidence-retrieval layer. This cost-performance map helps IS practitioners decide whether to pay for premium models or invest in building retrieval pipelines to achieve reliable, scalable misinformation control.",
+    "url": "https://aisel.aisnet.org/icis2025/cyb_security/cyb_security/19",
+    "doi": ""
+  },
+  "leonardboussioux_socratic_2025": {
+    "title": "Socratic Iterative Reasoning: Enhancing LLM Decision-Making in the Beer Game Supply Chain",
+    "year": "2025",
+    "apa_citet": "Boussioux et al. (2025)",
+    "apa_citep": "(Boussioux et al., 2025)",
+    "apa_reference": "Boussioux et al. (2025). Socratic Iterative Reasoning: Enhancing LLM Decision-Making in the Beer Game Supply Chain. ICIS 2025 Proceedings. https://aisel.aisnet.org/icis2025/gen_ai/gen_ai/41",
+    "abstract": "Large language models (LLMs) show impressive linguistic abilities but often lack the domain-specific reasoning needed for reliable decision-making. We introduce Socratic Iterative Reasoning (SIR), a human-guided approach that improves LLM reasoning through structured dialogue and iterative refinement. Using the Beer Game supply chain simulation, we compare SIR-enhanced agents with baseline LLMs, retrieval-augmented generation (RAG), and chain-of-thought (CoT) across 36-week multi-agent experiments. Results show that SIR reduces order variability and total costs, especially for upstream echelons (Distributor, Manufacturer), and improves decision consistency relative to baseline GPT-4o. Unlike RAG, which struggles with knowledge integration, and CoT, which offers limited linear guidance, SIR discovers prompt structures that activate more reliable reasoning. Our study contributes to theory by showing how structured human guidance can systematically enhance AI capabilities and to practice by providing design principles for human–AI collaboration in complex decision environments.",
+    "url": "https://aisel.aisnet.org/icis2025/gen_ai/gen_ai/41",
+    "doi": ""
+  },
+  "leopoldmuller_data_2025": {
+    "title": "Data Quality Challenges in Retrieval-Augmented Generation",
+    "year": "2025",
+    "apa_citet": "Müller et al. (2025)",
+    "apa_citep": "(Müller et al., 2025)",
+    "apa_reference": "Müller et al. (2025). Data Quality Challenges in Retrieval-Augmented Generation. ICIS 2025 Proceedings. https://aisel.aisnet.org/icis2025/da_bus/da_bus/9",
+    "abstract": "Organizations increasingly adopt Retrieval-Augmented Generation (RAG) to enhance Large Language Models with enterprise-specific knowledge. However, current data quality (DQ) frameworks have been primarily developed for static datasets, and only inadequately address the dynamic, multi-stage nature of RAG systems. This study aims to develop DQ dimensions for this new type of AI-based systems. We conduct 16 semi-structured interviews with practitioners of leading IT service companies. Through a qualitative content analysis, we inductively derive 15 distinct DQ dimensions across the four processing stages of RAG systems: data extraction, data transformation, prompt & search, and generation. Our findings reveal that (1) new dimensions have to be added to traditional DQ frameworks to also cover RAG contexts; (2) these new dimensions are concentrated in early RAG steps, suggesting the need for front-loaded quality management strategies, and (3) DQ issues transform and propagate through the RAG pipeline, necessitating a dynamic, step-aware approach to quality management.",
+    "url": "https://aisel.aisnet.org/icis2025/da_bus/da_bus/9",
+    "doi": ""
+  },
+  "martastelmaszak_think_2025": {
+    "title": "“Think About an LLM Like a Toddler”: Information Quality in Large Language Models’ Outputs",
+    "year": "2025",
+    "apa_citet": "Stelmaszak et al. (2025)",
+    "apa_citep": "(Stelmaszak et al., 2025)",
+    "apa_reference": "Stelmaszak et al. (2025). “Think About an LLM Like a Toddler”: Information Quality in Large Language Models’ Outputs. ICIS 2025 Proceedings. https://aisel.aisnet.org/icis2025/gen_ai/gen_ai/3",
+    "abstract": "Information Quality (IQ) has been traditionally understood with reference to accuracy, completeness, or consistency—of outputs of deterministic computations or of information retrieved from organizational databases. By contrast, the outputs of large language models (LLMs) are generated probabilistically, which makes it difficult to account for their quality within these traditional dimensions. To uncover how IQ is constituted in LLM outputs, we conducted interviews with 70 LLM trainers working for nine companies specializing in improving the quality of LLM outputs, supported by the analysis of 372 pages of secondary documentation. We found that IQ in LLM outputs is produced in a dynamic sociotechnical assemblage where both human and nonhuman entities perform practices aimed at improving IQ along dimensions that are enacted in practice. Our study is expected to extend IQ literature by theorizing IQ in generative AI applications, specifically LLMs, as well as providing practical insights on IQ in generative AI.",
+    "url": "https://aisel.aisnet.org/icis2025/gen_ai/gen_ai/3",
+    "doi": ""
+  },
+  "dietvorst_algorithm_2015a": {
+    "title": "Algorithm aversion: People erroneously avoid algorithms after seeing them err.",
+    "year": "2015",
+    "apa_citet": "Dietvorst et al. (2015)",
+    "apa_citep": "(Dietvorst et al., 2015)",
+    "apa_reference": "Dietvorst, Simmons, Massey (2015). Algorithm aversion: People erroneously avoid algorithms after seeing them err.. Journal of Experimental Psychology: General. https://doi.org/10.1037/xge0000033",
+    "abstract": "",
+    "url": "https://doi.apa.org/doi/10.1037/xge0000033",
+    "doi": "10.1037/xge0000033"
+  },
+  "sarker_sociotechnical_2019": {
+    "title": "The Sociotechnical Axis of Cohesion for the is Discipline: Its Historical Legacy and its Continued Relevance",
+    "year": "2019",
+    "apa_citet": "Sarker et al. (2019)",
+    "apa_citep": "(Sarker et al., 2019)",
+    "apa_reference": "Sarker et al. (2019). The Sociotechnical Axis of Cohesion for the is Discipline: Its Historical Legacy and its Continued Relevance. MIS Quarterly. https://doi.org/10.25300/MISQ/2019/13747",
+    "abstract": "The sociotechnical perspective is often seen as one of the foundational viewpoints—or an “axis of cohesion”— for the Information Systems (IS) discipline, contributing to both its distinctiveness and its ability to coherently expand its boundaries. However, our review of papers in the two leading IS journals from 2000 to 2016 suggests that IS research has lost sight of the discipline’s sociotechnical character—a character that was widely acknowledged at the discipline’s inception. This is a problem because an axis of cohesion can be fundamental to a discipline’s long-term vitality. In order to address this issue, we offer ways to renew the sociotechnical perspective so that it can continue to serve as a distinctive and coherent foundation for the discipline. Our hope is that the renewed sociotechnical frame for the IS discipline discussed in the paper holds potential to contribute to the enduring strength of our diverse, distinctive, yet unified discipline. It also prompts members of the discipline to think more deeply about what it means to be an IS scholar.",
+    "url": "https://misq.umn.edu/misq/article/43/3/695/1790/The-Sociotechnical-Axis-of-Cohesion-for-the-is",
+    "doi": "10.25300/MISQ/2019/13747"
+  },
+  "guba1994competing": {
+    "title": "Competing paradigms in qualitative research",
+    "year": "1994",
+    "apa_citet": "Guba & Lincoln (1994)",
+    "apa_citep": "(Guba & Lincoln, 1994)",
+    "apa_reference": "Guba, Lincoln (1994). Competing paradigms in qualitative research.",
+    "abstract": "",
+    "url": "",
+    "doi": ""
+  },
+  "harari_social_2025": {
+    "title": "Social Validation as a Key Process to Participatory and Engaged Research: Learning from a Brazilian Academic Program",
+    "year": "2025",
+    "apa_citet": "Harari et al. (2025)",
+    "apa_citep": "(Harari et al., 2025)",
+    "apa_reference": "Harari et al. (2025). Social Validation as a Key Process to Participatory and Engaged Research: Learning from a Brazilian Academic Program. Canadian Journal of Nonprofit and Social Economy Research. https://doi.org/10.29173/cjnser695",
+    "abstract": "Participatory and engaged research is an approach in which the traditional boundaries between subject (the one who investigates) and object (the one being investigated) are intentionally blurredand both construct purpose and knowledge. In this type of inquiry, the researcher—alongside research participants—not only analyzes or interprets social reality but actively seeks to transform it. While this approach poses significant challenges, particularly as direct engagement with the field is often seen as a threat to research validity, this article advocates for its value as a powerful methodological strategy for scholars committed to social change. It introduces the concept of social validation, which supports the legitimate recognition of collaborative research not only within academia but also by the communities involved.\n          , \n            La recherche participative et engagée est une approche où les frontières traditionnelles entre le sujet (celui qui enquête) et l’objet (celui qu’on enquête) sont intentionnellement brouillées, les deux collaborant à développer autant l’objectif que le savoir. Dans ce type d’enquête, le chercheur, aux côtés des participants à la recherche, ne se contente pas d’analyser ou d’interpréter la réalité sociale, il cherche à la transformer. Bien que cette approche pose des défis importants, notamment parce qu’un tel engagement sur le terrain est souvent considéré comme une entrave pour la validité de la recherche, cet article défend sa valeur en tant que stratégie méthodologique puissante pour tout chercheur engagé dans le changement social. L’article introduit le concept de validation sociale, qui appuie la reconnaissance légitime de la recherche collaborative non seulement par le monde universitaire, mais aussi par les communautés concernées.",
+    "url": "https://anserj.ca/index.php/cjnser/article/view/695",
+    "doi": "10.29173/cjnser695"
+  },
+  "alperstedt_por_2017": {
+    "title": "Por uma pesquisa que faça sentido",
+    "year": "2017",
+    "apa_citet": "Alperstedt & Andion (2017)",
+    "apa_citep": "(Alperstedt & Andion, 2017)",
+    "apa_reference": "Alperstedt, Andion (2017). Por uma pesquisa que faça sentido. Revista de Administração de Empresas. https://doi.org/10.1590/s0034-759020170609",
+    "abstract": "",
+    "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0034-75902017000600626&lng=pt&tlng=pt",
+    "doi": "10.1590/s0034-759020170609"
+  },
+  "saunders_understanding_2023": {
+    "title": "Understanding research philosophy and approaches to theory development",
+    "year": "2023",
+    "apa_citet": "Saunders et al. (2023)",
+    "apa_citep": "(Saunders et al., 2023)",
+    "apa_reference": "Saunders, Lewis, Thornhill (2023). Understanding research philosophy and approaches to theory development.",
+    "abstract": "Support your students research project with robust and pragmatic guidance on the entire process.Research Methods for Business Students introduces a range of features, including a glossary of terms, case studies and articles, and self-study prompts that will encourage your students to apply what they have learned to their own research project",
+    "url": "",
+    "doi": ""
+  },
+  "saunders_research_2023": {
+    "title": "Research methods for business students",
+    "year": "2023",
+    "apa_citet": "Saunders et al. (2023)",
+    "apa_citep": "(Saunders et al., 2023)",
+    "apa_reference": "Saunders, Lewis, Thornhill (2023). Research methods for business students.",
+    "abstract": "Support your students research project with robust and pragmatic guidance on the entire process.Research Methods for Business Students introduces a range of features, including a glossary of terms, case studies and articles, and self-study prompts that will encourage your students to apply what they have learned to their own research project",
+    "url": "",
+    "doi": ""
+  },
+  "chen_benchmarking_2024": {
+    "title": "Benchmarking Large Language Models in Retrieval-Augmented Generation",
+    "year": "2024",
+    "apa_citet": "Chen et al. (2024)",
+    "apa_citep": "(Chen et al., 2024)",
+    "apa_reference": "Chen et al. (2024). Benchmarking Large Language Models in Retrieval-Augmented Generation. Proceedings of the AAAI Conference on Artificial Intelligence. https://doi.org/10.1609/aaai.v38i16.29728",
+    "abstract": "Retrieval-Augmented Generation (RAG) is a promising approach for mitigating the hallucination of large language models (LLMs). However, existing research lacks rigorous evaluation of the impact of retrieval-augmented generation on different large language models, which make it challenging to identify the potential bottlenecks in the capabilities of RAG for different LLMs. In this paper, we systematically investigate the impact of Retrieval-Augmented Generation on large language models. We analyze the performance of different large language models in 4 fundamental abilities required for RAG, including noise robustness, negative rejection, information integration, and counterfactual robustness. To this end, we establish Retrieval-Augmented Generation Benchmark (RGB), a new corpus for RAG evaluation in both English and Chinese. RGB divides the instances within the benchmark into 4 separate testbeds based on the aforementioned fundamental abilities required to resolve the case. Then we evaluate 6 representative LLMs on RGB to diagnose the challenges of current LLMs when applying RAG. Evaluation reveals that while LLMs exhibit a certain degree of noise robustness, they still struggle significantly in terms of negative rejection, information integration, and dealing with false information. The aforementioned assessment outcomes indicate that there is still a considerable journey ahead to effectively apply RAG to LLMs.",
+    "url": "https://ojs.aaai.org/index.php/AAAI/article/view/29728",
+    "doi": "10.1609/aaai.v38i16.29728"
+  },
+  "edwards_data_2024": {
+    "title": "Data Quality May Be All You Need",
+    "year": "2024",
+    "apa_citet": "Edwards (2024)",
+    "apa_citep": "(Edwards, 2024)",
+    "apa_reference": "Edwards (2024). Data Quality May Be All You Need. Communications of the ACM. https://doi.org/10.1145/3647631",
+    "abstract": "Size matters in machine learning, but will this continue to be true?",
+    "url": "https://dl.acm.org/doi/10.1145/3647631",
+    "doi": "10.1145/3647631"
+  },
+  "hou_wikicontradict_2024": {
+    "title": "WikiContradict: A Benchmark for Evaluating LLMs on Real-World Knowledge Conflicts from Wikipedia",
+    "year": "2024",
+    "apa_citet": "Hou et al. (2024)",
+    "apa_citep": "(Hou et al., 2024)",
+    "apa_reference": "Hou et al. (2024). WikiContradict: A Benchmark for Evaluating LLMs on Real-World Knowledge Conflicts from Wikipedia. https://doi.org/10.48550/arXiv.2406.13805",
+    "abstract": "Retrieval-augmented generation (RAG) has emerged as a promising solution to mitigate the limitations of large language models (LLMs), such as hallucinations and outdated information. However, it remains unclear how LLMs handle knowledge conflicts arising from different augmented retrieved passages, especially when these passages originate from the same source and have equal trustworthiness. In this work, we conduct a comprehensive evaluation of LLM-generated answers to questions that have varying answers based on contradictory passages from Wikipedia, a dataset widely regarded as a high-quality pre-training resource for most LLMs. Specifically, we introduce WikiContradict, a benchmark consisting of 253 high-quality, human-annotated instances designed to assess LLM performance when augmented with retrieved passages containing real-world knowledge conflicts. We benchmark a diverse range of both closed and open-source LLMs under different QA scenarios, including RAG with a single passage, and RAG with 2 contradictory passages. Through rigorous human evaluations on a subset of WikiContradict instances involving 5 LLMs and over 3,500 judgements, we shed light on the behaviour and limitations of these models. For instance, when provided with two passages containing contradictory facts, all models struggle to generate answers that accurately reflect the conflicting nature of the context, especially for implicit conflicts requiring reasoning. Since human evaluation is costly, we also introduce an automated model that estimates LLM performance using a strong open-source language model, achieving an F-score of 0.8. Using this automated metric, we evaluate more than 1,500 answers from seven LLMs across all WikiContradict instances. To facilitate future work, we release WikiContradict on: https://ibm.biz/wikicontradict.",
+    "url": "http://arxiv.org/abs/2406.13805",
+    "doi": "10.48550/arXiv.2406.13805"
+  },
+  "su_conflictbank_2024": {
+    "title": "ConflictBank: A Benchmark for Evaluating the Influence of Knowledge Conflicts in LLM",
+    "year": "2024",
+    "apa_citet": "Su et al. (2024)",
+    "apa_citep": "(Su et al., 2024)",
+    "apa_reference": "Su et al. (2024). ConflictBank: A Benchmark for Evaluating the Influence of Knowledge Conflicts in LLM. https://doi.org/10.48550/ARXIV.2408.12076",
+    "abstract": "Large language models (LLMs) have achieved impressive advancements across numerous disciplines, yet the critical issue of knowledge conflicts, a major source of hallucinations, has rarely been studied. Only a few research explored the conflicts between the inherent knowledge of LLMs and the retrieved contextual knowledge. However, a thorough assessment of knowledge conflict in LLMs is still missing. Motivated by this research gap, we present ConflictBank, the first comprehensive benchmark developed to systematically evaluate knowledge conflicts from three aspects: (i) conflicts encountered in retrieved knowledge, (ii) conflicts within the models' encoded knowledge, and (iii) the interplay between these conflict forms. Our investigation delves into four model families and twelve LLM instances, meticulously analyzing conflicts stemming from misinformation, temporal discrepancies, and semantic divergences. Based on our proposed novel construction framework, we create 7,453,853 claim-evidence pairs and 553,117 QA pairs. We present numerous findings on model scale, conflict causes, and conflict types. We hope our ConflictBank benchmark will help the community better understand model behavior in conflicts and develop more reliable LLMs.",
+    "url": "https://arxiv.org/abs/2408.12076",
+    "doi": "10.48550/ARXIV.2408.12076"
+  },
+  "gokul_contradiction_2025": {
+    "title": "Contradiction Detection in RAG Systems: Evaluating LLMs as Context Validators for Improved Information Consistency",
+    "year": "2025",
+    "apa_citet": "Gokul et al. (2025)",
+    "apa_citep": "(Gokul et al., 2025)",
+    "apa_reference": "Gokul, Tenneti, Nakkiran (2025). Contradiction Detection in RAG Systems: Evaluating LLMs as Context Validators for Improved Information Consistency. https://doi.org/10.48550/ARXIV.2504.00180",
+    "abstract": "Retrieval Augmented Generation (RAG) systems have emerged as a powerful method for enhancing large language models (LLMs) with up-to-date information. However, the retrieval step in RAG can sometimes surface documents containing contradictory information, particularly in rapidly evolving domains such as news. These contradictions can significantly impact the performance of LLMs, leading to inconsistent or erroneous outputs. This study addresses this critical challenge in two ways. First, we present a novel data generation framework to simulate different types of contradictions that may occur in the retrieval stage of a RAG system. Second, we evaluate the robustness of different LLMs in performing as context validators, assessing their ability to detect contradictory information within retrieved document sets. Our experimental results reveal that context validation remains a challenging task even for state-of-the-art LLMs, with performance varying significantly across different types of contradictions. While larger models generally perform better at contradiction detection, the effectiveness of different prompting strategies varies across tasks and model architectures. We find that chain-of-thought prompting shows notable improvements for some models but may hinder performance in others, highlighting the complexity of the task and the need for more robust approaches to context validation in RAG systems.",
+    "url": "https://arxiv.org/abs/2504.00180",
+    "doi": "10.48550/ARXIV.2504.00180"
+  },
+  "golovneva_roscoe_2022": {
+    "title": "ROSCOE: A Suite of Metrics for Scoring Step-by-Step Reasoning",
+    "year": "2022",
+    "apa_citet": "Golovneva et al. (2022)",
+    "apa_citep": "(Golovneva et al., 2022)",
+    "apa_reference": "Golovneva et al. (2022). ROSCOE: A Suite of Metrics for Scoring Step-by-Step Reasoning. ICLR 2023. https://doi.org/10.48550/ARXIV.2212.07919",
+    "abstract": "Large language models show improved downstream task performance when prompted to generate step-by-step reasoning to justify their final answers. These reasoning steps greatly improve model interpretability and verification, but objectively studying their correctness (independent of the final answer) is difficult without reliable methods for automatic evaluation. We simply do not know how often the stated reasoning steps actually support the final end task predictions. In this work, we present ROSCOE, a suite of interpretable, unsupervised automatic scores that improve and extend previous text generation evaluation metrics. To evaluate ROSCOE against baseline metrics, we design a typology of reasoning errors and collect synthetic and human evaluation scores on commonly used reasoning datasets. In contrast with existing metrics, ROSCOE can measure semantic consistency, logicality, informativeness, fluency, and factuality - among other traits - by leveraging properties of step-by-step rationales. We empirically verify the strength of our metrics on five human annotated and six programmatically perturbed diagnostics datasets - covering a diverse set of tasks that require reasoning skills and show that ROSCOE can consistently outperform baseline metrics.",
+    "url": "https://arxiv.org/abs/2212.07919",
+    "doi": "10.48550/ARXIV.2212.07919"
+  },
+  "es_ragas_2024": {
+    "title": "RAGAs: Automated Evaluation of Retrieval Augmented Generation",
+    "year": "2024",
+    "apa_citet": "Es et al. (2024)",
+    "apa_citep": "(Es et al., 2024)",
+    "apa_reference": "Es et al. (2024). RAGAs: Automated Evaluation of Retrieval Augmented Generation. Proceedings of the 18th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations. https://doi.org/10.18653/v1/2024.eacl-demo.16",
+    "abstract": "",
+    "url": "https://aclanthology.org/2024.eacl-demo.16",
+    "doi": "10.18653/v1/2024.eacl-demo.16"
+  },
+  "hagn_handling_2025": {
+    "title": "Handling imperfection: A taxonomy for machine learning on data with data quality defects",
+    "year": "2025",
+    "apa_citet": "Hagn et al. (2025)",
+    "apa_citep": "(Hagn et al., 2025)",
+    "apa_reference": "Hagn et al. (2025). Handling imperfection: A taxonomy for machine learning on data with data quality defects. Decision Support Systems. https://doi.org/10.1016/j.dss.2025.114493",
+    "abstract": "",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0167923625000946",
+    "doi": "10.1016/j.dss.2025.114493"
+  },
+  "ioannou_role_2026": {
+    "title": "The Role of Explainability In AI-Driven Financial Decision Making",
+    "year": "2026",
+    "apa_citet": "Ioannou et al. (2026)",
+    "apa_citep": "(Ioannou et al., 2026)",
+    "apa_reference": "Ioannou et al. (2026). The Role of Explainability In AI-Driven Financial Decision Making. Information Systems Frontiers. https://doi.org/10.1007/s10796-026-10727-1",
+    "abstract": "",
+    "url": "https://link.springer.com/10.1007/s10796-026-10727-1",
+    "doi": "10.1007/s10796-026-10727-1"
+  },
+  "xiao_densing_2025": {
+    "title": "Densing law of LLMs",
+    "year": "2025",
+    "apa_citet": "Xiao et al. (2025)",
+    "apa_citep": "(Xiao et al., 2025)",
+    "apa_reference": "Xiao et al. (2025). Densing law of LLMs. Nature Machine Intelligence. https://doi.org/10.1038/s42256-025-01137-0",
+    "abstract": "Large language models (LLMs) have emerged as a milestone in artificial intelligence. The scaling law indicates that the performance of LLMs can continually improve as the model size increases, which poses challenges for training and deployment. Despite numerous efforts to improve LLM efficiency, there is no general consensus on development trends and evaluation metrics for efficiency of LLMs with different scales. To address this tension between model performance and efficiency, we introduce the concept of capability density as a metric to evaluate the quality of the LLMs and describe the trend of LLMs in terms of both effectiveness and efficiency. Intuitively, capability density can be understood as the capability contained within each unit of model parameters. Capability density provides a unified framework for assessing both model performance and efficiency. Here we show an empirical observation, called the ‘densing law’, that the capability density of LLMs grows exponentially over time. More specifically, using widely used benchmarks for evaluation, the maximum capability density of open-source LLMs doubles approximately every 3.5 months. This reveals that both parameter requirements and inference costs of LLMs for achieving equivalent performance decrease exponentially, offering insights for efficient LLM development strategies.",
+    "url": "https://www.nature.com/articles/s42256-025-01137-0",
+    "doi": "10.1038/s42256-025-01137-0"
+  },
+  "gallegos_bias_2024": {
+    "title": "Bias and Fairness in Large Language Models: A Survey",
+    "year": "2024",
+    "apa_citet": "Gallegos et al. (2024)",
+    "apa_citep": "(Gallegos et al., 2024)",
+    "apa_reference": "Gallegos et al. (2024). Bias and Fairness in Large Language Models: A Survey. Computational Linguistics. https://doi.org/10.1162/coli_a_00524",
+    "abstract": "Abstract\n            Rapid advancements of large language models (LLMs) have enabled the processing, understanding, and generation of human-like text, with increasing integration into systems that touch our social sphere. Despite this success, these models can learn, perpetuate, and amplify harmful social biases. In this article, we present a comprehensive survey of bias evaluation and mitigation techniques for LLMs. We first consolidate, formalize, and expand notions of social bias and fairness in natural language processing, defining distinct facets of harm and introducing several desiderata to operationalize fairness for LLMs. We then unify the literature by proposing three intuitive taxonomies, two for bias evaluation, namely, metrics and datasets, and one for mitigation. Our first taxonomy of metrics for bias evaluation disambiguates the relationship between metrics and evaluation datasets, and organizes metrics by the different levels at which they operate in a model: embeddings, probabilities, and generated text. Our second taxonomy of datasets for bias evaluation categorizes datasets by their structure as counterfactual inputs or prompts, and identifies the targeted harms and social groups; we also release a consolidation of publicly available datasets for improved access. Our third taxonomy of techniques for bias mitigation classifies methods by their intervention during pre-processing, in-training, intra-processing, and post-processing, with granular subcategories that elucidate research trends. Finally, we identify open problems and challenges for future work. Synthesizing a wide range of recent research, we aim to provide a clear guide of the existing literature that empowers researchers and practitioners to better understand and prevent the propagation of bias in LLMs.",
+    "url": "https://direct.mit.edu/coli/article/50/3/1097/121961/Bias-and-Fairness-in-Large-Language-Models-A",
+    "doi": "10.1162/coli_a_00524"
+  },
+  "leonardi_when_2011": {
+    "title": "When Flexible Routines Meet Flexible Technologies: Affordance, Constraint, and the Imbrication of Human and Material Agencies",
+    "year": "2011",
+    "apa_citet": "Leonardi (2011)",
+    "apa_citep": "(Leonardi, 2011)",
+    "apa_reference": "Leonardi (2011). When Flexible Routines Meet Flexible Technologies: Affordance, Constraint, and the Imbrication of Human and Material Agencies. MIS Quarterly. https://doi.org/10.2307/23043493",
+    "abstract": "Employees in many contemporary organizations work with flexible routines and flexible technologies. When those employees find that they are unable to achieve their goals in the current environment, how do they decide whether they should change the composition of their routines or the materiality of the technologies with which they work? The perspective advanced in this paper suggests that the answer to this question depends on how human and material agencies—the basic building blocks common to both routines and technologies—are imbricated. Imbrication of human and material agencies creates infrastructure in the form of routines and technologies that people use to carry out their work. Routine or technological infrastructure used at any given moment is the result of previous imbrications of human and material agencies. People draw on this infrastructure to construct a perception that a technology either constrains their ability to achieve their goals, or that the technology affords the possibility of achieving new goals. The case of a computer simulation technology for automotive design used to illustrate this framework suggests that perceptions of constraint lead people to change their technologies while perceptions of affordance lead people to change their routines. This imbrication metaphor is used to suggest how a human agency approach to technology can usefully incorporate notions of material agency into its explanations of organizational change.",
+    "url": "https://misq.umn.edu/misq/article/35/1/147/1430/When-Flexible-Routines-Meet-Flexible-Technologies",
+    "doi": "10.2307/23043493"
+  },
+  "markus_foundation_2008": {
+    "title": "A Foundation for the Study of IT Effects: A New Look at DeSanctis and Poole’s Concepts of Structural Features and Spirit",
+    "year": "2008",
+    "apa_citet": "Markus & Silver (2008)",
+    "apa_citep": "(Markus & Silver, 2008)",
+    "apa_reference": "Markus, Silver (2008). A Foundation for the Study of IT Effects: A New Look at DeSanctis and Poole’s Concepts of Structural Features and Spirit. Journal of the Association for Information Systems. https://doi.org/10.17705/1jais.00176",
+    "abstract": "",
+    "url": "https://aisel.aisnet.org/jais/vol9/iss10/5/",
+    "doi": "10.17705/1jais.00176"
+  },
+  "gunther_trustworthiness_2026": {
+    "title": "Trustworthiness in Computational Theory Construction: Dimensionalization and Category Surfacing",
+    "year": "2026",
+    "apa_citet": "Günther et al. (2026)",
+    "apa_citep": "(Günther et al., 2026)",
+    "apa_reference": "Günther, Joshi, Constantinides (2026). Trustworthiness in Computational Theory Construction: Dimensionalization and Category Surfacing. MIS Quarterly. https://doi.org/10.25300/MISQ/2026/18511",
+    "abstract": "In this methods article, we unpack how researchers can foster trustworthiness in dimensionalization and category surfacing (DCS), a key method family within the genre of computational theory construction (CTC). Information systems (IS), management, and organizational scholars are increasingly leveraging DCS tools such as topic modeling, word embeddings, and clustering to surface latent categories and dimensions from textual data for theory construction. Yet they struggle because evaluations of such research often default to transparency, operationalized as replicability and accountability, which obscures the analytical choices that actually make DCS research rigorous. In this study, we recast transparency as a means toward trustworthiness. We treat researchers’ analytical moves as the primary unit of methodological reasoning in how they design, conduct, and disclose their choices across research phases. We develop a framework that authors, reviewers, and editors can use to construct and evaluate DCS research. The framework specifies how trustworthiness arises from the interplay of two research design choices: primacy to theoretical versus practice lexicons, and whether the content of texts or the structure of the corpus carries the theoretical load. We articulate expectations for conduct and disclosure across these design choices, clarifying how proportionate reasoning anchors trustworthiness. We conclude with implications for advancing trustworthiness within the broader CTC community and across other computational approaches to research.",
+    "url": "https://misq.umn.edu/misq/article/doi/10.25300/MISQ/2026/18511/3786/Trustworthiness-in-Computational-Theory",
+    "doi": "10.25300/MISQ/2026/18511"
+  },
+  "bostrom_mis_1977": {
+    "title": "MIS Problems and Failures: A Socio- Technical Perspective",
+    "year": "1977",
+    "apa_citet": "Bostrom & Heinen (1977)",
+    "apa_citep": "(Bostrom & Heinen, 1977)",
+    "apa_reference": "Bostrom, Heinen (1977). MIS Problems and Failures: A Socio- Technical Perspective. MIS Quarterly. https://doi.org/10.2307/248710",
+    "abstract": "Many of the problems and failures of Management Information Systems (MIS) and Management Science/Operations Research (MS/OR) projects have been attributed to organizational behavioral problems. The millions of dollars organizations spend on MIS and MS/OR development are of little benefit because systems continue to fail. Steps can be taken to understand and solve these behavioral problems.\n            This article argues that in most cases these behavioral problems are the result of inadequate designs. These bad designs are attributed to the way MIS systems designers view organizations, their members, and the function of an MIS within them, i.e., systems designers' frames of reference. These frames of reference cause faulty design choices and failures to perceive better design alternatives. Seven conditions are discussed which reflect current systems designers' points of view.\n            The discussion of these conditions demonstrates the need to reframe MIS design methodology within the Socio-Technical Systems (STS) design approach and change systems designers' perspectives. The STS approach is introduced as a realistic view of organizations and a way to change them.\n            This article is the first of two to appear in consecutive issues of the MIS Quarterly. The purpose of this first article is to demonstrate the need for the STS approach. The second will present the basic concepts and principles of the STS methodology and how it can be utilized in the design of an MIS.",
+    "url": "https://misq.umn.edu/misq/article/1/3/17/152/MIS-Problems-and-Failures-A-Socio-Technical",
+    "doi": "10.2307/248710"
+  },
+  "vered_effects_2023": {
+    "title": "The effects of explanations on automation bias",
+    "year": "2023",
+    "apa_citet": "Vered et al. (2023)",
+    "apa_citep": "(Vered et al., 2023)",
+    "apa_reference": "Vered et al. (2023). The effects of explanations on automation bias. Artificial Intelligence. https://doi.org/10.1016/j.artint.2023.103952",
+    "abstract": "In this paper we explore the effect of explanations on reducing errors in the human decision making process caused by placing excessive reliance on automated decision support systems. We develop and implement different forms of explanations based on cognitive principles and evaluate their effect over two different domains: our new version of the Coloured Trails game, and over a simulated radiological task. We found that explanations did not reduce this aspect of automation bias and sometimes increased it. However, they reduced completion time and often increased user decision accuracy, despite not altering the perceived task load. Overall, explanations were beneficial though the benefits were highly context dependent. This work contributes to the complex interplay between automation bias, performance and explanations.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S000437022300098X",
+    "doi": "10.1016/j.artint.2023.103952"
+  },
+  "wingerter_mitigating_2025": {
+    "title": "Mitigating Automation Bias in Generative AI Through Nudges: A Cognitive Reflection Test Study",
+    "year": "2025",
+    "apa_citet": "Wingerter et al. (2025)",
+    "apa_citep": "(Wingerter et al., 2025)",
+    "apa_reference": "Wingerter, Straub, Schweitzer (2025). Mitigating Automation Bias in Generative AI Through Nudges: A Cognitive Reflection Test Study. Procedia Computer Science. https://doi.org/10.1016/j.procs.2025.09.331",
+    "abstract": "Generative Artificial Intelligence (AI), typified by large language models (LLMs), can significantly augment human decision-making across diverse domains. However, it also introduces a potential pitfall: automation bias, whereby users over-rely on AI-generated outputs, failing to sufficiently question or verify them. This paper presents a quantitative experiment employing the Cognitive Reflection Test (CRT) to measure whether users critically reflect on AI-generated responses. In an online study with three conditions (no support, faulty AI support, and faulty AI support plus a warning nudge), we assess both the existence of automation bias and whether nudging can help mitigate this effect. Results indicate that participants who received faulty AI support performed significantly worse on CRT questions, answering fewer than half as many CRT items correctly compared to the control group without any support. This effect shows that users often uncritically accept AI outputs. Yet, embedding a warning nudge into the user interface alleviated the effect and almost doubled user performance compared to the purely faulty AI support condition. However, the nudge did not elevate performance above the no-support control group. Additional analyses found that user “AI literacy” (i.e., user-reported knowledge and experience with AI) did not significantly prevent automation bias. Overall, our findings stress the importance of designing AI-based systems more responsibly to reduce over-reliance on AI outputs. They further suggest that simple interface nudges can strengthen users’ critical reflection in collaboration with generative AI systems.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S1877050925030042",
+    "doi": "10.1016/j.procs.2025.09.331"
+  },
+  "parasuraman_humans_1997": {
+    "title": "Humans and Automation: Use, Misuse, Disuse, Abuse",
+    "year": "1997",
+    "apa_citet": "Parasuraman & Riley (1997)",
+    "apa_citep": "(Parasuraman & Riley, 1997)",
+    "apa_reference": "Parasuraman, Riley (1997). Humans and Automation: Use, Misuse, Disuse, Abuse. Human Factors. https://doi.org/10.1518/001872097778543886",
+    "abstract": "This paper addresses theoretical, empirical, and analytical studies pertaining to human use, misuse, disuse, and abuse of automation technology. Use refers to the voluntary activation or disengagement of automation by human operators. Trust, mental workload, and risk can influence automation use, but interactions between factors and large individual differences make prediction of automation use difficult. Misuse refers to over reliance on automation, which can result in failures of monitoring or decision biases. Factors affecting the monitoring of automation include workload, automation reliability and consistency, and the saliency of automation state indicators. Disuse, or the neglect or underutilization of automation, is commonly caused by alarms that activate falsely. This often occurs because the base rate of the condition to be detected is not considered in setting the trade-off between false alarms and omissions. Automation abuse, or the automation of functions by designers and implementation by managers without due regard for the consequences for human performance, tends to define the operator's roles as by-products of the automation. Automation abuse can also promote misuse and disuse of automation by human operators. Understanding the factors associated with each of these aspects of human use of automation can lead to improved system design, effective training methods, and judicious policies and procedures involving automation use.",
+    "url": "https://doi.org/10.1518/001872097778543886",
+    "doi": "10.1518/001872097778543886"
+  },
+  "ferreira_acceptance_2025": {
+    "title": "Acceptance Test Generation with Large Language Models: An Industrial Case Study",
+    "year": "2025",
+    "apa_citet": "Ferreira et al. (2025)",
+    "apa_citep": "(Ferreira et al., 2025)",
+    "apa_reference": "Ferreira et al. (2025). Acceptance Test Generation with Large Language Models: An Industrial Case Study. 2025 IEEE/ACM International Conference on Automation of Software Test (AST). https://doi.org/10.1109/AST66626.2025.00007",
+    "abstract": "Large language model (LLM)-powered assistants are increasingly used for generating program code and unit tests, but their application in acceptance testing remains underexplored. To help address this gap, this paper explores the use of LLMs for generating executable acceptance tests for web applications through a two-step process: (i) generating acceptance test scenarios in natural language (in Gherkin) from user stories, and (ii) converting these scenarios into executable test scripts (in Cypress), knowing the HTML code of the pages under test. This two-step approach supports acceptance test-driven development, enhances tester control, and improves test quality. The two steps were implemented in the AutoUAT and Test Flow tools, respectively, powered by GPT-4 Turbo, and integrated into a partner company’s workflow and evaluated on real-world projects. The users found the acceptance test scenarios generated by AutoUAT helpful 95% of the time, even revealing previously overlooked cases. Regarding Test Flow, 92% of the acceptance test cases generated by Test Flow were considered helpful: 60% were usable as generated, 8% required minor fixes, and 24% needed to be regenerated with additional inputs; the remaining 8% were discarded due to major issues. These results suggest that LLMs can, in fact, help improve the acceptance test process, with appropriate tooling and supervision.",
+    "url": "https://ieeexplore.ieee.org/document/11081451",
+    "doi": "10.1109/AST66626.2025.00007"
+  },
+  "steyvers_what_2025": {
+    "title": "What large language models know and what people think they know",
+    "year": "2025",
+    "apa_citet": "Steyvers et al. (2025)",
+    "apa_citep": "(Steyvers et al., 2025)",
+    "apa_reference": "Steyvers et al. (2025). What large language models know and what people think they know. Nature Machine Intelligence. https://doi.org/10.1038/s42256-024-00976-7",
+    "abstract": "As artificial intelligence systems, particularly large language models (LLMs), become increasingly integrated into decision-making processes, the ability to trust their outputs is crucial. To earn human trust, LLMs must be well calibrated such that they can accurately assess and communicate the likelihood of their predictions being correct. Whereas recent work has focused on LLMs’ internal confidence, less is understood about how effectively they convey uncertainty to users. Here we explore the calibration gap, which refers to the difference between human confidence in LLM-generated answers and the models’ actual confidence, and the discrimination gap, which reflects how well humans and models can distinguish between correct and incorrect answers. Our experiments with multiple-choice and short-answer questions reveal that users tend to overestimate the accuracy of LLM responses when provided with default explanations. Moreover, longer explanations increased user confidence, even when the extra length did not improve answer accuracy. By adjusting LLM explanations to better reflect the models’ internal confidence, both the calibration gap and the discrimination gap narrowed, significantly improving user perception of LLM accuracy. These findings underscore the importance of accurate uncertainty communication and highlight the effect of explanation length in influencing user trust in artificial-intelligence-assisted decision-making environments.",
+    "url": "https://www.nature.com/articles/s42256-024-00976-7",
+    "doi": "10.1038/s42256-024-00976-7"
+  },
+  "mcleod_information_2012": {
+    "title": "Information systems development as situated socio-technical change: a process approach",
+    "year": "2012",
+    "apa_citet": "McLeod & Doolin (2012)",
+    "apa_citep": "(McLeod & Doolin, 2012)",
+    "apa_reference": "McLeod, Doolin (2012). Information systems development as situated socio-technical change: a process approach. European Journal of Information Systems. https://doi.org/10.1057/ejis.2011.43",
+    "abstract": "",
+    "url": "https://www.tandfonline.com/doi/full/10.1057/ejis.2011.43",
+    "doi": "10.1057/ejis.2011.43"
+  },
+  "feuerriegel_generative_2024": {
+    "title": "Generative AI",
+    "year": "2024",
+    "apa_citet": "Feuerriegel et al. (2024)",
+    "apa_citep": "(Feuerriegel et al., 2024)",
+    "apa_reference": "Feuerriegel et al. (2024). Generative AI. Business & Information Systems Engineering. https://doi.org/10.1007/s12599-023-00834-7",
+    "abstract": "",
+    "url": "https://doi.org/10.1007/s12599-023-00834-7",
+    "doi": "10.1007/s12599-023-00834-7"
+  },
+  "orlikowski_using_2000": {
+    "title": "Using Technology and Constituting Structures: A Practice Lens for Studying Technology in Organizations",
+    "year": "2000",
+    "apa_citet": "Orlikowski (2000)",
+    "apa_citep": "(Orlikowski, 2000)",
+    "apa_reference": "Orlikowski (2000). Using Technology and Constituting Structures: A Practice Lens for Studying Technology in Organizations. Organization Science. https://doi.org/10.1287/orsc.11.4.404.14600",
+    "abstract": "As both technologies and organizations undergo dramatic changes in form and function, organizational researchers are increasingly turning to concepts of innovation, emergence, and improvisation to help explain the new ways of organizing and using technology evident in practice. With a similar intent, I propose an extension to the structurational perspective on technology that develops a practice lens to examine how people, as they interact with a technology in their ongoing practices, enact structures which shape their emergent and situated use of that technology. Viewing the use of technology as a process of enactment enables a deeper understanding of the constitutive role of social practices in the ongoing use and change of technologies in the workplace. After developing this lens, I offer an example of its use in research, and then suggest some implications for the study of technology in organizations.",
+    "url": "https://pubsonline.informs.org/doi/10.1287/orsc.11.4.404.14600",
+    "doi": "10.1287/orsc.11.4.404.14600"
+  },
+  "orlikowski_sociomaterial_2007": {
+    "title": "Sociomaterial Practices: Exploring Technology at Work",
+    "year": "2007",
+    "apa_citet": "Orlikowski (2007)",
+    "apa_citep": "(Orlikowski, 2007)",
+    "apa_reference": "Orlikowski (2007). Sociomaterial Practices: Exploring Technology at Work. Organization Studies. https://doi.org/10.1177/0170840607081138",
+    "abstract": "In this essay, I begin with the premise that everyday organizing is inextricably bound up with materiality and contend that this relationship is inadequately reflected in organizational studies that tend to ignore it, take it for granted, or treat it as a special case. The result is an understanding of organizing and its conditions and consequences that is necessarily limited. I then argue for an alternative approach, one that posits the constitutive entanglement of the social and the material in everyday life. I draw on some empirical examples to help ground and illustrate this approach in practice and conclude by suggesting that a reconfiguration of our conventional assumptions and considerations of materiality will help us more effectively recognize and understand the multiple, emergent, and shifting sociomaterial assemblages entailed in contemporary organizing.",
+    "url": "https://journals.sagepub.com/doi/10.1177/0170840607081138",
+    "doi": "10.1177/0170840607081138"
+  },
+  "trist1981evolution": {
+    "title": "The evolution of socio-technical systems: a conceptual framework and an action research program",
+    "year": "1981",
+    "apa_citet": "Trist (1981)",
+    "apa_citep": "(Trist, 1981)",
+    "apa_reference": "Trist (1981). The evolution of socio-technical systems: a conceptual framework and an action research program. https://books.google.com.bd/books?id=cDwWqEGG2DwC",
+    "abstract": "",
+    "url": "https://books.google.com.bd/books?id=cDwWqEGG2DwC",
+    "doi": ""
+  },
+  "felin_theory_2024": {
+    "title": "Theory Is All You Need: AI, Human Cognition, and Causal Reasoning",
+    "year": "2024",
+    "apa_citet": "Felin & Holweg (2024)",
+    "apa_citep": "(Felin & Holweg, 2024)",
+    "apa_reference": "Felin, Holweg (2024). Theory Is All You Need: AI, Human Cognition, and Causal Reasoning. Strategy Science. https://doi.org/10.1287/stsc.2024.0189",
+    "abstract": "Scholars argue that artificial intelligence (AI) can generate genuine novelty and new knowledge and, in turn, that AI and computational models of cognition will replace human decision making under uncertainty. We disagree. We argue that AI’s data-based prediction is different from human theory-based causal logic and reasoning. We highlight problems with the decades-old analogy between computers and minds as input–output devices, using large language models as an example. Human cognition is better conceptualized as a form of theory-based causal reasoning rather than AI’s emphasis on information processing and data-based prediction. AI uses a probability-based approach to knowledge and is largely backward looking and imitative, whereas human cognition is forward-looking and capable of generating genuine novelty. We introduce the idea of data–belief asymmetries to highlight the difference between AI and human cognition, using the example of heavier-than-air flight to illustrate our arguments. Theory-based causal reasoning provides a cognitive mechanism for humans to intervene in the world and to engage in directed experimentation to generate new data. Throughout the article, we discuss the implications of our argument for understanding the origins of novelty, new knowledge, and decision making under uncertainty.",
+    "url": "https://pubsonline.informs.org/doi/10.1287/stsc.2024.0189",
+    "doi": "10.1287/stsc.2024.0189"
+  },
+  "belanche_dark_2024": {
+    "title": "The dark side of artificial intelligence in services",
+    "year": "2024",
+    "apa_citet": "Belanche et al. (2024)",
+    "apa_citep": "(Belanche et al., 2024)",
+    "apa_reference": "Belanche et al. (2024). The dark side of artificial intelligence in services. The Service Industries Journal. https://doi.org/10.1080/02642069.2024.2305451",
+    "abstract": "Artificial intelligence (AI) initiatives, including Generative AI, are being increasingly implemented in service industries, and are having a great impact on service operations and on customers’ reactions and behaviors. Previous literature is overoptimistic about AI implementation, and there is still a need to explore the dark side of this technology; that is, its potential negative impacts on consumers, businesses, and society, as well as the moral concerns associated with AI use in services. To establish some fundamental insights related to this research domain, this paper contributes to previous AI based-services literature by proposing a three-part conceptual model inspired by Belanche et al. (2020a), comprised of AI design, customers, and the service encounter. Specifically, we identify key factors and research gaps within each category that need to be addressed. The final research questions provide a research agenda to guide scholars and help practitioners implement AI-based services while avoiding their potential negative outcomes.",
+    "url": "https://doi.org/10.1080/02642069.2024.2305451",
+    "doi": "10.1080/02642069.2024.2305451"
+  },
+  "geels_technological_2002": {
+    "title": "Technological transitions as evolutionary reconfiguration processes: a multi-level perspective and a case-study",
+    "year": "2002",
+    "apa_citet": "Geels (2002)",
+    "apa_citep": "(Geels, 2002)",
+    "apa_reference": "Geels (2002). Technological transitions as evolutionary reconfiguration processes: a multi-level perspective and a case-study. Research Policy. https://doi.org/10.1016/S0048-7333(02)00062-8",
+    "abstract": "This paper addresses the question of how technological transitions (TT) come about? Are there particular patterns and mechanisms in transition processes? TT are defined as major, long-term technological changes in the way societal functions are fulfilled. TT do not only involve changes in technology, but also changes in user practices, regulation, industrial networks, infrastructure, and symbolic meaning or culture. This paper practices ‘appreciative theory’ [R.R. Nelson, S.G. Winter, An Evolutionary Theory of Economic Change, Bellknap Press, Cambridge, MA, 1982] and brings together insights from evolutionary economics and technology studies. This results in a multi-level perspective on TT where two views of the evolution are combined: (i) evolution as a process of variation, selection and retention, (ii) evolution as a process of unfolding and reconfiguration. The perspective is empirically illustrated with a qualitative longitudinal case-study, the transition from sailing ships to steamships, 1780–1900. Three particular mechanisms in TT are described: niche-cumulation, technological add-on and hybridisation, riding along with market growth.",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0048733302000628",
+    "doi": "10.1016/S0048-7333(02)00062-8"
+  },
+  "brown_language_2020": {
+    "title": "Language models are few-shot learners",
+    "year": "2020",
+    "apa_citet": "Brown et al. (2020)",
+    "apa_citep": "(Brown et al., 2020)",
+    "apa_reference": "Brown et al. (2020). Language models are few-shot learners. Proceedings of the 34th International Conference on Neural Information Processing Systems.",
+    "abstract": "We demonstrate that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even becoming competitive with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks. We also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora.",
+    "url": "",
+    "doi": ""
+  },
+  "sydow_open_2020": {
+    "title": "Open innovation at the interorganizational network level – Stretching practices to face technological discontinuities in the semiconductor industry",
+    "year": "2020",
+    "apa_citet": "Sydow & Müller-Seitz (2020)",
+    "apa_citep": "(Sydow & Müller-Seitz, 2020)",
+    "apa_reference": "Sydow, Müller-Seitz (2020). Open innovation at the interorganizational network level – Stretching practices to face technological discontinuities in the semiconductor industry. Technological Forecasting and Social Change. https://doi.org/10.1016/j.techfore.2018.07.036",
+    "abstract": "Previous studies on open innovation have primarily adopted the perspective of single firms. Against this background we explore how open innovation is managed at the network level for the case of the International Technology Roadmap for Semiconductors (ITRS). Using a longitudinal case study, we report on how the ITRS deals with a technological discontinuity affecting the whole industry, namely the pursuit of an existing technological paradigm using a well-established collaborative practice set against a novel and unknown future technological paradigm to be opened up in parallel, even though the necessary knowledge about the ensuing disruption is lacking. This challenge is characterized not only by extreme technological uncertainty, but also by partner-related and procedural uncertainty concerning the key activity of ITRS, namely the setting of future technological milestones (roadmapping). We discuss attempts by the ITRS network to overcome these uncertainties and manage technological discontinuities by extending the well-established practice of roadmapping to an unknown technological paradigm. We introduce the concept of ‘stretching practice’ to highlight this phenomenon, and we contribute to the debate on the open innovation and technological discontinuities that arise when venturing beyond firm-centric approaches.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0040162518309028",
+    "doi": "10.1016/j.techfore.2018.07.036"
+  },
+  "egger_topic_2022": {
+    "title": "A Topic Modeling Comparison Between LDA, NMF, Top2Vec, and BERTopic to Demystify Twitter Posts",
+    "year": "2022",
+    "apa_citet": "Egger & Yu (2022)",
+    "apa_citep": "(Egger & Yu, 2022)",
+    "apa_reference": "Egger, Yu (2022). A Topic Modeling Comparison Between LDA, NMF, Top2Vec, and BERTopic to Demystify Twitter Posts. Frontiers in Sociology. https://doi.org/10.3389/fsoc.2022.886498",
+    "abstract": "Seeing that travel restrictions have begun to ease up, thanks to increasing vaccination rates across the globe, understanding the public’s concerns and opinions regarding traveling during the pandemic has the potential to foster the kickstart of tourism recovery. One such approach is through disentangling the wording of an enormous amount of social media posts. However, although social media has paved a new way to gain insights, their short and unstructured nature often leads to methodological challenges in data collection as well as analysis. In order to bridge the developing field of computational science and empirical social research, this study aims to evaluate the performance of four topic modeling techniques. By extracting Twitter posts related to COVID-19 and travel, a comparison can be made between latent Dirichlet allocation (LDA), non-negative matrix factorization (NMF), Top2Vec, and BERTopic. Thus, in view of digital media and contemporary tourism characteristics, this research assesses the performance of different algorithms and discusses their strengths and weaknesses in a sociological context. Based on certain details during the analytical procedures and on quality issues, this research sheds light on the efficacy of using BERTopic and NMF to analyze Twitter data.",
+    "url": "https://www.frontiersin.org/journals/sociology/articles/10.3389/fsoc.2022.886498/full",
+    "doi": "10.3389/fsoc.2022.886498"
+  },
+  "jobin_global_2019": {
+    "title": "The global landscape of AI ethics guidelines",
+    "year": "2019",
+    "apa_citet": "Jobin et al. (2019)",
+    "apa_citep": "(Jobin et al., 2019)",
+    "apa_reference": "Jobin, Ienca, Vayena (2019). The global landscape of AI ethics guidelines. Nature Machine Intelligence. https://doi.org/10.1038/s42256-019-0088-2",
+    "abstract": "",
+    "url": "https://www.nature.com/articles/s42256-019-0088-2",
+    "doi": "10.1038/s42256-019-0088-2"
+  },
+  "laine_understanding_2025": {
+    "title": "Understanding the Ethics of Generative AI: Established and New Ethical Principles",
+    "year": "2025",
+    "apa_citet": "Laine et al. (2025)",
+    "apa_citep": "(Laine et al., 2025)",
+    "apa_reference": "Laine, Minkkinen, Mäntymäki (2025). Understanding the Ethics of Generative AI: Established and New Ethical Principles. Communications of the Association for Information Systems. https://doi.org/10.17705/1CAIS.05601",
+    "abstract": "This scoping review develops a conceptual synthesis of the ethics principles of generative artificial intelligence (GenAI) and large language models (LLMs). In regard to the emerging literature on GenAI, we explore 1) how established AI ethics principles are presented and 2) what new ethical principles have surfaced. The results indicate that established ethical principles continue to be relevant for GenAI systems but their salience and interpretation may shift, and that there is a need to recognize new principles in these systems. We identify six GenAI ethics principles: 1) respect for intellectual property, 2) truthfulness, 3) robustness, 4) recognition of malicious uses, 5) sociocultural responsibility, and 6) human-centric design. Addressing the challenge of satisfying multiple principles simultaneously, we suggest three meta-principles: categorizing and ranking principles to distinguish fundamental from supporting ones, mapping contradictions between principle pairs to understand their nature, and implementing continuous monitoring of fundamental principles due to the evolving nature of GenAI systems and their applications. To conclude, we suggest increased research emphasis on complementary ethics approaches to principlism, ethical tensions between different ethical viewpoints, end-user perspectives on the explainability and understanding of GenAI, and the salience of ethics principles to various GenAI stakeholders.",
+    "url": "https://aisel.aisnet.org/cais/vol56/iss1/7/",
+    "doi": "10.17705/1CAIS.05601"
+  },
+  "sambamurthy_shaping_2003": {
+    "title": "Shaping Agility through Digital Options: Reconceptualizing the Role of Information Technology in Contemporary Firms",
+    "year": "2003",
+    "apa_citet": "Sambamurthy et al. (2003)",
+    "apa_citep": "(Sambamurthy et al., 2003)",
+    "apa_reference": "Sambamurthy, Bharadwaj, Grover (2003). Shaping Agility through Digital Options: Reconceptualizing the Role of Information Technology in Contemporary Firms. MIS Quarterly. https://doi.org/10.2307/30036530",
+    "abstract": "Agility is vital to the innovation and competitive performance of firms in contemporary business environments. Firms are increasingly relying on information technologies, including process, knowledge, and communication technologies, to enhance their agility. The purpose of this paper is to broaden understanding about the strategic role of IT by examining the nomological network of influences through which IT impacts firm performance. By drawing upon recent thinking in the strategy, entrepreneurship, and IT management literatures, this paper uses a multitheoretic lens to argue that information technology investments and capabilities influence firm performance through three significant organizational capabilities (agility, digital options, and entrepreneurial alertness) and strategic processes (capability-building, entrepreneurial action, and coevolutionary adaptation). We also propose that these dynamic capabilities and strategic processes impact the ability of firms to launch many and varied competitive actions and that, in turn, these competitive actions are a significant antecedent of firm performance. Through our theorizing, we draw attention to a significant and reframed role of IT as a digital options generator in contemporary firms.",
+    "url": "https://misq.umn.edu/misq/article/27/2/237/275/Shaping-Agility-through-Digital-Options",
+    "doi": "10.2307/30036530"
+  },
+  "maine_commercializing_2006": {
+    "title": "Commercializing generic technology: The case of advanced materials ventures",
+    "year": "2006",
+    "apa_citet": "Maine & Garnsey (2006)",
+    "apa_citep": "(Maine & Garnsey, 2006)",
+    "apa_reference": "Maine, Garnsey (2006). Commercializing generic technology: The case of advanced materials ventures. Research Policy. https://doi.org/10.1016/j.respol.2005.12.006",
+    "abstract": "Generic, radical technology is of interest because of its potential for value creation across a broad range of industries and applications. Advanced materials ventures are attracted by this opportunity yet face distinctive challenges in commercializing such technology. We explore an anomaly in common assumptions about the commercialization of generic technology. We build on Freeman's concept of technological innovation as a technological and market matching process, on existing literature and on prior experience to build, inductively, a model of the variables influencing value creation by advanced materials ventures. We then test the model on the basis of detailed observation and analysis of two case studies, which have successfully created value through commercialization of advanced materials technology. Extending this theory, we offer managerial and policy recommendations to support value creation by advanced materials ventures.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0048733306000345",
+    "doi": "10.1016/j.respol.2005.12.006"
+  },
+  "belderbos_cooperative_2004": {
+    "title": "Cooperative R&D and firm performance",
+    "year": "2004",
+    "apa_citet": "Belderbos et al. (2004)",
+    "apa_citep": "(Belderbos et al., 2004)",
+    "apa_reference": "Belderbos, Carree, Lokshin (2004). Cooperative R&D and firm performance. Research Policy. https://doi.org/10.1016/j.respol.2004.07.003",
+    "abstract": "We analyse the impact of R&D cooperation on firm performance differentiating between four types of R&D partners (competitors, suppliers, customers, and universities and research institutes), and considering two performance measures: labour productivity and productivity in innovative (new to the market) sales. Using data on a large sample of Dutch innovating firms in two waves of the Community Innovation Survey (1996, 1998), we examine the impact of R&D cooperation in 1996 on subsequent productivity growth in 1996–1998. The results confirm a major heterogeneity in the rationales and goals of R&D cooperation. Competitor and supplier cooperation focus on incremental innovations, improving the productivity performance of firms. University cooperation and again competitor cooperation are instrumental in creating innovations generating sales of products that are novel to the market, improving the growth performance of firms. Furthermore, customers and universities are important sources of knowledge for firms pursuing radical innovations, which facilitate growth in innovative sales in the absence of formal R&D cooperation.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0048733304000988",
+    "doi": "10.1016/j.respol.2004.07.003"
+  },
+  "nambisan_digital_2017": {
+    "title": "Digital Innovation Management: Reinventing Innovation Management Research in a Digital World",
+    "year": "2017",
+    "apa_citet": "Nambisan et al. (2017)",
+    "apa_citep": "(Nambisan et al., 2017)",
+    "apa_reference": "Nambisan et al. (2017). Digital Innovation Management: Reinventing Innovation Management Research in a Digital World. MIS Quarterly. https://doi.org/10.25300/MISQ/2017/41:1.03",
+    "abstract": "Rapid and pervasive digitization of innovation processes and outcomes has upended extant theories on innovation management by calling into question fundamental assumptions about the definitional boundaries for innovation, agency for innovation, and the relationship between innovation processes and outcomes. There is a critical need for novel theorizing on digital innovation management that does not rely on such assumptions and draws on the rich and rapidly emerging research on digital technologies. We offer suggestions for such theorizing in the form of four new theorizing logics, or elements, that are likely to be valuable in constructing more accurate explanations of innovation processes and outcomes in an increasingly digital world. These logics can open new avenues for researchers to contribute to this important area. Our suggestions in this paper, coupled with the six research notes included in the special issue on digital innovation management, seek to offer a broader foundation for reinventing innovation management research in a digital world.",
+    "url": "https://misq.umn.edu/misq/article/41/1/223/1627/Digital-Innovation-Management-Reinventing",
+    "doi": "10.25300/MISQ/2017/41:1.03"
+  },
+  "teece_profiting_1986": {
+    "title": "Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy",
+    "year": "1986",
+    "apa_citet": "Teece (1986)",
+    "apa_citep": "(Teece, 1986)",
+    "apa_reference": "Teece (1986). Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy. Research Policy. https://doi.org/10.1016/0048-7333(86)90027-2",
+    "abstract": "This paper attempts to explain why innovating firms often fail to obtain significant economic returns from an innovation, while customers, imitators and other industry participants benefit Business strategy — particularly as it relates to the firm's decision to integrate and collaborate — is shown to be an important factor. The paper demonstrates that when imitation is easy, markets don't work well, and the profits from innovation may accrue to the owners of certain complementary assets, rather than to the developers of the intellectual property. This speaks to the need, in certain cases, for the innovating firm to establish a prior position in these complementary assets. The paper also indicates that innovators with new products and processes which provide value to consumers may sometimes be so ill positioned in the market that they necessarily will fail. The analysis provides a theoretical foundation for the proposition that manufacturing often matters, particularly to innovating nations. Innovating firms without the requisite manufacturing and related capacities may die, even though they are the best at innovation. Implications for trade policy and domestic economic policy are examined.",
+    "url": "https://www.sciencedirect.com/science/article/pii/0048733386900272",
+    "doi": "10.1016/0048-7333(86)90027-2"
+  },
+  "coff_human_1997": {
+    "title": "Human Assets and Management Dilemmas: Coping with Hazards on the Road to Resource-Based Theory",
+    "year": "1997",
+    "apa_citet": "Coff (1997)",
+    "apa_citep": "(Coff, 1997)",
+    "apa_reference": "Coff (1997). Human Assets and Management Dilemmas: Coping with Hazards on the Road to Resource-Based Theory. The Academy of Management Review. https://doi.org/10.2307/259327",
+    "abstract": "",
+    "url": "http://www.jstor.org/stable/259327?origin=crossref",
+    "doi": "10.2307/259327"
+  },
+  "tripsas_capabilities_2000": {
+    "title": "Capabilities, cognition, and inertia: evidence from digital imaging",
+    "year": "2000",
+    "apa_citet": "Tripsas & Gavetti (2000)",
+    "apa_citep": "(Tripsas & Gavetti, 2000)",
+    "apa_reference": "Tripsas, Gavetti (2000). Capabilities, cognition, and inertia: evidence from digital imaging. Strategic Management Journal. https://doi.org/10.1002/1097-0266(200010/11)21:10/11<1147::AID-SMJ128>3.0.CO;2-R",
+    "abstract": "There is empirical evidence that established firms often have difficulty adapting to radical technological change. Although prior work in the evolutionary tradition emphasizes the inertial forces associated with the local nature of learning processes, little theoretical attention has been devoted in this tradition to understanding how managerial cognition affects the adaptive intelligence of organizations. Through an in-depth case study of the response of the Polaroid Corporation to the ongoing shift from analog to digital imaging, we expand upon this work by examining the relationship between managers' understanding of the world and the accumulation of organizational capabilities. The Polaroid story clearly illustrates the importance of managerial cognitive representations in directing search processes in a new learning environment, the evolutionary trajectory of organizational capabilities, and ultimately processes of organizational adaptation. Copyright © 2000 John Wiley & Sons, Ltd.",
+    "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/1097-0266%28200010/11%2921%3A10/11%3C1147%3A%3AAID-SMJ128%3E3.0.CO%3B2-R",
+    "doi": "10.1002/1097-0266(200010/11)21:10/11<1147::AID-SMJ128>3.0.CO;2-R"
+  },
+  "eggers_incumbent_2018": {
+    "title": "Incumbent Adaptation to Technological Change: The Past, Present, and Future of Research on Heterogeneous Incumbent Response",
+    "year": "2018",
+    "apa_citet": "Eggers & Park (2018)",
+    "apa_citep": "(Eggers & Park, 2018)",
+    "apa_reference": "Eggers, Park (2018). Incumbent Adaptation to Technological Change: The Past, Present, and Future of Research on Heterogeneous Incumbent Response. Academy of Management Annals. https://doi.org/10.5465/annals.2016.0051",
+    "abstract": "Schumpeter famously popularized “creative destruction” as the process whereby new entrants replaced existing firms. In most cases, however, some incumbent firms survive and even thrive across technological discontinuities. Moving beyond incumbent-entrant dynamics, organizations and innovation research has begun to explore incumbent heterogeneity in response to technological change—why some incumbents do well and adapt, whereas others struggle. As a phenomenon-driven research area, scholars with different theoretical perspectives have brought their own lenses to bear, but these perspectives have evolved independently. The result is a research stream with a scattered collection of detailed, within-industry perspectives on the phenomenon without a clear ability to link different mechanisms or articulate boundary conditions. This article brings these relevant literatures together to paint a more holistic picture of incumbent adaptation to technological change. To improve generalizability and begin building a more general, cross-industry theory, we emphasize recognizing specific nuances of different technological changes and how they fit with the existing capabilities, knowledge, position, and cognition of incumbent firms to understand which incumbents are swept away in the wave of creative destruction and which may survive.",
+    "url": "https://journals.aom.org/doi/abs/10.5465/annals.2016.0051",
+    "doi": "10.5465/annals.2016.0051"
+  },
+  "andriopoulos_exploitationexploration_2009": {
+    "title": "Exploitation-Exploration Tensions and Organizational Ambidexterity: Managing Paradoxes of Innovation",
+    "year": "2009",
+    "apa_citet": "Andriopoulos & Lewis (2009)",
+    "apa_citep": "(Andriopoulos & Lewis, 2009)",
+    "apa_reference": "Andriopoulos, Lewis (2009). Exploitation-Exploration Tensions and Organizational Ambidexterity: Managing Paradoxes of Innovation. Organization Science. https://doi.org/10.1287/orsc.1080.0406",
+    "abstract": "Achieving exploitation and exploration enables success, even survival, but raises challenging tensions. Ambidextrous organizations excel at exploiting existing products to enable incremental innovation and at exploring new opportunities to foster more radical innovation, yet related research is limited. Largely conceptual, anecdotal, or single case studies offer architectural or contextual approaches. Architectural ambidexterity proposes dual structures and strategies to differentiate efforts, focusing actors on one or the other form of innovation. In contrast, contextual approaches use behavioral and social means to integrate exploitation and exploration. To develop a more comprehensive model, we sought to learn from five, ambidextrous firms that lead the product design industry. Results offer an alternative framework for examining exploitation-exploration tensions and their management. More specifically, we present nested paradoxes of innovation: strategic intent (profit-breakthroughs), customer orientation (tight-loose coupling), and personal drivers (discipline-passion). Building from innovation and paradox literature, we theorize how integration and differentiation tactics help manage these interwoven paradoxes and fuel virtuous cycles of ambidexterity. Further, managing paradoxes becomes a shared responsibility, not only of top management, but across organizational levels.",
+    "url": "https://pubsonline.informs.org/doi/10.1287/orsc.1080.0406",
+    "doi": "10.1287/orsc.1080.0406"
+  },
+  "kuhn_structure_1962": {
+    "title": "The structure of scientific revolutions",
+    "year": "1962",
+    "apa_citet": "Kuhn (1962)",
+    "apa_citep": "(Kuhn, 1962)",
+    "apa_reference": "Kuhn (1962). The structure of scientific revolutions.",
+    "abstract": "",
+    "url": "",
+    "doi": ""
+  },
+  "hoisl_forecasting_2015": {
+    "title": "Forecasting technological discontinuities in the ICT industry",
+    "year": "2015",
+    "apa_citet": "Hoisl et al. (2015)",
+    "apa_citep": "(Hoisl et al., 2015)",
+    "apa_reference": "Hoisl, Stelzer, Biala (2015). Forecasting technological discontinuities in the ICT industry. Research Policy. https://doi.org/10.1016/j.respol.2014.10.004",
+    "abstract": "Building on the existing literature on evolutionary innovation and technological change, this paper aims to identify potential signals of technological discontinuities and to obtain assessments of experts to what extent these signals help them to predict discontinuities. Furthermore, we analyze whether internal experts (experts employed with firms) and external experts (e.g., consultants) differ in the importance they attribute to signals as predictors of technological discontinuities. The empirical analysis is based on a unique dataset obtained from a conjoint analysis conducted with 29 experts in the ICT industry. The conjoint approach allows for a simulation of the forecasting process and considers utility trade-offs. The results show that for both types of experts the perceived benefit of users most highly contributes to predicting technological discontinuities. Internal experts assign more importance to legal frameworks (e.g., standards) as signals helping them to predict technological discontinuities than external experts. The latter, in turn, assign more importance to profit margins and the recombination potential of technologies than their internal counterparts. Our results add important insights to the literature on R&D and innovation management.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0048733314001796",
+    "doi": "10.1016/j.respol.2014.10.004"
+  },
+  "hua_integrated_2025": {
+    "title": "An integrated large-scale photonic accelerator with ultralow latency",
+    "year": "2025",
+    "apa_citet": "Hua et al. (2025)",
+    "apa_citep": "(Hua et al., 2025)",
+    "apa_reference": "Hua et al. (2025). An integrated large-scale photonic accelerator with ultralow latency. Nature. https://doi.org/10.1038/s41586-025-08786-6",
+    "abstract": "Integrated photonics, particularly silicon photonics, have emerged as cutting-edge technology driven by promising applications such as short-reach communications, autonomous driving, biosensing and photonic computing1–4. As advances in AI lead to growing computing demands, photonic computing has gained considerable attention as an appealing candidate. Nonetheless, there are substantial technical challenges in the scaling up of integrated photonics systems to realize these advantages, such as ensuring consistent performance gains in upscaled integrated device clusters, establishing standard designs and verification processes for complex circuits, as well as packaging large-scale systems. These obstacles arise primarily because of the relative immaturity of integrated photonics manufacturing and the scarcity of advanced packaging solutions involving photonics. Here we report a large-scale integrated photonic accelerator comprising more than 16,000 photonic components. The accelerator is designed to deliver standard linear matrix multiply–accumulate (MAC) functions, enabling computing with high speed up to 1 GHz frequency and low latency as small as 3 ns per cycle. Logic, memory and control functions that support photonic matrix MAC operations were designed into a cointegrated electronics chip. To seamlessly integrate the electronics and photonics chips at the commercial scale, we have made use of an innovative 2.5D hybrid advanced packaging approach. Through the development of this accelerator system, we demonstrate an ultralow computation latency for heuristic solvers of computationally hard Ising problems whose performance greatly relies on the computing latency.",
+    "url": "https://www.nature.com/articles/s41586-025-08786-6",
+    "doi": "10.1038/s41586-025-08786-6"
+  },
+  "walasek_incomparability_2024": {
+    "title": "Incomparability and Incommensurability in Choice: No Common Currency of Value?",
+    "year": "2024",
+    "apa_citet": "Walasek & Brown (2024)",
+    "apa_citep": "(Walasek & Brown, 2024)",
+    "apa_reference": "Walasek, Brown (2024). Incomparability and Incommensurability in Choice: No Common Currency of Value?. Perspectives on Psychological Science. https://doi.org/10.1177/17456916231192828",
+    "abstract": "Models of decision-making typically assume the existence of some common currency of value, such as utility, happiness, or inclusive fitness. This common currency is taken to allow comparison of options and to underpin everyday choice. Here we suggest instead that there is no universal value scale, that incommensurable values pervade everyday choice, and hence that most existing models of decision-making in both economics and psychology are fundamentally limited. We propose that choice objects can be compared only with reference to specific but nonuniversal “covering values.” These covering values may reflect decision-makers’ goals, motivations, or current states. A complete model of choice must accommodate the range of possible covering values. We show that abandoning the common-currency assumption in models of judgment and decision-making necessitates rank-based and “simple heuristics” models that contrast radically with conventional utility-based approaches. We note that if there is no universal value scale, then Arrow’s impossibility theorem places severe bounds on the rationality of individual decision-making and hence that there is a deep link between the incommensurability of value, inconsistencies in human decision-making, and rank-based coding of value. More generally, incommensurability raises the question of whether it will ever be possible to develop single-quantity-maximizing models of decision-making.",
+    "url": "https://doi.org/10.1177/17456916231192828",
+    "doi": "10.1177/17456916231192828"
+  },
+  "fan_digital_2026": {
+    "title": "Digital innovation capabilities: a systematic review, synthesis and research agenda",
+    "year": "2026",
+    "apa_citet": "Fan et al. (2026)",
+    "apa_citep": "(Fan et al., 2026)",
+    "apa_reference": "Fan et al. (2026). Digital innovation capabilities: a systematic review, synthesis and research agenda. Technovation. https://doi.org/10.1016/j.technovation.2026.103496",
+    "abstract": "In an era of rapid technological change, it is imperative for firms to develop dynamic capabilities that drive innovation and adaptation through digital means. Digital innovation capabilities (DICs) represent a crucial set of organizational competencies, enabling firms to sense digital opportunities, seize them through strategic and technological actions, and reconfigure operations to sustain innovation. Despite the growing body of studies on digital tools and practices, the foundational capabilities that support sustained digital innovation are still fragmented across disciplines and lack systematic theoretical integration. Drawing on a combination of bibliographic coupling analysis and systematic literature review, this study offers a comprehensive integration on the field of DICs. Grounded in the dynamic capabilities theory, we propose a process-oriented framework that covers five interrelated domains: digital agility, digital transformation capabilities, digital technology application capabilities, digital service innovation capabilities, and digital business model innovation capabilities. These domains align with the dynamic capabilities logic of sensing, seizing, and reconfiguring. This study contributes to the literature by clarifying the conceptual boundaries of DICs, elucidating their interrelationships, and providing a process-based understanding of how firms develop and deploy DICs in rapidly evolving digital environments. The framework provides both a solid theoretical foundation and a practical roadmap for advancing digital innovation research and guiding managerial actions.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0166497226000313",
+    "doi": "10.1016/j.technovation.2026.103496"
+  },
+  "rathi_revisiting_2026": {
+    "title": "Revisiting technology races: Evidence from Indian healthcare EMR data",
+    "year": "2026",
+    "apa_citet": "Rathi et al. (2026)",
+    "apa_citep": "(Rathi et al., 2026)",
+    "apa_reference": "Rathi et al. (2026). Revisiting technology races: Evidence from Indian healthcare EMR data. Technovation. https://doi.org/10.1016/j.technovation.2026.103481",
+    "abstract": "Technology replacement is a frequent feature of firms’ innovation journey. However, the internal working of replacement of an old technology by a new one is typically blurred – with three simultaneously interacting mechanisms – demand-pull, technology-push, and a combination of market and non-market institutions. In this paper, we disentangle them using novel electronic medical records (EMR) data from one of the largest eye-care hospital chains in Asia. Specifically, we study a race between a newer high-end medical scanning technology replacing an older and less costly technology. We exploit the COVID-19 lockdown shock in a natural experiment setup, which led to concurrent shifts in the demand and supply of a medical scanning technology. Demand-pull generated via patients propelled new technology adoption as the supply of new technology increased in tandem. This was a cohort-specific phenomenon on the supply side, with an age-identified cohort of physicians driving the adoption, and the replacement was measurably welfare-enhancing. Fixed price for treatment ensures that the replacement was not driven by market-led incentives. We conclude by discussing management of innovation through demand- and supply-side as a strategy for the firms.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0166497226000167",
+    "doi": "10.1016/j.technovation.2026.103481"
+  },
+  "kim_evidence_2023": {
+    "title": "Evidence for the utility of quantum computing before fault tolerance",
+    "year": "2023",
+    "apa_citet": "Kim et al. (2023)",
+    "apa_citep": "(Kim et al., 2023)",
+    "apa_reference": "Kim et al. (2023). Evidence for the utility of quantum computing before fault tolerance. Nature. https://doi.org/10.1038/s41586-023-06096-3",
+    "abstract": "Experiments on a noisy 127-qubit superconducting quantum processor report the accurate measurement of expectation values beyond the reach of current brute-force classical computation, demonstrating evidence for the utility of quantum computing before fault tolerance.",
+    "url": "https://www.nature.com/articles/s41586-023-06096-3",
+    "doi": "10.1038/s41586-023-06096-3"
+  },
+  "coccia_evolution_2024": {
+    "title": "Evolution of Quantum Computing: Theoretical and Innovation Management Implications for Emerging Quantum Industry",
+    "year": "2024",
+    "apa_citet": "Coccia et al. (2024)",
+    "apa_citep": "(Coccia et al., 2024)",
+    "apa_reference": "Coccia, Roshani, Mosleh (2024). Evolution of Quantum Computing: Theoretical and Innovation Management Implications for Emerging Quantum Industry. IEEE Transactions on Engineering Management. https://doi.org/10.1109/TEM.2022.3175633",
+    "abstract": "",
+    "url": "https://ieeexplore.ieee.org/document/9800933/",
+    "doi": "10.1109/TEM.2022.3175633"
+  },
+  "salampasis_preparing_2025": {
+    "title": "Preparing for the Quantum Computing Revolution",
+    "year": "2025",
+    "apa_citet": "Salampasis (2025)",
+    "apa_citep": "(Salampasis, 2025)",
+    "apa_reference": "Salampasis (2025). Preparing for the Quantum Computing Revolution. Research-Technology Management. https://doi.org/10.1080/08956308.2025.2532324",
+    "abstract": "",
+    "url": "https://doi.org/10.1080/08956308.2025.2532324",
+    "doi": "10.1080/08956308.2025.2532324"
+  },
+  "leonardi_knowing_2026": {
+    "title": "Knowing Enough to Be Dangerous: The Problem of “Artificial Certainty” for Expert Authority When Using AI for Decision Making and Planning",
+    "year": "2026",
+    "apa_citet": "Leonardi & Leavell (2026)",
+    "apa_citep": "(Leonardi & Leavell, 2026)",
+    "apa_reference": "Leonardi, Leavell (2026). Knowing Enough to Be Dangerous: The Problem of “Artificial Certainty” for Expert Authority When Using AI for Decision Making and Planning. Organization Science. https://doi.org/10.1287/orsc.2023.18224",
+    "abstract": "This study examines how experts who use advanced artificial intelligence (AI) technologies that generate highly detailed and realistic representations can create what we term “artificial certainty,” which we define as the illusion that complex future outcomes are definitively knowable, even though they are inherently uncertain. Through a comparative study of two urban planning organizations using the same AI simulation tool, we show how this artificial certainty emerges from the ways process experts create and deploy AI-generated representations. The findings reveal three interconnected representational practices that shape how laypeople perceive the certainty of a representation: controlling the level of detail, shaping stakeholder engagement, and constructing the model’s meaning. We find that when process experts emphasize enhancement—amplifying technological capabilities within these practices—stakeholders mistake representations for reality, undermining expert authority. Conversely, when process experts engage in modulation—tempering how AI outputs are presented and integrated into decision making—they preserve the authority necessary to keep uncertainty alive. These findings reconceptualize process expertise as a distinct form of interpretive work that helps maintain useful levels of uncertainty in the face of growing pressures toward artificial certainty. Based on these insights, we develop a critical distinction between representations of the future versus representations for the future, offering new ways to theorize decision making under uncertainty as organizations increasingly deploy sophisticated AI systems. Funding: This work was supported by the National Science Foundation [Grants SES-1057148 and SES-2051896].",
+    "url": "https://pubsonline.informs.org/doi/full/10.1287/orsc.2023.18224",
+    "doi": "10.1287/orsc.2023.18224"
+  },
+  "parasuraman_complacency_2010": {
+    "title": "Complacency and Bias in Human Use of Automation: An Attentional Integration",
+    "year": "2010",
+    "apa_citet": "Parasuraman & Manzey (2010)",
+    "apa_citep": "(Parasuraman & Manzey, 2010)",
+    "apa_reference": "Parasuraman, Manzey (2010). Complacency and Bias in Human Use of Automation: An Attentional Integration. Human Factors. https://doi.org/10.1177/0018720810376055",
+    "abstract": "Objective: Our aim was to review empirical studies of complacency and bias in human interaction with automated and decision support systems and provide an integrated theoretical model for their explanation.Background: Automation-related complacency and automation bias have typically been considered separately and independently.Methods: Studies on complacency and automation bias were analyzed with respect to the cognitive processes involved.Results: Automation complacency occurs under conditions of multiple-task load, when manual tasks compete with the automated task for the operator’s attention. Automation complacency is found in both naive and expert participants and cannot be overcome with simple practice. Automation bias results in making both omission and commission errors when decision aids are imperfect.Automation bias occurs in both naive and expert participants, cannot be prevented by training or instructions, and can affect decision making in individuals as well as in teams.While automation bias has been conceived of as a special case of decision bias, our analysis suggests that it also depends on attentional processes similar to those involved in automation-related complacency.Conclusion: Complacency and automation bias represent different manifestations of overlapping automation-induced phenomena, with attention playing a central role. An integrated model of complacency and automation bias shows that they result from the dynamic interaction of personal, situational, and automation-related characteristics.Application: The integrated model and attentional synthesis provides a heuristic framework for further research on complacency and automation bias and design options for mitigating such effects in automated and decision support systems.",
+    "url": "https://doi.org/10.1177/0018720810376055",
+    "doi": "10.1177/0018720810376055"
+  },
+  "jin_pubmedqa_2019": {
+    "title": "PubMedQA: A Dataset for Biomedical Research Question Answering",
+    "year": "2019",
+    "apa_citet": "Jin et al. (2019)",
+    "apa_citep": "(Jin et al., 2019)",
+    "apa_reference": "Jin et al. (2019). PubMedQA: A Dataset for Biomedical Research Question Answering. https://doi.org/10.48550/arXiv.1909.06146",
+    "abstract": "We introduce PubMedQA, a novel biomedical question answering (QA) dataset collected from PubMed abstracts. The task of PubMedQA is to answer research questions with yes/no/maybe (e.g.: Do preoperative statins reduce atrial fibrillation after coronary artery bypass grafting?) using the corresponding abstracts. PubMedQA has 1k expert-annotated, 61.2k unlabeled and 211.3k artificially generated QA instances. Each PubMedQA instance is composed of (1) a question which is either an existing research article title or derived from one, (2) a context which is the corresponding abstract without its conclusion, (3) a long answer, which is the conclusion of the abstract and, presumably, answers the research question, and (4) a yes/no/maybe answer which summarizes the conclusion. PubMedQA is the first QA dataset where reasoning over biomedical research texts, especially their quantitative contents, is required to answer the questions. Our best performing model, multi-phase fine-tuning of BioBERT with long answer bag-of-word statistics as additional supervision, achieves 68.1% accuracy, compared to single human performance of 78.0% accuracy and majority-baseline of 55.2% accuracy, leaving much room for improvement. PubMedQA is publicly available at https://pubmedqa.github.io.",
+    "url": "http://arxiv.org/abs/1909.06146",
+    "doi": "10.48550/arXiv.1909.06146"
+  },
+  "guha_legalbench_2023": {
+    "title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+    "year": "2023",
+    "apa_citet": "Guha et al. (2023)",
+    "apa_citep": "(Guha et al., 2023)",
+    "apa_reference": "Guha et al. (2023). LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models. https://doi.org/10.48550/ARXIV.2308.11462",
+    "abstract": "The advent of large language models (LLMs) and their adoption by the legal community has given rise to the question: what types of legal reasoning can LLMs perform? To enable greater study of this question, we present LegalBench: a collaboratively constructed legal reasoning benchmark consisting of 162 tasks covering six different types of legal reasoning. LegalBench was built through an interdisciplinary process, in which we collected tasks designed and hand-crafted by legal professionals. Because these subject matter experts took a leading role in construction, tasks either measure legal reasoning capabilities that are practically useful, or measure reasoning skills that lawyers find interesting. To enable cross-disciplinary conversations about LLMs in the law, we additionally show how popular legal frameworks for describing legal reasoning -- which distinguish between its many forms -- correspond to LegalBench tasks, thus giving lawyers and LLM developers a common vocabulary. This paper describes LegalBench, presents an empirical evaluation of 20 open-source and commercial LLMs, and illustrates the types of research explorations LegalBench enables.",
+    "url": "https://arxiv.org/abs/2308.11462",
+    "doi": "10.48550/ARXIV.2308.11462"
+  },
+  "lee_trust_2004": {
+    "title": "Trust in Automation: Designing for Appropriate Reliance",
+    "year": "2004",
+    "apa_citet": "Lee & See (2004)",
+    "apa_citep": "(Lee & See, 2004)",
+    "apa_reference": "Lee, See (2004). Trust in Automation: Designing for Appropriate Reliance. Human Factors: The Journal of the Human Factors and Ergonomics Society. https://doi.org/10.1518/hfes.46.1.50_30392",
+    "abstract": "",
+    "url": "http://hfs.sagepub.com/cgi/doi/10.1518/hfes.46.1.50_30392",
+    "doi": "10.1518/hfes.46.1.50_30392"
+  },
+  "parsons_understanding_2026": {
+    "title": "Understanding and Improving Data Repurposing",
+    "year": "2026",
+    "apa_citet": "Parsons et al. (2026)",
+    "apa_citep": "(Parsons et al., 2026)",
+    "apa_reference": "Parsons et al. (2026). Understanding and Improving Data Repurposing. MIS Quarterly. https://doi.org/10.25300/MISQ/2025/18361",
+    "abstract": "We live in an age of unprecedented opportunities to use existing data for tasks not anticipated when those data were collected, resulting in widespread data repurposing. This commentary defines and maps the scope of data repurposing to highlight its importance for organizations and society and the need to study data repurposing as a frontier of data management. We explain how repurposing differs from original data use and data reuse and then develop a framework for data repurposing consisting of concepts and activities for adapting existing data to new tasks. The framework and its implications are illustrated using two examples of repurposing, one in healthcare and one in citizen science. We conclude by suggesting opportunities for research to better understand data repurposing and enable more effective data repurposing practices.",
+    "url": "https://misq.umn.edu/misq/article/50/1/35/3268/Understanding-and-Improving-Data-Repurposing1",
+    "doi": "10.25300/MISQ/2025/18361"
+  },
+  "wei_chainofthought_2023": {
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "year": "2023",
+    "apa_citet": "Wei et al. (2023)",
+    "apa_citep": "(Wei et al., 2023)",
+    "apa_reference": "Wei et al. (2023). Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. https://doi.org/10.48550/arXiv.2201.11903",
+    "abstract": "We explore how generating a chain of thought -- a series of intermediate reasoning steps -- significantly improves the ability of large language models to perform complex reasoning. In particular, we show how such reasoning abilities emerge naturally in sufficiently large language models via a simple method called chain of thought prompting, where a few chain of thought demonstrations are provided as exemplars in prompting. Experiments on three large language models show that chain of thought prompting improves performance on a range of arithmetic, commonsense, and symbolic reasoning tasks. The empirical gains can be striking. For instance, prompting a 540B-parameter language model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K benchmark of math word problems, surpassing even finetuned GPT-3 with a verifier.",
+    "url": "http://arxiv.org/abs/2201.11903",
+    "doi": "10.48550/arXiv.2201.11903"
+  },
+  "susarla_janus_2023": {
+    "title": "The Janus Effect of Generative AI: Charting the Path for Responsible Conduct of Scholarly Activities in Information Systems",
+    "year": "2023",
+    "apa_citet": "Susarla et al. (2023)",
+    "apa_citep": "(Susarla et al., 2023)",
+    "apa_reference": "Susarla et al. (2023). The Janus Effect of Generative AI: Charting the Path for Responsible Conduct of Scholarly Activities in Information Systems. Information Systems Research. https://doi.org/10.1287/isre.2023.ed.v34.n2",
+    "abstract": "Funding: A. Susarla was funded by an R01 grant from the National Library of Medicine, through [Grant R01LM013443].",
+    "url": "https://pubsonline.informs.org/doi/10.1287/isre.2023.ed.v34.n2",
+    "doi": "10.1287/isre.2023.ed.v34.n2"
+  },
+  "shastri_photonics_2021": {
+    "title": "Photonics for artificial intelligence and neuromorphic computing",
+    "year": "2021",
+    "apa_citet": "Shastri et al. (2021)",
+    "apa_citep": "(Shastri et al., 2021)",
+    "apa_reference": "Shastri et al. (2021). Photonics for artificial intelligence and neuromorphic computing. Nature Photonics. https://doi.org/10.1038/s41566-020-00754-y",
+    "abstract": "Research in photonic computing has flourished due to the proliferation of optoelectronic components on photonic integration platforms. Photonic integrated circuits have enabled ultrafast artificial neural networks, providing a framework for a new class of information processing machines. Algorithms running on such hardware have the potential to address the growing demand for machine learning and artificial intelligence in areas such as medical diagnosis, telecommunications, and high-performance and scientific computing. In parallel, the development of neuromorphic electronics has highlighted challenges in that domain, particularly related to processor latency. Neuromorphic photonics offers sub-nanosecond latencies, providing a complementary opportunity to extend the domain of artificial intelligence. Here, we review recent advances in integrated photonic neuromorphic systems, discuss current and future challenges, and outline the advances in science and technology needed to meet those challenges.",
+    "url": "https://www.nature.com/articles/s41566-020-00754-y",
+    "doi": "10.1038/s41566-020-00754-y"
+  },
+  "suntwal_reference_2026": {
+    "title": "Reference Aware Delexicalization (RAD) Framework: Theory Driven Artificial Intelligence Modeling for Domain Generalization",
+    "year": "2026",
+    "apa_citet": "Suntwal & Brown (2026)",
+    "apa_citep": "(Suntwal & Brown, 2026)",
+    "apa_reference": "Suntwal, Brown (2026). Reference Aware Delexicalization (RAD) Framework: Theory Driven Artificial Intelligence Modeling for Domain Generalization. Information Systems Research. https://doi.org/10.1287/isre.2023.0457",
+    "abstract": "Artificial intelligence systems often underperform in new contexts, limiting their reliability in business domains. This study introduces the reference aware delexicalization (RAD) framework, a theory-driven approach that improves artificial intelligence (AI) model performance across different domains without requiring massive computational resources. RAD addresses a fundamental problem: AI models often memorize surface patterns from training data rather than learning transferable reasoning skills. By systematically abstracting domain-specific terms while preserving semantic relationships, RAD enables models to focus on underlying logical structures that generalize across contexts. For practitioners, RAD offers measurable benefits. Healthcare organizations can deploy clinical decision support systems that maintain accuracy when processing records from different departments or institutions. Financial institutions can build fraud detection systems that adapt to emerging threats without extensive retraining. Social media platforms can improve content moderation consistency across languages and cultural contexts. For policymakers, RAD demonstrates that effective AI does not require ever-larger models with corresponding environmental and economic costs. Organizations can achieve robust, adaptable AI systems through principled data augmentation techniques. This finding supports policies encouraging efficient, interpretable AI development over resource-intensive scaling approaches, promoting both technological sustainability and broader access to reliable AI capabilities.\n          , \n            The ability to generalize is critical for machine learning and natural language processing (NLP) models to perform effectively across a wide range of domains. However, state-of-the-art neural models often struggle to maintain performance when tested out-of-domain (OOD), emphasizing their inability to generalize beyond the data distribution used for training. This challenge of oversensitivity to spurious biases in the training data remains an open research problem across various NLP task areas. Although prior work has introduced techniques to improve domain generalization capabilities of neural networks, existing methods are constrained in their ability to identify and mitigate biases that are both subtle and multidimensional within the training data. These biases can include unintended correlations between features or domain-specific terminology that may not transfer well to other contexts. In response to these limitations, we propose the novel reference aware delexicalization (RAD) data augmentation framework designed to improve generalization for inference-based NLP tasks. The RAD framework uses attention weighting to detect biases and extract bias-prone lexical concepts. Grounded in the theory of reference, RAD’s delexicalization method utilizes the principles of reference fixing and borrowing to generate context-aware placeholder mappings to reduce data oversensitivity. We conducted rigorous benchmark evaluations using RAD-augmented data across various transformer architectures (e.g., BERT, RoBERTa) on several natural language inference (NLI), recognizing textual entailment (RTE), and fact verification data sets. Our findings demonstrate consistent improvements in OOD performance, indicating RAD’s ability to improve model generalization for key NLI and RTE tasks. Because advancing fundamental NLI and RTE capabilities remains crucial for many downstream NLP applications, this work highlights RAD’s potential for positive impact across areas where inference and OOD robustness are highly valued. We also conducted additional qualitative analysis on large language models using RAD across various case studies, demonstrating RAD’s potential as a complementary framework for improving systematic reasoning.\n            History: Gautam Pant, Senior Editor; Heng Xu, Associate Editor.\n            Supplemental Material: The online appendices are available at https://doi.org/10.1287/isre.2023.0457 .",
+    "url": "https://pubsonline.informs.org/doi/10.1287/isre.2023.0457",
+    "doi": "10.1287/isre.2023.0457"
+  }
+}

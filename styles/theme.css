@@ -1,0 +1,548 @@
+/* ════════════════════════════════════════════
+   FONTS
+════════════════════════════════════════════ */
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url('/fonts/space-grotesk.ttf') format('truetype');
+  font-weight: 300 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url('/fonts/jetbrains-mono.ttf') format('truetype');
+  font-weight: 100 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TeX Gyre Pagella";
+  src: url('/fonts/texgyrepagella-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TeX Gyre Pagella";
+  src: url('/fonts/texgyrepagella-italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "TeX Gyre Pagella";
+  src: url('/fonts/texgyrepagella-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TeX Gyre Pagella";
+  src: url('/fonts/texgyrepagella-bolditalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* ════════════════════════════════════════════
+   DESIGN TOKENS — DARK
+════════════════════════════════════════════ */
+
+:root {
+
+  /* BACKGROUND */
+  --rf-bg: #131414;
+  --rf-bg-soft: #171919;
+  --rf-glow: rgba(12,99,85,0.28);
+
+  /* SURFACES */
+  --rf-surface-primary: rgba(255,255,255,0.04);
+  --rf-surface-secondary: rgba(255,255,255,0.06);
+
+  /* BORDERS */
+  --rf-border-primary: rgba(255,255,255,0.08);
+  --rf-border-secondary: rgba(255,255,255,0.14);
+
+  /* TEXT */
+  --rf-text-primary: rgba(255,255,255,0.92);
+  --rf-text-secondary: rgba(255,255,255,0.72);
+  --rf-text-muted: rgba(255,255,255,0.50);
+
+  /* BRAND */
+  --rf-primary: #63d3a1;
+  --rf-highlight: #e2f81b;
+
+  /* EFFECTS */
+  --rf-radius: 28px;
+
+  --rf-shadow:
+    0 20px 60px rgba(0,0,0,0.35);
+
+  --rf-shadow-soft:
+    0 10px 40px rgba(0,0,0,0.18);
+
+  --rf-ease:
+    cubic-bezier(0.22, 1, 0.36, 1);
+
+  --slidev-theme-primary:
+    var(--rf-primary);
+
+  /* BOTTOM BAR */
+  --rf-bottom-border: var(--rf-border-primary);
+  --rf-bottom-text:   var(--rf-text-muted);
+  --rf-link:          var(--rf-primary);
+  --rf-link-hover:    var(--rf-highlight);
+}
+
+/* ════════════════════════════════════════════
+   LIGHT MODE
+════════════════════════════════════════════ */
+
+html.light {
+
+  --rf-bg: #f5f7fa;
+  --rf-bg-soft: #ffffff;
+
+  --rf-glow:
+    rgba(12,99,85,0.12);
+
+  --rf-surface-primary:
+    rgba(255,255,255,0.72);
+
+  --rf-surface-secondary:
+    rgba(255,255,255,0.92);
+
+  --rf-border-primary:
+    rgba(15,23,42,0.08);
+
+  --rf-border-secondary:
+    rgba(15,23,42,0.14);
+
+  --rf-text-primary:
+    #111827;
+
+  --rf-text-secondary:
+    rgba(17,24,39,0.72);
+
+  --rf-text-muted:
+    rgba(17,24,39,0.52);
+
+  --rf-primary:
+    #2f8d65;
+
+  --rf-highlight:
+    #1f6e50;
+}
+
+/* ════════════════════════════════════════════
+   GLOBAL
+════════════════════════════════════════════ */
+html,
+body,
+#slidev {
+
+  color: var(--rf-text-primary);
+
+  font-family:
+    "Space Grotesk",
+    sans-serif;
+}
+
+.slidev-layout {
+  max-width: 100% !important;
+  color: var(--rf-text-secondary);
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      var(--rf-glow) 0%,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 0% 100%,
+      var(--rf-glow) 0%,
+      transparent 35%
+    ),
+    var(--rf-bg);
+}
+
+.slidev-layout h1:not(.rf-hero) {
+  font-family: "TeX Gyre Pagella", "Palatino Linotype", "Palatino", Georgia, serif;
+  font-size: clamp(1.4rem, 7vw, 2.8rem);
+  font-weight: 700 !important;
+  letter-spacing: 0.06em;
+  line-height: 1.0;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--rf-text-primary);
+  margin-bottom: 0;
+  white-space: nowrap;
+  overflow: visible;
+}
+
+.slidev-layout h1:not(.rf-hero)::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: var(--rf-highlight);
+  border-radius: 2px;
+  margin: 1rem auto 1.8rem;
+}
+
+.slidev-layout h1.text-white {
+  color: white;
+}
+
+/* ════════════════════════════════════════════
+   SLIDE SUPERTITLE (presentation title above h1)
+════════════════════════════════════════════ */
+
+.rf-supertitle-bar {
+  text-align: center;
+  padding-top: 0;
+  margin-top: -1rem;
+  margin-bottom: 0.2rem;
+  font-family: "TeX Gyre Pagella", "Palatino Linotype", "Palatino", Georgia, serif;
+  font-style: italic;
+  font-size: 0.92rem;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.rf-supertitle-main {
+  color: var(--rf-text-secondary);
+  font-weight: 700;
+}
+
+.rf-supertitle-after {
+  color: var(--rf-highlight);
+  font-weight: 700;
+}
+
+/* ════════════════════════════════════════════
+   TYPOGRAPHY
+════════════════════════════════════════════ */
+
+h1 {
+  font-size: clamp(3.2rem, 8vw, 4.2rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  font-weight: 800 !important;
+  margin-bottom: 1.2rem;
+}
+
+h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  margin-bottom: 1rem;
+}
+
+p,
+li {
+  color: var(--rf-text-secondary);
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+/* ════════════════════════════════════════════
+   DESIGN PRIMITIVES
+════════════════════════════════════════════ */
+
+.rf-title {
+  color: var(--rf-primary);
+}
+
+.rf-hero {
+  font-size: clamp(4rem, 10vw, 8rem);
+  line-height: 0.9;
+  letter-spacing: -0.06em;
+  font-weight: 800;
+}
+
+.rf-section-title {
+  font-size: clamp(3rem, 8vw, 6rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+  font-weight: 700;
+}
+
+.rf-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--rf-primary);
+}
+
+.rf-muted {
+  color: var(--rf-text-muted);
+}
+
+.rf-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rf-panel {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.05),
+      rgba(255,255,255,0.03)
+    );
+
+  border:
+    1px solid var(--rf-border-primary);
+
+  border-radius:
+    var(--rf-radius);
+
+  backdrop-filter:
+    blur(20px);
+
+  box-shadow:
+    var(--rf-shadow);
+
+  padding:
+    2rem;
+}
+
+/* ════════════════════════════════════════════
+   GLASS
+════════════════════════════════════════════ */
+
+.glass {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.05),
+      rgba(255,255,255,0.03)
+    );
+
+  border:
+    1px solid var(--rf-border-primary);
+
+  border-radius:
+    var(--rf-radius);
+
+  backdrop-filter:
+    blur(20px);
+
+  box-shadow:
+    var(--rf-shadow-soft);
+
+  padding:
+    2rem;
+
+  transition:
+    transform 0.25s var(--rf-ease),
+    border-color 0.25s var(--rf-ease),
+    box-shadow 0.25s var(--rf-ease);
+}
+
+/* ════════════════════════════════════════════
+   CODE
+════════════════════════════════════════════ */
+
+pre {
+  background:
+    var(--rf-surface-primary) !important;
+
+  border:
+    1px solid var(--rf-border-primary);
+
+  border-radius:
+    22px;
+
+  padding:
+    1.2rem !important;
+
+  overflow:
+    hidden;
+
+  box-shadow:
+    var(--rf-shadow-soft);
+}
+
+code {
+  font-family:
+    "JetBrains Mono",
+    monospace;
+}
+
+/* ════════════════════════════════════════════
+   TABLES
+════════════════════════════════════════════ */
+
+.rf-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+
+  border-radius: var(--rf-radius);
+
+  background: var(--rf-surface-primary);
+
+  border:
+    1px solid var(--rf-border-primary);
+
+  backdrop-filter: blur(20px);
+}
+
+.rf-table thead {
+  background:
+    rgba(23,175,109,0.32);
+}
+
+.rf-table th {
+  padding: 14px 22px;
+
+  text-align: left;
+
+  font-size: 0.78rem;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+
+  color: var(--rf-text-primary);
+
+  border-bottom:
+    1px solid var(--rf-border-primary);
+}
+
+.rf-table td {
+  padding: 16px 22px;
+
+  color: var(--rf-text-secondary);
+
+  border-bottom:
+    1px solid var(--rf-border-primary);
+}
+
+/* ════════════════════════════════════════════
+   LINKS
+════════════════════════════════════════════ */
+
+a,
+a:visited {
+  color: var(--rf-primary);
+  text-decoration: none;
+  transition:
+    color 0.2s var(--rf-ease),
+    opacity 0.2s var(--rf-ease);
+}
+
+a:hover {
+  color: var(--rf-highlight);
+}
+
+.slidev-layout a,
+.slidev-layout a:visited {
+  text-decoration: none !important;
+}
+
+/* ════════════════════════════════════════════
+   MOTION
+════════════════════════════════════════════ */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+    filter: blur(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.rf-reveal {
+  animation:
+    fadeUp 0.9s var(--rf-ease) forwards;
+}
+
+.rf-reveal-1 {
+  opacity: 0;
+
+  animation:
+    fadeUp 0.9s var(--rf-ease) 0.2s forwards;
+}
+
+.rf-reveal-2 {
+  opacity: 0;
+
+  animation:
+    fadeUp 0.9s var(--rf-ease) 0.4s forwards;
+}
+
+.rf-reveal-3 {
+  opacity: 0;
+
+  animation:
+    fadeUp 0.9s var(--rf-ease) 0.6s forwards;
+}
+
+/* ════════════════════════════════════════════
+   UTILITIES
+════════════════════════════════════════════ */
+
+.rf-vignette {
+  position: relative;
+}
+
+.rf-vignette::after {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      circle,
+      transparent 45%,
+      rgba(0,0,0,0.35) 100%
+    );
+}
+
+.rf-grid {
+  background-image:
+    linear-gradient(
+      rgba(255,255,255,0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255,255,255,0.03) 1px,
+      transparent 1px
+    );
+
+  background-size:
+    40px 40px;
+}
+
+/* ════════════════════════════════════════════
+   PRINT
+════════════════════════════════════════════ */
+
+@media print {
+
+  .glass,
+  .rf-panel {
+    backdrop-filter: none;
+    box-shadow: none;
+  }
+
+  #slidev::before,
+  #slidev::after {
+    display: none;
+  }
+}
