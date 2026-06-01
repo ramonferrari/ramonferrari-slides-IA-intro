@@ -2,7 +2,7 @@
 colorSchema: both
 themeConfig:
   appearance: dark
-  shortTitle: "A era da IA generativa"
+  shortTitle: "A era da IA Generativa"
 fonts:
   sans: Space Grotesk
   serif: Space Grotesk
@@ -13,7 +13,7 @@ class: text-left
 
 <CoverSlide
   eyebrow="FGV EAESP"
-  title="A era da IA generativa"
+  title="A era da IA Generativa"
   subtitle="O que muda quando computadores passam a gerar conteúdo?"
   presenter="R. M. Ferrari"
   location="São Paulo, SP"
@@ -59,13 +59,13 @@ Apresentação pessoal. Perfil de pesquisador-praticante: cientista de dados na 
      SEÇÃO 1: O QUE É
 ═══════════════════════════════════════════ -->
 
-# O que é IA generativa — em uma linha
+# O que é IA generativa
 
 <div class="flex flex-col justify-center gap-4 mt-6" style="height: 320px;">
 
   <div v-click class="glass p-5" style="border-color: rgba(99,211,161,0.4);">
     <p style="font-size: 1.05rem; line-height: 1.7; margin: 0;">
-      IA tradicional <span style="color: var(--rf-text-muted);">→</span>
+      IA tradicional <span style="color: var(--rf-text-muted);">→ </span>
       <strong style="color: var(--rf-primary);">classifica, prevê ou recomenda</strong>
       a partir de padrões históricos.
     </p>
@@ -76,19 +76,11 @@ Apresentação pessoal. Perfil de pesquisador-praticante: cientista de dados na 
 
   <div v-click class="glass p-5" style="border-color: rgba(226,248,27,0.4);">
     <p style="font-size: 1.05rem; line-height: 1.7; margin: 0;">
-      IA generativa <span style="color: var(--rf-text-muted);">→</span>
-      <strong style="color: var(--rf-highlight);">produz conteúdo novo</strong>
-      — texto, imagem, código, áudio — que não existia antes.
+      IA generativa <span style="color: var(--rf-text-muted);">→ </span>
+      <strong style="color: var(--rf-highlight);">produz conteúdo novo</strong>: texto, imagem, código, áudio.
     </p>
     <p style="font-size: 0.78rem; color: var(--rf-text-muted); margin: 0.5rem 0 0;">
       Ex: ChatGPT, Claude, Gemini, Midjourney, GitHub Copilot.
-    </p>
-  </div>
-
-  <div v-click class="glass p-5" style="border-color: rgba(255,255,255,0.1);">
-    <p style="font-size: 0.9rem; line-height: 1.6; margin: 0; color: var(--rf-text-muted);">
-      A mudança não é incremental. É de categoria:
-      a máquina deixou de <em>processar</em> linguagem e passou a <em>falar</em>.
     </p>
   </div>
 
@@ -99,49 +91,43 @@ O ponto de virada não foi só técnico — foi de interface. Quando qualquer pe
 
 ---
 
-# Como ela funciona — sem fórmulas
+# Como a IA Generativa funciona
 
 <div class="grid grid-cols-2 gap-4 mt-5">
-
-  <div class="flex flex-col gap-3">
-
-    <div v-click class="glass p-4" style="border-left: 3px solid var(--rf-primary);">
-      <span class="rf-eyebrow" style="display:block; margin-bottom: 0.4rem;">1. Treinamento</span>
-      <p style="font-size: 0.82rem; line-height: 1.6; margin: 0; color: var(--rf-text-secondary);">
-        O modelo lê uma fração enorme da internet — livros, artigos, código, conversas.
-        Aprende <strong>padrões de linguagem</strong>: o que palavra vem depois de qual, em qual contexto.
-      </p>
-    </div>
-
-    <div v-click class="glass p-4" style="border-left: 3px solid var(--rf-primary);">
-      <span class="rf-eyebrow" style="display:block; margin-bottom: 0.4rem;">2. Compressão</span>
-      <p style="font-size: 0.82rem; line-height: 1.6; margin: 0; color: var(--rf-text-secondary);">
-        Esses padrões viram bilhões de parâmetros — números que codificam relações
-        entre conceitos. O modelo não "memoriza" textos; aprende <strong>estrutura</strong>.
-      </p>
-    </div>
-
-    <div v-click class="glass p-4" style="border-left: 3px solid var(--rf-primary);">
-      <span class="rf-eyebrow" style="display:block; margin-bottom: 0.4rem;">3. Geração</span>
-      <p style="font-size: 0.82rem; line-height: 1.6; margin: 0; color: var(--rf-text-secondary);">
-        Quando você escreve algo, o modelo calcula a sequência de tokens mais
-        <strong>provável e coerente</strong> para continuar — palavra por palavra.
-      </p>
-    </div>
-
-  </div>
-
-  <div v-click class="glass p-5 flex flex-col justify-center" style="border-color: rgba(226,248,27,0.25);">
-    <span class="rf-eyebrow" style="display:block; margin-bottom: 0.8rem;">a metáfora certa</span>
-    <p style="font-size: 0.88rem; line-height: 1.75; margin: 0; color: var(--rf-text-secondary);">
-      Não é uma <strong style="color: var(--rf-text-primary);">enciclopédia</strong> que você consulta.<br>
-      Não é um <strong style="color: var(--rf-text-primary);">mecanismo de busca</strong>.<br><br>
-      É um <strong style="color: var(--rf-highlight);">gerador de texto muito sofisticado</strong>
-      que aprendeu como humanos escrevem sobre qualquer assunto —
-      e por isso parece que sabe tudo.
-    </p>
-  </div>
-
+<div class="flex flex-col gap-3">
+<div v-click class="glass p-4" style="border-left: 3px solid var(--rf-primary);">
+<span class="rf-eyebrow" style="display:block; margin-bottom: 0.4rem;">1. Treinamento</span>
+<p style="font-size: 0.82rem; line-height: 1.6; margin: 0; color: var(--rf-text-secondary);">
+O modelo lê uma fração enorme da internet: livros, artigos, código, conversas.
+Aprende <strong>padrões de linguagem</strong>: o que palavra vem depois de qual, em qual contexto.
+</p>
+</div>
+<div v-click class="glass p-4" style="border-left: 3px solid var(--rf-primary);">
+<span class="rf-eyebrow" style="display:block; margin-bottom: 0.4rem;">2. Compressão</span>
+<p style="font-size: 0.82rem; line-height: 1.6; margin: 0; color: var(--rf-text-secondary);">
+Esses padrões viram <strong>bilhões</strong> de parâmetros. São números que codificam relações
+entre conceitos. O modelo não "memoriza" textos; ele aprende <strong>estrutura</strong>.
+</p>
+</div>
+<div v-click class="glass p-4" style="border-left: 3px solid var(--rf-primary);">
+<span class="rf-eyebrow" style="display:block; margin-bottom: 0.4rem;">3. Geração</span>
+<p style="font-size: 0.82rem; line-height: 1.6; margin: 0; color: var(--rf-text-secondary);">
+Quando você escreve algo, o modelo calcula a sequência de tokens mais
+<strong>provável e coerente</strong> como a próxima palavra.
+</p>
+</div>
+</div>
+<div v-click class="glass p-5 flex flex-col justify-center" style="border-color: rgba(226,248,27,0.25);">
+<div>
+<span class="rf-eyebrow" style="display:block; margin-bottom: 0.8rem;">a metáfora certa</span>
+<p style="font-size: 0.88rem; line-height: 1.75; margin: 0; color: var(--rf-text-secondary);">
+Não é uma <strong style="color: var(--rf-text-primary);">enciclopédia</strong> que você consulta.<br>
+Não é um <strong style="color: var(--rf-text-primary);">mecanismo de busca</strong>.<br><br>
+É um <strong style="color: var(--rf-highlight);">gerador de texto muito sofisticado</strong>
+que aprendeu como humanos escrevem sobre qualquer assunto (e por isso parece que sabe tudo).
+</p>
+</div>
+</div>
 </div>
 
 ::note::
@@ -180,7 +166,7 @@ O mercado se moveu de um player dominante para uma corrida real. Isso importa pa
 
 ---
 
-# Tanto faz o modelo? Atenção aos flash × pro
+# Modelo leve × pro
 
 <ModelComparison />
 
@@ -196,53 +182,36 @@ Flash/Haiku/Mini = rápido e barato, bom para tarefas simples e volume alto. Pro
 # A anatomia de um bom prompt
 
 <div class="grid grid-cols-2 gap-4 mt-4">
+<div class="flex flex-col gap-2">
+<div v-click class="glass p-3" style="border-left: 3px solid var(--rf-primary); font-size: 0.8rem; line-height: 1.55;">
+<span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.25rem;">① Papel</span>
+Diga quem o modelo deve ser nesse contexto.<br>
+<span style="color: var(--rf-text-muted);">Ex: "Você é um analista de contratos focado em risco operacional."</span>
+</div>
+<div v-click class="glass p-3" style="border-left: 3px solid var(--rf-primary); font-size: 0.8rem; line-height: 1.55;">
+<span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.25rem;">② Tarefa</span>
+Uma instrução clara. Verbo no imperativo. Sem ambiguidade.<br>
+<span style="color: var(--rf-text-muted);">Ex: "Identifique as cláusulas de rescisão e liste em tópicos."</span>
+</div>
+<div v-click class="glass p-3" style="border-left: 3px solid var(--rf-primary); font-size: 0.8rem; line-height: 1.55;">
+<span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.25rem;">③ Contexto</span>
+Dê o material relevante. Quanto mais específico, menos a IA vai adivinhar.<br>
+<span style="color: var(--rf-text-muted);">Ex: cole o contrato, descreva o setor, o tipo de cliente.</span>
+</div>
+</div>
+<div class="flex flex-col gap-2">
+<div v-click class="glass p-3" style="border-left: 3px solid var(--rf-primary); font-size: 0.8rem; line-height: 1.55;">
+<span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.25rem;">④ Formato de saída</span>
+Diga como quer receber. Tabela, bullet, parágrafo, JSON, e-mail.<br>
+<span style="color: var(--rf-text-muted);">Ex: "Responda em tabela com colunas: cláusula | risco | recomendação."</span>
+</div>
+<div v-click class="glass p-3" style="border-left: 3px solid rgba(226,248,27,0.7); font-size: 0.8rem; line-height: 1.55;">
+<span style="color: var(--rf-highlight); font-weight: 700; display: block; margin-bottom: 0.25rem;">⑤ Restrições</span>
+O que <em>não</em> fazer é tão importante quanto o que fazer.<br>
+<span style="color: var(--rf-text-muted);">Ex: "Use apenas o documento enviado. Se não encontrar, escreva N/E."</span>
+</div>
 
-  <div class="flex flex-col gap-2">
-
-    <div v-click class="glass p-3" style="border-left: 3px solid var(--rf-primary); font-size: 0.8rem; line-height: 1.55;">
-      <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.25rem;">① Papel</span>
-      Diga quem o modelo deve ser nesse contexto.<br>
-      <span style="color: var(--rf-text-muted);">Ex: "Você é um analista de contratos focado em risco operacional."</span>
-    </div>
-
-    <div v-click class="glass p-3" style="border-left: 3px solid var(--rf-primary); font-size: 0.8rem; line-height: 1.55;">
-      <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.25rem;">② Tarefa</span>
-      Uma instrução clara. Verbo no imperativo. Sem ambiguidade.<br>
-      <span style="color: var(--rf-text-muted);">Ex: "Identifique as cláusulas de rescisão e liste em tópicos."</span>
-    </div>
-
-    <div v-click class="glass p-3" style="border-left: 3px solid var(--rf-primary); font-size: 0.8rem; line-height: 1.55;">
-      <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.25rem;">③ Contexto</span>
-      Dê o material relevante. Quanto mais específico, menos a IA vai adivinhar.<br>
-      <span style="color: var(--rf-text-muted);">Ex: cole o contrato, descreva o setor, o tipo de cliente.</span>
-    </div>
-
-    <div v-click class="glass p-3" style="border-left: 3px solid var(--rf-primary); font-size: 0.8rem; line-height: 1.55;">
-      <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.25rem;">④ Formato de saída</span>
-      Diga como quer receber. Tabela, bullet, parágrafo, JSON, e-mail.<br>
-      <span style="color: var(--rf-text-muted);">Ex: "Responda em tabela com colunas: cláusula | risco | recomendação."</span>
-    </div>
-
-    <div v-click class="glass p-3" style="border-left: 3px solid rgba(226,248,27,0.7); font-size: 0.8rem; line-height: 1.55;">
-      <span style="color: var(--rf-highlight); font-weight: 700; display: block; margin-bottom: 0.25rem;">⑤ Restrições</span>
-      O que <em>não</em> fazer é tão importante quanto o que fazer.<br>
-      <span style="color: var(--rf-text-muted);">Ex: "Use apenas o documento enviado. Se não encontrar, escreva N/E."</span>
-    </div>
-
-  </div>
-
-  <div v-click>
-    <Terminal
-      modelName="Claude Sonnet 4.5"
-      fontSize="0.72rem"
-      :streamSpeed="18"
-      :conversation="[{
-        user: 'Você é um analista de contratos. Identifique as cláusulas de rescisão do contrato abaixo e liste em tabela: cláusula | tipo de rescisão | prazo. Use só o documento. Se não encontrar, escreva N/E.',
-        response: 'Cláusula 12.1 | Rescisão por inadimplência | 30 dias após notificação\nCláusula 12.3 | Rescisão imotivada | 60 dias de aviso prévio\nCláusula 13.2 | Rescisão por força maior | Imediato\nPrazo de vigência | N/E — não especificado no documento.'
-      }]"
-    />
-  </div>
-
+</div>
 </div>
 
 ::note::
@@ -253,45 +222,32 @@ Papel + Tarefa + Contexto + Formato + Restrições. Cinco elementos. Não precis
 # Prompt ruim × prompt bom
 
 <div class="grid grid-cols-2 gap-5 mt-5">
+<div class="flex flex-col gap-3">
+<div class="rf-eyebrow" style="color: #EC635E;">❌ Prompt sem estrutura</div>
 
-  <div class="flex flex-col gap-3">
-    <div class="rf-eyebrow" style="color: #EC635E;">❌ Prompt sem estrutura</div>
+<div class="glass p-3" style="border-color: rgba(236,99,94,0.4); font-size: 0.75rem; line-height: 1.5; color: var(--rf-text-muted);">
+Sem papel, sem tarefa específica, sem contexto, sem formato. A IA não sabe o que você quer. Vai dar um chute razoável.
+</div>
 
-    <div v-click>
-      <Terminal
-        modelName="ChatGPT"
-        fontSize="0.72rem"
-        :streamSpeed="16"
-        :conversation="[
-          { user: 'Me fala sobre esse contrato', response: 'Claro! Para analisar o contrato, preciso que você me envie o documento. Em geral, contratos costumam conter partes, objeto, prazo, valor, penalidades e cláusulas de rescisão. Posso ajudar com qualquer dúvida específica que você tiver.' }
-        ]"
-      />
-    </div>
 
-    <div v-click class="glass p-3" style="border-color: rgba(236,99,94,0.4); font-size: 0.75rem; line-height: 1.5; color: var(--rf-text-muted);">
-      Sem papel, sem tarefa específica, sem contexto, sem formato. A IA não sabe o que você quer — e chuta razoavelmente.
-    </div>
-  </div>
 
-  <div class="flex flex-col gap-3">
-    <div class="rf-eyebrow" style="color: var(--rf-primary);">✓ Prompt estruturado</div>
+<div v-click>
+<Terminal modelName="ChatGPT" fontSize="0.72rem" :streamSpeed="16" :conversation="[{user: 'Me fala sobre esse contrato',response: 'Claro! Para analisar o contrato, preciso que você me envie o documento. Em geral, contratos costumam conter partes, objeto, prazo, valor, penalidades e cláusulas de rescisão. Posso ajudar com qualquer dúvida específica que você tiver.'}]" />
+</div>
 
-    <div v-click>
-      <Terminal
-        modelName="Claude Sonnet 4.5"
-        fontSize="0.72rem"
-        :streamSpeed="16"
-        :conversation="[
-          { user: 'Você é um analista de risco. Liste em bullet as 3 maiores exposições financeiras deste contrato. Use só o documento. Se não encontrar, escreva N/E.', response: '• Multa por rescisão antecipada: 20% do valor total remanescente (cláusula 8.4)\n• Reajuste unilateral do fornecedor: até 15% a.a. sem necessidade de aditivo (cláusula 5.2)\n• Ausência de limitação de responsabilidade civil: N/E — não especificado.' }
-        ]"
-      />
-    </div>
+</div>
+<div class="flex flex-col gap-3">
+<div class="rf-eyebrow" style="color: var(--rf-primary);">✓ Prompt estruturado</div>
 
-    <div v-click class="glass p-3" style="border-color: rgba(99,211,161,0.4); font-size: 0.75rem; line-height: 1.5; color: var(--rf-text-muted);">
-      Mesmo modelo, mesmo documento. A diferença está inteiramente no prompt — não na IA.
-    </div>
-  </div>
+<div class="glass p-3" style="border-color: rgba(99,211,161,0.4); font-size: 0.75rem; line-height: 1.5; color: var(--rf-text-muted);">
+Mesmo modelo, mesmo documento. A diferença está inteiramente no prompt, não na IA.
+</div>
 
+<div v-click>
+<Terminal modelName="Claude Sonnet 4.5" fontSize="0.72rem" :streamSpeed="16" :conversation="[{user: 'Você é um analista de risco. Liste em bullet as 3 maiores exposições financeiras deste contrato. Use só o documento. Se não encontrar, escreva N/E.',response: '• Multa por rescisão antecipada: 20% do valor total remanescente (cláusula 8.4)\n• Reajuste unilateral do fornecedor: até 15% a.a. sem necessidade de aditivo (cláusula 5.2)\n• Ausência de limitação de responsabilidade civil: N/E — não especificado.'}]" />
+</div>
+
+</div>
 </div>
 
 ::note::
@@ -299,7 +255,7 @@ O modelo é o mesmo. O que muda é a qualidade da instrução. Prompting é uma 
 
 ---
 
-# Cinco usos de alto retorno para profissionais de negócio
+# Cinco usos de alto retorno
 
 <div class="grid grid-cols-5 gap-2 mt-5">
 
@@ -324,7 +280,7 @@ O modelo é o mesmo. O que muda é a qualidade da instrução. Prompting é uma 
   <div v-click class="glass p-3 flex flex-col gap-2" style="font-size: 0.75rem; line-height: 1.5;">
     <span style="font-size: 1.4rem;">🧮</span>
     <strong style="color: var(--rf-primary);">Estruturação de problemas</strong>
-    <span style="color: var(--rf-text-muted);">MECE, árvores de decisão, frameworks — o modelo como sparring partner.</span>
+    <span style="color: var(--rf-text-muted);">Ideação, árvores de decisão, frameworks.</span>
   </div>
 
   <div v-click class="glass p-3 flex flex-col gap-2" style="font-size: 0.75rem; line-height: 1.5;">
@@ -337,8 +293,8 @@ O modelo é o mesmo. O que muda é a qualidade da instrução. Prompting é uma 
 
 <div v-click class="glass p-3 mt-4" style="font-size: 0.78rem; line-height: 1.6; border-color: rgba(226,248,27,0.3);">
   <strong style="color: var(--rf-highlight);">Regra prática:</strong>
-  se a tarefa envolve ler, resumir, comparar, redigir ou estruturar texto —
-  a IA provavelmente faz em 10% do tempo. Se envolve decisão final com consequência real — você é insubstituível.
+  se a tarefa envolve ler, resumir, comparar, redigir ou estruturar texto: 
+  a IA provavelmente faz em 10% do tempo. Se envolve decisão final com consequência real: o humano é <strong>insubstituível</strong>.
 </div>
 
 ::note::
@@ -356,7 +312,7 @@ O retorno não vem de substituir pessoas. Vem de eliminar o trabalho de prepara�
 
 <div class="glass p-3 flex-1" style="border-color: rgba(99,211,161,0.45); text-align: center;">
 
-<span style="color: #63d3a1; font-weight: 700;">🧠 Fiel ao treinamento</span>
+<span style="color: #63d3a1; font-weight: 700;">🧠 Fiel ao treinamento</span><br><br>
 Ser completa. Agradar. Parecer confiante. Nunca deixar uma pergunta sem resposta.
 
 </div>
@@ -365,14 +321,14 @@ Ser completa. Agradar. Parecer confiante. Nunca deixar uma pergunta sem resposta
 
 <div class="glass p-3 flex-1" style="border-color: rgba(226,248,27,0.45); text-align: center;">
 
-<span style="color: #e2f81b; font-weight: 700;">📋 Seguir suas instruções</span>
-Ser precisa. Dizer N/E. Citar a fonte. Usar só o que está no documento.
+<span style="color: #e2f81b; font-weight: 700;">📋 Seguir suas instruções</span><br><br>
+Ser precisa. Dizer "não encontrei". Citar a fonte. Usar só o que está no documento.
 
 </div>
 
 </div>
 
-<div class="grid grid-cols-3 gap-2 mt-3" style="font-size: 0.7rem; line-height: 1.35;">
+<div class="grid grid-cols-3 gap-2 mt-3" style="font-size: 0.6rem; line-height: 1.35;">
 
 <div v-click class="glass p-3" style="border-top: 2px solid #EC635E;">
 
@@ -415,13 +371,109 @@ Antes de falar nos limites técnicos, é importante entender o conflito de objet
 
 <div class="relative" style="height: 355px; margin-top: 0.5rem;">
 
-<Venn />
+<svg viewBox="0 0 900 355" xmlns="http://www.w3.org/2000/svg" style="position: absolute; inset: 0; width: 100%; height: 100%;">
+  <defs>
+    <radialGradient id="innerGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#63d3a1" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#63d3a1" stop-opacity="0.03"/>
+    </radialGradient>
+    <radialGradient id="inventouGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e2f81b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e2f81b" stop-opacity="0.02"/>
+    </radialGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .svg-label { font-size: 13px; font-weight: 400; letter-spacing: 0.03em; font-family: 'Space Grotesk', sans-serif; }
+      .svg-label-bold { font-size: 13px; font-weight: 600; letter-spacing: 0; font-family: 'Space Grotesk', sans-serif; }
+      .svg-badge { font-size: 11px; font-weight: 600; letter-spacing: 0; font-family: 'Space Grotesk', sans-serif; }
+    </style>
+  </defs>
 
+  <!-- CLIQUE 0: sempre visível — contrato -->
+  <circle cx="450" cy="183" r="145"
+    fill="rgba(99,211,161,0.03)"
+    stroke="#63d3a1"
+    stroke-width="1.5"
+    stroke-dasharray="9 6"
+    opacity="0.7"/>
+  <text x="450" y="27" text-anchor="middle"
+    class="svg-label"
+    style="font-size:13px; font-weight:400; letter-spacing:0.03em; font-family:'Space Grotesk',sans-serif;"
+    fill="rgba(99,211,161,0.65)">O que estava no contrato</text>
+
+  <!-- CLIQUE 1: o que a IA achou -->
+  <g v-click>
+    <circle cx="468" cy="177" r="110"
+      fill="url(#innerGrad)"
+      stroke="#63d3a1"
+      stroke-width="1.5"
+      filter="url(#softGlow)"/>
+    <circle cx="412" cy="138" r="3" fill="#63d3a1" opacity="0.75"/>
+    <line x1="420" y1="138" x2="542" y2="138" stroke="#63d3a1" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="412" cy="157" r="3" fill="#63d3a1" opacity="0.75"/>
+    <line x1="420" y1="157" x2="524" y2="157" stroke="#63d3a1" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="412" cy="176" r="3" fill="#63d3a1" opacity="0.75"/>
+    <line x1="420" y1="176" x2="538" y2="176" stroke="#63d3a1" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="412" cy="195" r="3" fill="#63d3a1" opacity="0.75"/>
+    <line x1="420" y1="195" x2="514" y2="195" stroke="#63d3a1" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="412" cy="214" r="3" fill="#63d3a1" opacity="0.75"/>
+    <line x1="420" y1="214" x2="528" y2="214" stroke="#63d3a1" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+    <text x="468" y="308" text-anchor="middle"
+      class="svg-label-bold"
+      style="font-size:13px; font-weight:600; letter-spacing:0; font-family:'Space Grotesk',sans-serif;"
+      fill="rgba(99,211,161,0.85)">O que a IA achou</text>
+  </g>
+
+  <!-- CLIQUE 2: perdeu (vermelho) -->
+  <g v-click>
+    <circle cx="323" cy="153" r="3.5" fill="#EC635E" opacity="0.55"/>
+    <circle cx="312" cy="183" r="3"   fill="#EC635E" opacity="0.45"/>
+    <circle cx="319" cy="213" r="3.5" fill="#EC635E" opacity="0.55"/>
+    <circle cx="336" cy="137" r="2.5" fill="#EC635E" opacity="0.35"/>
+    <circle cx="341" cy="167" r="3"   fill="#EC635E" opacity="0.45"/>
+    <circle cx="331" cy="198" r="2.5" fill="#EC635E" opacity="0.4"/>
+    <circle cx="349" cy="145" r="2.5" fill="#EC635E" opacity="0.3"/>
+    <circle cx="346" cy="222" r="2.5" fill="#EC635E" opacity="0.35"/>
+    <circle cx="321" cy="173" r="2"   fill="#EC635E" opacity="0.3"/>
+    <rect x="240" y="108" width="72" height="22" rx="5"
+      fill="rgba(236,99,94,0.12)" stroke="#EC635E" stroke-width="1" opacity="0.9"/>
+    <text x="276" y="123" text-anchor="middle"
+      class="svg-badge"
+      style="font-size:11px; font-weight:600; font-family:'Space Grotesk',sans-serif;"
+      fill="#EC635E">perdeu</text>
+  </g>
+
+  <!-- CLIQUE 3: inventou (verde-limão) -->
+  <g v-click>
+    <circle cx="636" cy="250" r="58"
+      fill="url(#inventouGrad)"
+      stroke="#e2f81b"
+      stroke-width="1.5"
+      stroke-dasharray="7 5"
+      opacity="0.85"/>
+    <line x1="582" y1="237" x2="688" y2="237" stroke="#e2f81b" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <line x1="580" y1="251" x2="690" y2="251" stroke="#e2f81b" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <line x1="584" y1="265" x2="684" y2="265" stroke="#e2f81b" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <rect x="598" y="310" width="80" height="22" rx="5"
+      fill="rgba(226,248,27,0.10)" stroke="#e2f81b" stroke-width="1" opacity="0.9"/>
+    <text x="638" y="325" text-anchor="middle"
+      class="svg-badge"
+      style="font-size:11px; font-weight:600; font-family:'Space Grotesk',sans-serif;"
+      fill="#e2f81b">inventou</text>
+  </g>
+
+</svg>
+
+<!-- Left card: aparece no clique 2 (junto com os pontos vermelhos) -->
 <div v-click="2" class="glass p-4" style="position: absolute; left: 0; top: 55px; width: 190px; border-color: rgba(236,99,94,0.45);">
   <div style="color: #EC635E; font-weight: 700; font-size: 0.82rem; margin-bottom: 0.4rem; line-height: 1.3;">⚠ A IA pode perder informação</div>
   <p style="font-size: 0.75rem; line-height: 1.5; opacity: 0.7; margin: 0;">Algo estava no contrato, mas não apareceu na resposta.</p>
 </div>
 
+<!-- Right card: aparece no clique 3 (junto com o círculo amarelo) -->
 <div v-click="3" class="glass p-4" style="position: absolute; right: 0; top: 55px; width: 190px; border-color: rgba(226,248,27,0.45);">
   <div style="color: #e2f81b; font-weight: 700; font-size: 0.82rem; margin-bottom: 0.4rem; line-height: 1.3;">⚠ A IA pode inventar informação</div>
   <p style="font-size: 0.75rem; line-height: 1.5; opacity: 0.7; margin: 0;">Algo apareceu na resposta, mas não estava no contrato.</p>
@@ -430,7 +482,8 @@ Antes de falar nos limites técnicos, é importante entender o conflito de objet
 </div>
 
 ::note::
-Dois problemas opostos — ao mesmo tempo. Recall: ela não cobre tudo e não avisa o que perdeu. Alucinação: ela vai além do que estava no documento sem avisar.
+Dois problemas opostos — ao mesmo tempo. Recall: ela não cobre tudo e não avisa o que perdeu. Alucinação: ela vai além do que estava no documento sem avisar. Os próximos dois slides detalham cada um.
+
 
 ---
 
@@ -438,25 +491,23 @@ Dois problemas opostos — ao mesmo tempo. Recall: ela não cobre tudo e não av
      SEÇÃO 5: PROMPTS EXEMPLOS
 ═══════════════════════════════════════════ -->
 
-# Prompts para o dia a dia — análise de documentos
+# Prompt #1: análise de documentos
 
 <div class="grid grid-cols-2 gap-4 mt-4">
 
   <div class="flex flex-col gap-3">
 
-    <div class="rf-eyebrow mb-1">Templates prontos para copiar</div>
-
-    <div v-click class="glass p-3" style="font-size: 0.75rem; line-height: 1.6;">
+  <div v-click class="glass p-3" style="font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.3rem;">📄 Resumo executivo</span>
       <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap;">Resuma o documento abaixo em no máximo 5 bullets. Cada bullet deve ter: tema | achado principal | implicação prática. Use só o que está no texto. Se não houver implicação clara, escreva N/A.</code>
     </div>
 
-    <div v-click class="glass p-3" style="font-size: 0.75rem; line-height: 1.6;">
+  <div v-click class="glass p-3" style="font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.3rem;">⚠️ Mapeamento de riscos</span>
       <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap;">Você é um analista de risco jurídico. Leia o contrato abaixo e liste em tabela os pontos de atenção: cláusula | risco | severidade (alta/média/baixa) | recomendação. Use só o documento. N/E se não encontrar.</code>
     </div>
 
-    <div v-click class="glass p-3" style="font-size: 0.75rem; line-height: 1.6;">
+  <div v-click class="glass p-3" style="font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.3rem;">🔍 Comparação entre versões</span>
       <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap;">Compare os dois documentos abaixo. Liste as diferenças em tabela: item | versão A | versão B | impacto da mudança. Ignore formatação, foque em conteúdo substantivo.</code>
     </div>
@@ -468,7 +519,6 @@ Dois problemas opostos — ao mesmo tempo. Recall: ela não cobre tudo e não av
       modelName="Claude Sonnet 4.5"
       fontSize="0.7rem"
       :streamSpeed="15"
-      :loop="true"
       :conversation="[
         { user: 'Resuma em 3 bullets: tema | achado | implicação. Só o documento. N/A se não houver implicação.', response: '• Prazo | Contrato vigente até dez/2026, renovação automática por 12 meses | Risco de renovação indesejada se não houver notificação com 90 dias de antecedência\n• Pagamento | Reajuste anual pelo IPCA + 2% (cláusula 6.1) | Exposição acima da inflação em cenários de IPCA elevado\n• Rescisão | Multa de 20% sobre saldo remanescente | N/A — valor já mapeado no orçamento de risco' }
       ]"
@@ -482,30 +532,25 @@ O template de resumo executivo funciona para qualquer documento. A chave é o "N
 
 ---
 
-# Prompts para o dia a dia — comunicação e estruturação
+# Prompt #2: comunicação e estruturação
 
 <div class="grid grid-cols-2 gap-4 mt-4">
 
   <div class="flex flex-col gap-3">
 
-    <div v-click class="glass p-3" style="font-size: 0.75rem; line-height: 1.6;">
+  <div v-click class="glass p-3" style="font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.3rem;">✉️ E-mail difícil</span>
       <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap;">Escreva um e-mail para [cargo/nome] comunicando [situação]. Tom: direto e respeitoso. Máximo 5 parágrafos. Não use jargão corporativo. Termine com uma pergunta ou próximo passo claro.</code>
     </div>
 
-    <div v-click class="glass p-3" style="font-size: 0.75rem; line-height: 1.6;">
+  <div v-click class="glass p-3" style="font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.3rem;">🧮 Estruturação de problema</span>
       <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap;">Quero estruturar o seguinte problema de negócio: [descreva]. Me faça 5 perguntas que me ajudem a clarificar o problema antes de propor soluções. Uma pergunta por vez.</code>
     </div>
 
-    <div v-click class="glass p-3" style="font-size: 0.75rem; line-height: 1.6;">
+  <div v-click class="glass p-3" style="font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.3rem;">🎯 Preparação para reunião</span>
       <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap;">Vou ter uma reunião com [perfil do interlocutor] sobre [tema]. Com base no contexto abaixo, sugira: 3 pontos que devo reforçar, 2 objeções prováveis e como respondê-las, 1 pergunta de fechamento.</code>
-    </div>
-
-    <div v-click class="glass p-3" style="border-color: rgba(226,248,27,0.3); font-size: 0.75rem; line-height: 1.6;">
-      <span style="color: var(--rf-highlight); font-weight: 700; display: block; margin-bottom: 0.3rem;">💡 Meta-prompt: peça crítica</span>
-      <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap;">Leia o texto abaixo e aponte: 1 argumento fraco, 1 informação que pode estar errada, 1 ponto que o leitor vai questionar. Seja direto — não me poupe.</code>
     </div>
 
   </div>
@@ -515,7 +560,7 @@ O template de resumo executivo funciona para qualquer documento. A chave é o "N
       modelName="Claude Sonnet 4.5"
       fontSize="0.7rem"
       :streamSpeed="15"
-      :loop="true"
+      :loop="false"
       :conversation="[
         { user: 'Quero estruturar: nosso churn aumentou 12% no Q3. Me faça uma pergunta por vez para clarificar antes de sugerir causas.', response: 'Entendido. Primeira pergunta: o aumento de 12% é em relação ao Q2 deste ano ou ao Q3 do ano anterior?' },
         { user: 'Em relação ao Q2 deste ano.', response: 'Obrigado. Segunda pergunta: o churn se concentra em algum segmento específico de clientes — por tamanho, setor ou tempo de contrato?' }
@@ -574,30 +619,30 @@ Encerramento com o ponto que mais importa para esse público: a IA amplia capaci
 
 ---
 
-# Por onde começar — esta semana
+# Por onde começar: esta semana
 
 <div class="grid grid-cols-2 gap-5 mt-5">
 
   <div class="flex flex-col gap-3">
 
-    <div v-click class="glass p-4" style="border-left: 3px solid var(--rf-primary); font-size: 0.82rem; line-height: 1.6;">
+  <div v-click class="glass p-4" style="border-left: 3px solid var(--rf-primary); font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.3rem;">1. Escolha uma tarefa repetitiva</span>
       Algo que você faz toda semana com texto: resumo, e-mail padrão, ata, relatório.
       Tente delegar para a IA com um prompt estruturado.
     </div>
 
-    <div v-click class="glass p-4" style="border-left: 3px solid var(--rf-primary); font-size: 0.82rem; line-height: 1.6;">
+  <div v-click class="glass p-4" style="border-left: 3px solid var(--rf-primary); font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.3rem;">2. Use o modelo certo</span>
       Para explorar e rascunhar: Flash/Haiku (rápido, barato).
       Para revisar e decidir: Pro/Opus/Sonnet (mais cuidadoso).
     </div>
 
-    <div v-click class="glass p-4" style="border-left: 3px solid var(--rf-primary); font-size: 0.82rem; line-height: 1.6;">
+   <div v-click class="glass p-4" style="border-left: 3px solid var(--rf-primary); font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.3rem;">3. Sempre revise a saída</span>
       Leia o que a IA produziu com a mesma atenção que você leria o trabalho de um estagiário talentoso mas novato. Ele pode ter inventado alguma coisa.
     </div>
 
-    <div v-click class="glass p-4" style="border-left: 3px solid var(--rf-highlight); font-size: 0.82rem; line-height: 1.6;">
+  <div v-click class="glass p-4" style="border-left: 3px solid var(--rf-highlight); font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-highlight); font-weight: 700; display: block; margin-bottom: 0.3rem;">4. Itere o prompt</span>
       Se a resposta decepcionou, não culpe o modelo — revise a instrução.
       Adicione papel, formato ou restrição. Tente de novo.
@@ -610,7 +655,7 @@ Encerramento com o ponto que mais importa para esse público: a IA amplia capaci
       modelName="Claude Sonnet 4.5"
       fontSize="0.72rem"
       :streamSpeed="20"
-      :loop="true"
+      :loop="false"
       :conversation="[{
         user: 'Qual a diferença prática entre usar Claude Pro e Claude Haiku para análise de contratos?',
         response: 'Para triagem inicial — extrair partes, datas, valores — Haiku é suficiente e 10x mais rápido. Para identificar ambiguidades, cláusulas incomuns ou risco interpretativo, use Pro: ele sustenta raciocínio mais longo e erra menos em nuances jurídicas. Regra prática: Haiku para estruturar, Pro para julgar.'

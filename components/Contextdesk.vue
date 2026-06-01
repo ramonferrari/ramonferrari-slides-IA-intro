@@ -97,7 +97,7 @@
                 </div>
                 <div class="msg msg-user">
                   <span class="msg-who">Você</span>
-                  <span class="msg-text">Qual a multa por inadimplento?</span>
+                  <span class="msg-text">Qual a multa por atraso no pagamento?</span>
                 </div>
               </div>
             </div>
@@ -311,6 +311,7 @@
   background: var(--rf-surface-secondary);
   border: 1px solid var(--rf-border-secondary);
   border-radius: 10px;
+  margin: 0 auto;
 }
 .panel-icon svg { width: 26px; height: 26px; }
 
@@ -371,7 +372,7 @@
 }
 .pdf-badge {
   position: absolute;
-  top: -4px; right: 18px;
+  top: 4px; right: 4px;
   font-family: "JetBrains Mono", monospace;
   font-size: 0.5rem;
   font-weight: 700;
@@ -461,15 +462,17 @@
 
 /* ─── Warnings ──────────────────────────────────────── */
 .warnings {
-  display: flex;
-  justify-content: space-between;
-  padding: 0.5rem 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 0.75rem;
+  padding: 0.5rem 0 0;
 }
 .warn {
   color: var(--rf-highlight);
   font-size: 0.85rem;
   opacity: 0.75;
   animation: blink 2s ease-in-out infinite;
+  text-align: center;
 }
 .warn:nth-child(2) { animation-delay: 0.7s; }
 .warn:nth-child(3) { animation-delay: 1.4s; }
