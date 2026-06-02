@@ -20,8 +20,8 @@
       >
         <!-- User prompt -->
         <div class="term-prompt">
-          <span class="prompt-symbol">❯</span>
-          <span class="prompt-user">{{ entry.user }}</span>
+          <span class="prompt-symbol">User:</span>
+          <div class="prompt-user">{{ entry.user }}</div>
         </div>
 
         <!-- Model response -->
@@ -29,10 +29,12 @@
           <span class="response-name" :style="{ color: modelColor }">
             {{ modelLabel }}
           </span>
-          <span class="response-text">{{ entry.revealed }}<span
-            class="cursor-blink"
-            v-if="streamingIndex === i && !entry.done"
-          /></span>
+          <span class="response-text">
+            {{ entry.revealed }}<span
+              class="cursor-blink"
+              v-if="streamingIndex === i && !entry.done"
+            />
+          </span>
         </div>
       </div>
     </div>
@@ -250,6 +252,7 @@ watch(() => props.conversation, () => {
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: rgba(255,255,255,0.1) transparent;
+  transition: max-height 0.3s ease-out;
 }
 
 :global(html.light) .term-body {
@@ -262,6 +265,7 @@ watch(() => props.conversation, () => {
   align-items: flex-start;
   gap: 0.5em;
   line-height: 1.55;
+  margin-bottom: 0.6rem;
 }
 
 .prompt-symbol {
@@ -288,8 +292,8 @@ watch(() => props.conversation, () => {
 /* ── Response line ───────────────────────────────────── */
 .term-response {
   display: flex;
-  align-items: flex-start;
-  gap: 0.5em;
+  flex-direction: column;
+  gap: 0.3em;
   padding-left: 0.1em;
   line-height: 1.7;
 }
@@ -298,8 +302,6 @@ watch(() => props.conversation, () => {
   font-size: 0.82em;
   font-weight: 700;
   letter-spacing: 0.03em;
-  flex-shrink: 0;
-  margin-top: 0.12em;
   /* color set inline via modelColor */
 }
 
