@@ -27,6 +27,8 @@ const parseUnit = (val: string | number | undefined) => {
   return val
 }
 
+const resolveSrc = (src: string) => src.replace(/^\/public\//, '/')
+
 const containerStyle = computed(() => {
   const sizeVal = parseUnit(props.size)
   const borderVal = parseUnit(props.borderWidth)
@@ -51,7 +53,7 @@ const containerStyle = computed(() => {
 
 <template>
   <div class="circular-image-container" :style="containerStyle">
-    <img :src="src" :alt="alt" class="circular-image" />
+    <img :src="resolveSrc(src)" :alt="alt" class="circular-image" />
   </div>
 </template>
 

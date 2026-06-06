@@ -1,5 +1,5 @@
 <template>
-  <div class="terminal" :style="terminalStyle">
+  <div class="terminal" :style="terminalStyle" ref="terminalRef">
     <!-- Title bar -->
     <div class="term-bar">
       <div class="term-dots">
@@ -43,10 +43,9 @@
 
 <script setup>
 import { ref, computed, watch, onMounted, onUnmounted, nextTick } from 'vue'
+import { useElementVisibility } from '@vueuse/core'
 
 const props = defineProps({
-  // Array of { user: string, response: string }
-  // or a single conversation object
   conversation: {
     type: Array,
     default: () => [
@@ -64,24 +63,23 @@ const props = defineProps({
     type: String,
     default: '0.88rem',
   },
-  // ms per character during streaming
   streamSpeed: {
     type: Number,
     default: 22,
   },
-  // ms between entries
   entryDelay: {
     type: Number,
     default: 600,
   },
-  // loop animation
   loop: {
     type: Boolean,
     default: false,
   },
 })
 
-// ── Model color ──────────────────────────────────────────
+const terminalRef = ref(null)
+const isVisible = useElementVisibility(terminalRef)
+
 const modelColor = computed(() => {
   const n = (props.modelName || '').toLowerCase()
   if (n.includes('claude') || n.includes('anthropic')) return '#e8845a'
@@ -92,12 +90,10 @@ const modelColor = computed(() => {
 
 const modelLabel = computed(() => props.modelName || 'Model')
 
-// ── Terminal style (dark=navy, light=warm yellow) ────────
 const terminalStyle = computed(() => ({
   fontSize: props.fontSize,
 }))
 
-// ── Streaming state ──────────────────────────────────────
 const entries = ref([])
 const streamingIndex = ref(-1)
 const bodyRef = ref(null)
@@ -116,7 +112,6 @@ function streamEntry(idx) {
   const src = props.conversation[idx]
   if (!src) return
 
-  // Push entry with empty revealed
   entries.value.push({ ...src, revealed: '', done: false })
   streamingIndex.value = idx
 
@@ -154,8 +149,17 @@ function scrollBottom() {
   })
 }
 
+watch(isVisible, (visible) => {
+  if (visible) {
+    reset()
+    setTimeout(() => streamEntry(0), 400)
+  }
+})
+
 onMounted(() => {
-  streamEntry(0)
+  if (isVisible.value) {
+    streamEntry(0)
+  }
 })
 
 onUnmounted(() => {
@@ -163,7 +167,6 @@ onUnmounted(() => {
   clearTimeout(entryTimer)
 })
 
-// Re-run if conversation prop changes
 watch(() => props.conversation, () => {
   reset()
   streamEntry(0)
@@ -171,7 +174,6 @@ watch(() => props.conversation, () => {
 </script>
 
 <style scoped>
-/* ── Shell ───────────────────────────────────────────── */
 .terminal {
   border-radius: 14px;
   overflow: hidden;
@@ -180,11 +182,10 @@ watch(() => props.conversation, () => {
     0 24px 60px rgba(0,0,0,0.55),
     0 0 80px rgba(30, 60, 120, 0.18);
   font-family: "JetBrains Mono", "Fira Code", "Cascadia Code", monospace;
-  background: #0d1b2e; /* navy dark */
+  background: #0d1b2e;
   max-width: 100%;
 }
 
-/* Light mode override */
 :global(html.light) .terminal {
   background: #f5e8c0;
   box-shadow:
@@ -192,7 +193,6 @@ watch(() => props.conversation, () => {
     0 24px 60px rgba(0,0,0,0.18);
 }
 
-/* ── Title bar ───────────────────────────────────────── */
 .term-bar {
   display: flex;
   align-items: center;
@@ -239,10 +239,9 @@ watch(() => props.conversation, () => {
 }
 
 .term-spacer {
-  width: 42px; /* mirrors dots width for centering */
+  width: 42px;
 }
 
-/* ── Body ────────────────────────────────────────────── */
 .term-body {
   padding: 1.1rem 1.3rem 1.3rem;
   display: flex;
@@ -259,7 +258,6 @@ watch(() => props.conversation, () => {
   scrollbar-color: rgba(0,0,0,0.1) transparent;
 }
 
-/* ── Prompt line ─────────────────────────────────────── */
 .term-prompt {
   display: flex;
   align-items: flex-start;
@@ -289,7 +287,6 @@ watch(() => props.conversation, () => {
   color: rgba(20,20,20,0.88);
 }
 
-/* ── Response line ───────────────────────────────────── */
 .term-response {
   display: flex;
   flex-direction: column;
@@ -302,7 +299,6 @@ watch(() => props.conversation, () => {
   font-size: 0.82em;
   font-weight: 700;
   letter-spacing: 0.03em;
-  /* color set inline via modelColor */
 }
 
 .response-text {
@@ -315,7 +311,6 @@ watch(() => props.conversation, () => {
   color: rgba(30,20,10,0.72);
 }
 
-/* ── Blinking cursor ─────────────────────────────────── */
 .cursor-blink {
   display: inline-block;
   width: 0.55em;

@@ -60,9 +60,9 @@ const modelLabel =
   overflow: hidden;
   border-radius: 28px;
   border:
-    1px solid rgba(255,255,255,0.08);
+    1px solid var(--rf-border-primary);
   background:
-    rgba(255,255,255,0.03);
+    var(--rf-surface-primary);
   backdrop-filter:
     blur(20px);
   box-shadow:
@@ -71,30 +71,27 @@ const modelLabel =
 .rf-user {
   padding: 1.4rem 1.6rem;
   border-bottom:
-    1px solid rgba(255,255,255,0.06);
+    1px solid var(--rf-border-primary);
 }
 .rf-user-label {
   font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color:
-    rgba(255,255,255,0.42);
+  color: var(--rf-text-muted);
   margin-bottom: 0.6rem;
   font-family:
     "JetBrains Mono",
     monospace;
 }
 .rf-user-content {
-  color:
-    rgba(255,255,255,0.92);
+  color: var(--rf-text-primary);
 }
 .rf-response {
   padding: 1.6rem;
 }
 .rf-model {
   margin-bottom: 1rem;
-  color:
-    #E0496C;
+  color: #E0496C;
   font-size: 0.74rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
@@ -103,8 +100,7 @@ const modelLabel =
     monospace;
 }
 .rf-response-content {
-  color:
-    rgba(255,255,255,0.84);
+  color: var(--rf-text-secondary);
   line-height: 1.8;
 }
 </style>

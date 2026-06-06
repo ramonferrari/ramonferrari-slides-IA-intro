@@ -77,12 +77,12 @@
         <svg width="100%" viewBox="0 0 490 432" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
           <defs>
             <radialGradient id="rg-dot-glow" cx="50%" cy="50%" r="50%">
-              <stop offset="0%"   stop-color="rgba(99,211,161,1)"/>
-              <stop offset="100%" stop-color="rgba(99,211,161,0)"/>
+              <stop offset="0%"   stop-color="var(--rf-primary)"/>
+              <stop offset="100%" stop-color="color-mix(in srgb, var(--rf-primary) 0%, transparent)"/>
             </radialGradient>
             <radialGradient id="rg-out-glow" cx="50%" cy="50%" r="50%">
-              <stop offset="0%"   stop-color="rgba(226,248,27,1)"/>
-              <stop offset="100%" stop-color="rgba(226,248,27,0)"/>
+              <stop offset="0%"   stop-color="var(--rf-highlight)"/>
+              <stop offset="100%" stop-color="color-mix(in srgb, var(--rf-highlight) 0%, transparent)"/>
             </radialGradient>
             <filter id="rg-glow-dot">
               <feGaussianBlur stdDeviation="2.5" result="blur"/>
@@ -98,7 +98,7 @@
           <text x="246" y="15"
             text-anchor="middle"
             font-family="JetBrains Mono,monospace" font-size="3" font-weight="700"
-            fill="rgba(99,211,161,0.65)" letter-spacing=".18em">
+            fill="var(--rf-primary)" letter-spacing=".18em">
             CONTRATOS ANTERIORES
           </text>
 
@@ -136,92 +136,92 @@
           <!-- Axis labels -->
           <text x="246" y="420" text-anchor="middle"
             font-family="JetBrains Mono,monospace" font-size="3" font-weight="700"
-            fill="rgba(99,211,161,0.60)" letter-spacing=".08em">METRAGEM (m²)</text>
+            fill="var(--rf-primary)" letter-spacing=".08em">METRAGEM (m²)</text>
           <text x="14" y="205" text-anchor="middle"
             font-family="JetBrains Mono,monospace" font-size="3" font-weight="700"
-            fill="rgba(99,211,161,0.60)" letter-spacing=".06em"
+            fill="var(--rf-primary)" letter-spacing=".06em"
             transform="rotate(-90,14,205)">VALOR PAGO (R$ MIL/MÊS)</text>
 
           <!-- Data points -->
           <g filter="url(#rg-glow-dot)">
-            <circle cx="70"  cy="331" r="3.5" fill="rgba(99,211,161,0.80)"/>
-            <circle cx="84"  cy="363" r="3"   fill="rgba(99,211,161,0.75)"/>
-            <circle cx="95"  cy="329" r="3.5" fill="rgba(99,211,161,0.80)"/>
-            <circle cx="108" cy="355" r="3"   fill="rgba(99,211,161,0.70)"/>
-            <circle cx="118" cy="297" r="3.5" fill="rgba(99,211,161,0.78)"/>
-            <circle cx="130" cy="322" r="3"   fill="rgba(99,211,161,0.72)"/>
-            <circle cx="142" cy="277" r="3.5" fill="rgba(99,211,161,0.80)"/>
-            <circle cx="155" cy="314" r="3"   fill="rgba(99,211,161,0.68)"/>
-            <circle cx="165" cy="288" r="3.5" fill="rgba(99,211,161,0.76)"/>
-            <circle cx="178" cy="312" r="3"   fill="rgba(99,211,161,0.72)"/>
-            <circle cx="190" cy="260" r="3.5" fill="rgba(99,211,161,0.80)"/>
-            <circle cx="200" cy="277" r="3"   fill="rgba(99,211,161,0.70)"/>
-            <circle cx="212" cy="238" r="3.5" fill="rgba(99,211,161,0.78)"/>
-            <circle cx="218" cy="280" r="3"   fill="rgba(99,211,161,0.65)"/>
-            <circle cx="228" cy="244" r="3.5" fill="rgba(99,211,161,0.74)"/>
-            <circle cx="238" cy="272" r="3"   fill="rgba(99,211,161,0.72)"/>
-            <circle cx="248" cy="214" r="3.5" fill="rgba(99,211,161,0.80)"/>
-            <circle cx="255" cy="247" r="3"   fill="rgba(99,211,161,0.68)"/>
-            <circle cx="265" cy="212" r="3.5" fill="rgba(99,211,161,0.76)"/>
-            <circle cx="272" cy="258" r="3"   fill="rgba(99,211,161,0.70)"/>
-            <circle cx="282" cy="216" r="3.5" fill="rgba(99,211,161,0.80)"/>
-            <circle cx="292" cy="234" r="3"   fill="rgba(99,211,161,0.68)"/>
-            <circle cx="300" cy="189" r="3.5" fill="rgba(99,211,161,0.74)"/>
-            <circle cx="310" cy="213" r="3"   fill="rgba(99,211,161,0.70)"/>
-            <circle cx="318" cy="185" r="3.5" fill="rgba(99,211,161,0.78)"/>
-            <circle cx="328" cy="221" r="3"   fill="rgba(99,211,161,0.65)"/>
-            <circle cx="335" cy="187" r="3.5" fill="rgba(99,211,161,0.76)"/>
-            <circle cx="344" cy="208" r="3"   fill="rgba(99,211,161,0.72)"/>
-            <circle cx="352" cy="155" r="3.5" fill="rgba(99,211,161,0.80)"/>
-            <circle cx="360" cy="188" r="3"   fill="rgba(99,211,161,0.68)"/>
-            <circle cx="370" cy="157" r="3.5" fill="rgba(99,211,161,0.76)"/>
-            <circle cx="378" cy="193" r="3"   fill="rgba(99,211,161,0.70)"/>
-            <circle cx="386" cy="159" r="3.5" fill="rgba(99,211,161,0.78)"/>
-            <circle cx="394" cy="176" r="3"   fill="rgba(99,211,161,0.65)"/>
-            <circle cx="402" cy="131" r="3.5" fill="rgba(99,211,161,0.74)"/>
-            <circle cx="410" cy="161" r="3"   fill="rgba(99,211,161,0.70)"/>
-            <circle cx="418" cy="136" r="3.5" fill="rgba(99,211,161,0.80)"/>
-            <circle cx="426" cy="169" r="3"   fill="rgba(99,211,161,0.68)"/>
+            <circle cx="70"  cy="331" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 80%, transparent)"/>
+            <circle cx="84"  cy="363" r="3"   fill="color-mix(in srgb, var(--rf-primary) 75%, transparent)"/>
+            <circle cx="95"  cy="329" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 80%, transparent)"/>
+            <circle cx="108" cy="355" r="3"   fill="color-mix(in srgb, var(--rf-primary) 70%, transparent)"/>
+            <circle cx="118" cy="297" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 78%, transparent)"/>
+            <circle cx="130" cy="322" r="3"   fill="color-mix(in srgb, var(--rf-primary) 72%, transparent)"/>
+            <circle cx="142" cy="277" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 80%, transparent)"/>
+            <circle cx="155" cy="314" r="3"   fill="color-mix(in srgb, var(--rf-primary) 68%, transparent)"/>
+            <circle cx="165" cy="288" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 76%, transparent)"/>
+            <circle cx="178" cy="312" r="3"   fill="color-mix(in srgb, var(--rf-primary) 72%, transparent)"/>
+            <circle cx="190" cy="260" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 80%, transparent)"/>
+            <circle cx="200" cy="277" r="3"   fill="color-mix(in srgb, var(--rf-primary) 70%, transparent)"/>
+            <circle cx="212" cy="238" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 78%, transparent)"/>
+            <circle cx="218" cy="280" r="3"   fill="color-mix(in srgb, var(--rf-primary) 65%, transparent)"/>
+            <circle cx="228" cy="244" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 74%, transparent)"/>
+            <circle cx="238" cy="272" r="3"   fill="color-mix(in srgb, var(--rf-primary) 72%, transparent)"/>
+            <circle cx="248" cy="214" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 80%, transparent)"/>
+            <circle cx="255" cy="247" r="3"   fill="color-mix(in srgb, var(--rf-primary) 68%, transparent)"/>
+            <circle cx="265" cy="212" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 76%, transparent)"/>
+            <circle cx="272" cy="258" r="3"   fill="color-mix(in srgb, var(--rf-primary) 70%, transparent)"/>
+            <circle cx="282" cy="216" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 80%, transparent)"/>
+            <circle cx="292" cy="234" r="3"   fill="color-mix(in srgb, var(--rf-primary) 68%, transparent)"/>
+            <circle cx="300" cy="189" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 74%, transparent)"/>
+            <circle cx="310" cy="213" r="3"   fill="color-mix(in srgb, var(--rf-primary) 70%, transparent)"/>
+            <circle cx="318" cy="185" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 78%, transparent)"/>
+            <circle cx="328" cy="221" r="3"   fill="color-mix(in srgb, var(--rf-primary) 65%, transparent)"/>
+            <circle cx="335" cy="187" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 76%, transparent)"/>
+            <circle cx="344" cy="208" r="3"   fill="color-mix(in srgb, var(--rf-primary) 72%, transparent)"/>
+            <circle cx="352" cy="155" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 80%, transparent)"/>
+            <circle cx="360" cy="188" r="3"   fill="color-mix(in srgb, var(--rf-primary) 68%, transparent)"/>
+            <circle cx="370" cy="157" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 76%, transparent)"/>
+            <circle cx="378" cy="193" r="3"   fill="color-mix(in srgb, var(--rf-primary) 70%, transparent)"/>
+            <circle cx="386" cy="159" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 78%, transparent)"/>
+            <circle cx="394" cy="176" r="3"   fill="color-mix(in srgb, var(--rf-primary) 65%, transparent)"/>
+            <circle cx="402" cy="131" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 74%, transparent)"/>
+            <circle cx="410" cy="161" r="3"   fill="color-mix(in srgb, var(--rf-primary) 70%, transparent)"/>
+            <circle cx="418" cy="136" r="3.5" fill="color-mix(in srgb, var(--rf-primary) 80%, transparent)"/>
+            <circle cx="426" cy="169" r="3"   fill="color-mix(in srgb, var(--rf-primary) 68%, transparent)"/>
           </g>
 
           <!-- Regression line glow -->
           <line x1="52" y1="360" x2="438" y2="132"
-            stroke="rgba(99,211,161,0.20)" stroke-width="8"
+            stroke="color-mix(in srgb, var(--rf-primary) 20%, transparent)" stroke-width="8"
             stroke-linecap="round" style="filter:blur(4px)"/>
           <!-- Regression line draw-on -->
           <line class="reg-line" x1="52" y1="360" x2="438" y2="132"
-            stroke="rgba(99,211,161,0.75)" stroke-width="2" stroke-linecap="round"/>
+            stroke="color-mix(in srgb, var(--rf-primary) 75%, transparent)" stroke-width="2" stroke-linecap="round"/>
 
           <!-- "padrão real" label -->
           <rect x="291" y="199" width="90" height="22" rx="3"
-            fill="rgba(10,20,14,0.85)" stroke="rgba(99,211,161,0.40)" stroke-width=".6"
+            fill="color-mix(in srgb, var(--rf-surface-primary) 72%, transparent)" stroke="color-mix(in srgb, var(--rf-primary) 40%, transparent)" stroke-width=".6"
             class="appear-2s"/>
           <text x="336" y="213"
             font-family="Space Grotesk,sans-serif" font-size="3" font-weight="600"
-            fill="rgba(99,211,161,0.90)" text-anchor="middle" class="appear-2s">padrão real</text>
+            fill="var(--rf-primary)" text-anchor="middle" class="appear-2s">padrão real</text>
           <line x1="336" y1="199" x2="340" y2="191"
-            stroke="rgba(99,211,161,0.50)" stroke-width=".6" stroke-linecap="round"
+            stroke="color-mix(in srgb, var(--rf-primary) 50%, transparent)" stroke-width=".6" stroke-linecap="round"
             class="appear-2s"/>
 
           <!-- Outlier dot -->
           <g class="outlier-dot" filter="url(#rg-glow-out)">
-            <circle cx="432" cy="40" r="7"  fill="rgba(226,248,27,0.90)"/>
-            <circle cx="432" cy="40" r="12" fill="rgba(226,248,27,0.15)"/>
+            <circle cx="432" cy="40" r="7"  fill="color-mix(in srgb, var(--rf-highlight) 90%, transparent)"/>
+            <circle cx="432" cy="40" r="12" fill="color-mix(in srgb, var(--rf-highlight) 15%, transparent)"/>
           </g>
 
           <!-- Outlier dashed line -->
            <g class="appear-24s">
           <line class="outlier-line" x1="432" y1="47" x2="432" y2="132"
-            stroke="rgba(226,248,27,0.60)" stroke-width="1.2" stroke-linecap="round"/>
+            stroke="color-mix(in srgb, var(--rf-highlight) 60%, transparent)" stroke-width="1.2" stroke-linecap="round"/>
           </g>
 
           <!-- PROPOSTA label -->
           <g class="appear-24s">
             <rect x="210" y="29" width="200" height="22" rx="3"
-              fill="rgba(20,18,0,0.85)" stroke="rgba(226,248,27,0.45)" stroke-width=".6"/>
+              fill="color-mix(in srgb, var(--rf-surface-primary) 72%, transparent)" stroke="color-mix(in srgb, var(--rf-highlight) 45%, transparent)" stroke-width=".6"/>
             <text x="310" y="43"
               font-family="JetBrains Mono,monospace" font-size="3" font-weight="700"
-              fill="rgba(226,248,27,0.92)" text-anchor="middle" letter-spacing=".04em">PROPOSTA ACIMA DO PADRÃO</text>
+              fill="var(--rf-highlight)" text-anchor="middle" letter-spacing=".04em">PROPOSTA ACIMA DO PADRÃO</text>
           </g>
 
           <!-- Delta arrow -->
@@ -416,8 +416,8 @@
 }
 
 @keyframes outlier-pulse {
-  0%,100% { filter: drop-shadow(0 0 4px rgba(226,248,27,.5)); }
-  50%      { filter: drop-shadow(0 0 12px rgba(226,248,27,.9)); }
+  0%,100% { filter: drop-shadow(0 0 4px color-mix(in srgb, var(--rf-highlight) 50%, transparent)); }
+  50%      { filter: drop-shadow(0 0 12px color-mix(in srgb, var(--rf-highlight) 90%, transparent)); }
 }
 .outlier-dot {
   opacity: 0;

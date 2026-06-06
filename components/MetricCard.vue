@@ -7,7 +7,7 @@ defineProps<{
 <template>
   <div class="glass rf-metric">
     <div class="rf-value">
-      {{ value }}
+      <AnimatedNumber :value="value" />
     </div>
     <div class="rf-label">
       {{ label }}

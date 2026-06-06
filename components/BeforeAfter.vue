@@ -45,6 +45,8 @@ const afterLabel =
     repeat(2, minmax(0,1fr));
   gap:
     1.5rem;
+  --primary: var(--rf-primary);
+  --highlight: var(--rf-highlight);
 }
 .rf-label {
   font-size:
@@ -59,11 +61,11 @@ const afterLabel =
 }
 .rf-before {
   color:
-    #7DD5DB;
+    var(--primary);
 }
 .rf-after {
   color:
-    #f59e0b;
+    var(--highlight);
 }
 .rf-content {
   line-height:

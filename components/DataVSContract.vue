@@ -40,11 +40,11 @@
         <div class="artifact" style="grid-row: span 2;">
           <div class="artifact-title">Pipeline</div>
           <div class="code-block">
-            <span class="code-kw">import</span> pandas <span class="code-kw">as</span> pd<br/>
+            <span class="code-kw">import</span> polars <span class="code-kw">as</span> pl<br/>
             <span class="code-kw">from</span> sklearn <span class="code-kw">import</span> <span class="code-fn">pipeline</span><br/>
             <br/>
             <span class="code-cm"># load contracts</span><br/>
-            df = pd.<span class="code-fn">read_parquet</span>(<br/>
+            df = pl.<span class="code-fn">read_parquet</span>(<br/>
             &nbsp;&nbsp;<span class="code-str">"contratos.parquet"</span><br/>
             )<br/>
             <br/>
@@ -81,8 +81,8 @@
               <circle cx="44" cy="28" r="1.8" fill="rgba(255,255,255,0.22)"/>
               <circle cx="58" cy="38" r="2"   fill="rgba(255,255,255,0.18)"/>
               <path d="M 38,8 Q 55,35 65,58" stroke="rgba(99,211,161,0.3)" stroke-width="0.8" stroke-dasharray="2,2" fill="none"/>
-              <text x="14" y="68" style="font-family:'JetBrains Mono',monospace;font-size:4px;fill:rgba(99,211,161,0.6);">Baixo risco</text>
-              <text x="66" y="10" style="font-family:'JetBrains Mono',monospace;font-size:4px;fill:rgba(226,248,27,0.6);">Alto risco</text>
+              <text x="14" y="35" style="font-family:'JetBrains Mono',monospace;font-size:4px;fill:rgba(99,211,161,0.6);">Baixo risco</text>
+              <text x="66" y="8" style="font-family:'JetBrains Mono',monospace;font-size:4px;fill:rgba(226,248,27,0.6);">Alto risco</text>
             </svg>
           </div>
         </div>

@@ -244,7 +244,7 @@ Mesmo modelo, mesmo documento. A diferença está inteiramente no prompt, não n
 </div>
 
 <div v-click>
-<Terminal modelName="Claude Sonnet 4.5" fontSize="0.72rem" :streamSpeed="16" :conversation="[{user: 'Você é um analista de risco. Liste em bullet as 3 maiores exposições financeiras deste contrato. Use só o documento. Se não encontrar, escreva N/E.',response: '• Multa por rescisão antecipada: 20% do valor total remanescente (cláusula 8.4)\n• Reajuste unilateral do fornecedor: até 15% a.a. sem necessidade de aditivo (cláusula 5.2)\n• Ausência de limitação de responsabilidade civil: N/E — não especificado.'}]" />
+<Terminal modelName="Claude Sonnet 4.5" fontSize="0.72rem" :streamSpeed="16" :conversation="[{user: 'Você é um analista de risco. Liste em bullet as 3 maiores exposições financeiras deste contrato. Use só o documento. Se não encontrar, escreva N/E.',response: '• Multa por rescisão antecipada: 20% do valor total remanescente (cláusula 8.4)\n• Reajuste unilateral do fornecedor: até 15% a.a. sem necessidade de aditivo (cláusula 5.2)\n• Ausência de limitação de responsabilidade civil: N/E'}]" />
 </div>
 
 </div>
@@ -310,18 +310,18 @@ O retorno não vem de substituir pessoas. Vem de eliminar o trabalho de prepara�
 
 <div class="flex items-center gap-4 mt-4" style="font-size: 0.8rem; line-height: 1.4;">
 
-<div class="glass p-3 flex-1" style="border-color: rgba(99,211,161,0.45); text-align: center;">
+<div class="glass p-3 flex-1" style="border-color: var(--rf-primary); text-align: center;">
 
-<span style="color: #63d3a1; font-weight: 700;">🧠 Fiel ao treinamento</span><br><br>
+<span style="color: var(--rf-primary); font-weight: 700;">🧠 Fiel ao treinamento</span><br><br>
 Ser completa. Agradar. Parecer confiante. Nunca deixar uma pergunta sem resposta.
 
 </div>
 
 <div style="font-size: 1rem; font-weight: 700; flex-shrink: 0; text-align: center; opacity: 0.45; letter-spacing: 0.1em;">vs</div>
 
-<div class="glass p-3 flex-1" style="border-color: rgba(226,248,27,0.45); text-align: center;">
+<div class="glass p-3 flex-1" style="border-color: var(--rf-highlight); text-align: center;">
 
-<span style="color: #e2f81b; font-weight: 700;">📋 Seguir suas instruções</span><br><br>
+<span style="color: var(--rf-highlight); font-weight: 700;">📋 Seguir suas instruções</span><br><br>
 Ser precisa. Dizer "não encontrei". Citar a fonte. Usar só o que está no documento.
 
 </div>
@@ -374,12 +374,12 @@ Antes de falar nos limites técnicos, é importante entender o conflito de objet
 <svg viewBox="0 0 900 355" xmlns="http://www.w3.org/2000/svg" style="position: absolute; inset: 0; width: 100%; height: 100%;">
   <defs>
     <radialGradient id="innerGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#63d3a1" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#63d3a1" stop-opacity="0.03"/>
+      <stop offset="0%" stop-color="var(--rf-primary)" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="var(--rf-primary)" stop-opacity="0.03"/>
     </radialGradient>
     <radialGradient id="inventouGrad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#e2f81b" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#e2f81b" stop-opacity="0.02"/>
+      <stop offset="0%" stop-color="var(--rf-highlight)" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="var(--rf-highlight)" stop-opacity="0.02"/>
     </radialGradient>
     <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -394,37 +394,37 @@ Antes de falar nos limites técnicos, é importante entender o conflito de objet
 
   <!-- CLIQUE 0: sempre visível — contrato -->
   <circle cx="450" cy="183" r="145"
-    fill="rgba(99,211,161,0.03)"
-    stroke="#63d3a1"
+    fill="color-mix(in srgb, var(--rf-primary) 3%, transparent)"
+    stroke="#2cc9ec"
     stroke-width="1.5"
     stroke-dasharray="9 6"
-    opacity="0.7"/>
+    opacity="0.85"/>
   <text x="450" y="27" text-anchor="middle"
     class="svg-label"
-    style="font-size:13px; font-weight:400; letter-spacing:0.03em; font-family:'Space Grotesk',sans-serif;"
-    fill="rgba(99,211,161,0.65)">O que estava no contrato</text>
+    style="font-size:13px; font-weight:500; letter-spacing:0.03em; font-family:'Space Grotesk',sans-serif;"
+    fill="#2cc9ec">O que estava no contrato</text>
 
   <!-- CLIQUE 1: o que a IA achou -->
   <g v-click>
     <circle cx="468" cy="177" r="110"
       fill="url(#innerGrad)"
-      stroke="#63d3a1"
+      stroke="var(--rf-primary)"
       stroke-width="1.5"
       filter="url(#softGlow)"/>
-    <circle cx="412" cy="138" r="3" fill="#63d3a1" opacity="0.75"/>
-    <line x1="420" y1="138" x2="542" y2="138" stroke="#63d3a1" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
-    <circle cx="412" cy="157" r="3" fill="#63d3a1" opacity="0.75"/>
-    <line x1="420" y1="157" x2="524" y2="157" stroke="#63d3a1" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
-    <circle cx="412" cy="176" r="3" fill="#63d3a1" opacity="0.75"/>
-    <line x1="420" y1="176" x2="538" y2="176" stroke="#63d3a1" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
-    <circle cx="412" cy="195" r="3" fill="#63d3a1" opacity="0.75"/>
-    <line x1="420" y1="195" x2="514" y2="195" stroke="#63d3a1" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
-    <circle cx="412" cy="214" r="3" fill="#63d3a1" opacity="0.75"/>
-    <line x1="420" y1="214" x2="528" y2="214" stroke="#63d3a1" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="412" cy="138" r="3" fill="var(--rf-primary)" opacity="0.75"/>
+    <line x1="420" y1="138" x2="542" y2="138" stroke="var(--rf-primary)" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="412" cy="157" r="3" fill="var(--rf-primary)" opacity="0.75"/>
+    <line x1="420" y1="157" x2="524" y2="157" stroke="var(--rf-primary)" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="412" cy="176" r="3" fill="var(--rf-primary)" opacity="0.75"/>
+    <line x1="420" y1="176" x2="538" y2="176" stroke="var(--rf-primary)" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="412" cy="195" r="3" fill="var(--rf-primary)" opacity="0.75"/>
+    <line x1="420" y1="195" x2="514" y2="195" stroke="var(--rf-primary)" stroke-width="1.8" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="412" cy="214" r="3" fill="var(--rf-primary)" opacity="0.75"/>
+    <line x1="420" y1="214" x2="528" y2="214" stroke="var(--rf-primary)" stroke-width="1.8" stroke-linecap="round" opacity="0.55"/>
     <text x="468" y="308" text-anchor="middle"
       class="svg-label-bold"
       style="font-size:13px; font-weight:600; letter-spacing:0; font-family:'Space Grotesk',sans-serif;"
-      fill="rgba(99,211,161,0.85)">O que a IA achou</text>
+      fill="color-mix(in srgb, var(--rf-primary) 85%, transparent)">O que a IA achou</text>
   </g>
 
   <!-- CLIQUE 2: perdeu (vermelho) -->
@@ -450,19 +450,19 @@ Antes de falar nos limites técnicos, é importante entender o conflito de objet
   <g v-click>
     <circle cx="636" cy="250" r="58"
       fill="url(#inventouGrad)"
-      stroke="#e2f81b"
+      stroke="var(--rf-highlight)"
       stroke-width="1.5"
       stroke-dasharray="7 5"
       opacity="0.85"/>
-    <line x1="582" y1="237" x2="688" y2="237" stroke="#e2f81b" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
-    <line x1="580" y1="251" x2="690" y2="251" stroke="#e2f81b" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
-    <line x1="584" y1="265" x2="684" y2="265" stroke="#e2f81b" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <line x1="582" y1="237" x2="688" y2="237" stroke="var(--rf-highlight)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <line x1="580" y1="251" x2="690" y2="251" stroke="var(--rf-highlight)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+    <line x1="584" y1="265" x2="684" y2="265" stroke="var(--rf-highlight)" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
     <rect x="598" y="310" width="80" height="22" rx="5"
-      fill="rgba(226,248,27,0.10)" stroke="#e2f81b" stroke-width="1" opacity="0.9"/>
+      fill="color-mix(in srgb, var(--rf-highlight) 10%, transparent)" stroke="var(--rf-highlight)" stroke-width="1" opacity="0.9"/>
     <text x="638" y="325" text-anchor="middle"
       class="svg-badge"
       style="font-size:11px; font-weight:600; font-family:'Space Grotesk',sans-serif;"
-      fill="#e2f81b">inventou</text>
+      fill="var(--rf-highlight)">inventou</text>
   </g>
 
 </svg>
@@ -474,8 +474,8 @@ Antes de falar nos limites técnicos, é importante entender o conflito de objet
 </div>
 
 <!-- Right card: aparece no clique 3 (junto com o círculo amarelo) -->
-<div v-click="3" class="glass p-4" style="position: absolute; right: 0; top: 55px; width: 190px; border-color: rgba(226,248,27,0.45);">
-  <div style="color: #e2f81b; font-weight: 700; font-size: 0.82rem; margin-bottom: 0.4rem; line-height: 1.3;">⚠ A IA pode inventar informação</div>
+<div v-click="3" class="glass p-4" style="position: absolute; right: 0; top: 55px; width: 190px; border-color: color-mix(in srgb, var(--rf-highlight) 45%, transparent);">
+  <div style="color: var(--rf-highlight); font-weight: 700; font-size: 0.82rem; margin-bottom: 0.4rem; line-height: 1.3;">⚠ A IA pode inventar informação</div>
   <p style="font-size: 0.75rem; line-height: 1.5; opacity: 0.7; margin: 0;">Algo apareceu na resposta, mas não estava no contrato.</p>
 </div>
 
@@ -499,17 +499,17 @@ Dois problemas opostos — ao mesmo tempo. Recall: ela não cobre tudo e não av
 
   <div v-click class="glass p-3" style="font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.3rem;">📄 Resumo executivo</span>
-      <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap;">Resuma o documento abaixo em no máximo 5 bullets. Cada bullet deve ter: tema | achado principal | implicação prática. Use só o que está no texto. Se não houver implicação clara, escreva N/A.</code>
+      <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap; background: transparent;">Resuma o documento abaixo em no máximo 5 bullets. Cada bullet deve ter: tema | achado principal | implicação prática. Use só o que está no texto. Se não houver implicação clara, escreva N/A.</code>
     </div>
 
   <div v-click class="glass p-3" style="font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.3rem;">⚠️ Mapeamento de riscos</span>
-      <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap;">Você é um analista de risco jurídico. Leia o contrato abaixo e liste em tabela os pontos de atenção: cláusula | risco | severidade (alta/média/baixa) | recomendação. Use só o documento. N/E se não encontrar.</code>
+      <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap; background: transparent;">Você é um analista de risco jurídico. Leia o contrato abaixo e liste em tabela os pontos de atenção: cláusula | risco | severidade (alta/média/baixa) | recomendação. Use só o documento. N/E se não encontrar.</code>
     </div>
 
   <div v-click class="glass p-3" style="font-size: 0.6rem; line-height: 1.6;">
       <span style="color: var(--rf-primary); font-weight: 700; display: block; margin-bottom: 0.3rem;">🔍 Comparação entre versões</span>
-      <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap;">Compare os dois documentos abaixo. Liste as diferenças em tabela: item | versão A | versão B | impacto da mudança. Ignore formatação, foque em conteúdo substantivo.</code>
+      <code style="font-size: 0.7rem; color: var(--rf-text-muted); white-space: pre-wrap; background: transparent;">Compare os dois documentos abaixo. Liste as diferenças em tabela: item | versão A | versão B | impacto da mudança. Ignore formatação, foque em conteúdo substantivo.</code>
     </div>
 
   </div>

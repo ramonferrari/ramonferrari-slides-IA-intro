@@ -7,15 +7,12 @@ defineProps<{
 
 <template>
   <div class="rf-highlight">
-
     <div class="rf-value">
-      {{ value }}
+      <AnimatedNumber :value="value" />
     </div>
-
     <div class="rf-caption">
       {{ caption }}
     </div>
-
   </div>
 </template>
 

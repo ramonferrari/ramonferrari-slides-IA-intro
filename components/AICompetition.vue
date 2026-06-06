@@ -53,7 +53,7 @@ onUnmounted(() => clearInterval(timer))
 
     <div style="display:flex; align-items:center; justify-content:center; gap:0.6rem; margin-bottom:2rem;">
       <span class="live-dot" />
-      <span style="font-size:0.65rem; text-transform:uppercase; letter-spacing:0.14em; opacity:0.4; font-family:'Space Grotesk',sans-serif;">
+      <span style="font-size:0.65rem; text-transform:uppercase; letter-spacing:0.14em; opacity:1.0; font-family:'Space Grotesk',sans-serif; color: var(--rf-text-primary);">
         Score médio — benchmarks públicos — em tempo real
       </span>
     </div>
@@ -65,7 +65,7 @@ onUnmounted(() => clearInterval(timer))
           <div :style="`font-size:0.9rem; font-weight:700; color:${m.color}; font-family:'Space Grotesk',sans-serif;`">
             {{ m.name }}
           </div>
-          <div style="font-size:0.6rem; opacity:0.38; font-family:'Space Grotesk',sans-serif; letter-spacing:0.06em; text-transform:uppercase;">
+          <div style="font-size:0.6rem; opacity:1.0; font-family:'Space Grotesk',sans-serif; letter-spacing:0.06em; text-transform:uppercase; color: var(--rf-text-primary);">
             {{ m.org }}
           </div>
         </div>
@@ -77,14 +77,14 @@ onUnmounted(() => clearInterval(timer))
           />
         </div>
 
-        <div :style="`width:48px; flex-shrink:0; font-size:0.82rem; font-weight:700; font-family:'JetBrains Mono',monospace; color:${m.color}; text-align:right;`">
+        <div style="width:48px; flex-shrink:0; font-size:0.82rem; font-weight:700; font-family:'JetBrains Mono',monospace; color: var(--rf-text-primary); text-align:right;">
           {{ m.value.toFixed(1) }}
         </div>
 
       </div>
     </TransitionGroup>
 
-    <div style="text-align:center; margin-top:2rem; font-size:0.65rem; opacity:0.3; font-family:'Space Grotesk',sans-serif; letter-spacing:0.06em;">
+    <div style="text-align:center; margin-top:2rem; font-size:0.65rem; opacity:1.0; font-family:'Space Grotesk',sans-serif; letter-spacing:0.06em; color: var(--rf-text-primary);">
       Nenhum modelo mantém a liderança por muito tempo.
     </div>
 
@@ -137,7 +137,7 @@ onUnmounted(() => clearInterval(timer))
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #e2f81b;
+  background: var(--rf-highlight);
   display: inline-block;
   animation: pulse 1.3s ease-in-out infinite;
 }

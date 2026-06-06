@@ -5,6 +5,7 @@ defineProps<{
   caption?: string
   position?: "left" | "right" | "center" | "full"
   width?: string
+  maxWidth?: string
   fit?: "cover" | "contain"
 }>()
 </script>
@@ -27,24 +28,16 @@ defineProps<{
     </div>
   </div>
   <!-- CENTER -->
-  <div
-    v-else-if="position === 'center'"
-    class="rf-image-center"
-  >
-    <div class="glass rf-image-wrapper">
+  <div v-else-if="position === 'center'" style="text-align: center;">
+    <div class="glass" style="display: inline-block; padding: 1.5rem;">
       <img
         :src="src"
         :alt="alt"
         :class="fit || 'contain'"
-        :style="{ width: width || '70%' }"
+        :style="{ width: width || '70%', maxWidth: maxWidth, borderRadius: '18px', display: 'block' }"
       />
     </div>
-    <div
-      v-if="caption"
-      class="rf-caption"
-    >
-      {{ caption }}
-    </div>
+    <div v-if="caption" class="rf-caption">{{ caption }}</div>
   </div>
   <!-- SIDE -->
   <div
@@ -93,20 +86,30 @@ defineProps<{
   padding: 1rem;
 }
 .rf-image-wrapper {
-  padding: 2rem;
+  padding: 1.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
 }
 .rf-image-side img,
-.rf-image-wrapper img,
 .rf-image-full img {
   width: 100%;
   border-radius: 18px;
   display: block;
 }
+.rf-image-wrapper img {
+  border-radius: 18px;
+  display: block;
+  width: auto;
+  height: auto;
+}
 .rf-content-side {
   line-height: 1.7;
 }
 .rf-image-center {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .rf-image-full {
   padding: 1rem;
