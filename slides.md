@@ -1130,7 +1130,7 @@ Seis perguntas que sempre aparecem — respondo de uma vez. "Vai me substituir?"
 
 # E agora??
 
-<Spacer :h="20"/>
+<Spacer :h="5"/>
 
 <div class="rf-center text-center">
   <div style="position: absolute; inset: 0; background: radial-gradient(ellipse at center, rgba(99,211,161,0.14) 0%, transparent 65%); filter: blur(40px); pointer-events: none;" />
