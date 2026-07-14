@@ -182,13 +182,11 @@ Vamos à definição, sem jargão. Quando você pesquisa no Google "receita de b
 
 # Já é presente, não futuro
 
-<div class="rf-metrics-3 mt-10">
+<div class="grid grid-cols-3 gap-4 mt-10">
   <MetricCard value="~78%" label="das organizações já usam GenAI em ao menos 1 função" />
   <MetricCard value="US$ 395 bi" label="mercado global estimado em 2026" />
   <MetricCard value="+327%" label="crescimento de sistemas multi-agente em < 4 meses" />
 </div>
-
-<p style="text-align: center; margin-top: 2.4rem; font-size: 0.78rem; color: var(--rf-text-muted);">estimativas de mercado (McKinsey · GM Insights/Statista · Databricks): conferir fonte primária antes de apresentar</p>
 
 <!--
 Rápido, só pra dimensionar. Cerca de 78% das grandes organizações já usam IA generativa em pelo menos uma área do negócio. Isso é agora, 2026, não promessa. O mercado global gira na casa das centenas de bilhões de dólares. E sistemas onde vários agentes de IA trabalham juntos cresceram mais de 300% em poucos meses. Não guardem os números; guardem o recado: isso saiu do laboratório e entrou na operação das empresas. Razão de sobra pra gente entender direito o que é essa coisa.
