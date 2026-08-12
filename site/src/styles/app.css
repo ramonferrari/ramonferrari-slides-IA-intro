@@ -1,0 +1,233 @@
+/* ════════════════════════════════════════════
+   APP SHELL — responsive additions on top of
+   the deck's own styles/theme.css
+════════════════════════════════════════════ */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--rf-bg);
+}
+
+body {
+  margin: 0;
+  background: var(--rf-bg);
+  min-height: 100vh;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
+/* Each slide-section is a real block in document flow, not a fixed canvas */
+.rf-slide {
+  position: relative;
+  width: 100%;
+  padding: clamp(2.5rem, 6vw, 5rem) clamp(1.25rem, 5vw, 3rem);
+  overflow-x: hidden;
+  scroll-margin-top: 76px;
+  border-bottom: 1px solid var(--rf-border-primary);
+}
+
+.rf-slide-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.rf-slide--hero {
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+}
+
+.rf-slide--hero .rf-slide-inner {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  max-width: none;
+}
+
+.rf-slide--hero .cover {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Allow long titles to wrap on narrow screens instead of shrinking to near-nothing */
+@media (max-width: 640px) {
+  .slidev-layout h1:not(.rf-hero) {
+    white-space: normal;
+    font-size: clamp(1.3rem, 6vw, 2rem) !important;
+  }
+}
+
+/* Any multi-column grid used across the deck collapses to one column on small screens */
+@media (max-width: 780px) {
+  .rf-slide [class*="grid-cols-"] {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ════════════════════════════════════════════
+   TOP NAV
+════════════════════════════════════════════ */
+
+.rf-nav {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.7rem clamp(1rem, 4vw, 2rem);
+  background: color-mix(in srgb, var(--rf-bg) 86%, transparent);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--rf-border-primary);
+}
+
+.rf-nav-brand {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  color: var(--rf-text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rf-nav-brand b {
+  color: var(--rf-primary);
+}
+
+.rf-progress {
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 2px;
+  background: var(--rf-highlight);
+  transition: width 0.15s linear;
+}
+
+.rf-nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: transparent;
+  border: 1px solid var(--rf-border-secondary);
+  color: var(--rf-text-primary);
+  border-radius: 8px;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.rf-nav-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 49;
+  background: rgba(0, 0, 0, 0.45);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s var(--rf-ease);
+}
+
+.rf-nav-backdrop.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.rf-nav-links {
+  position: fixed;
+  z-index: 51;
+  inset: 60px 0 0 auto;
+  width: min(340px, 88vw);
+  height: calc(100vh - 60px);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  background: var(--rf-bg-soft);
+  border-left: 1px solid var(--rf-border-primary);
+  padding: 1.25rem clamp(1.25rem, 6vw, 2rem) 3rem;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transform: translateX(100%);
+  transition: transform 0.25s var(--rf-ease);
+}
+
+.rf-nav-links.is-open {
+  transform: translateX(0);
+}
+
+.rf-nav-links a {
+  color: var(--rf-text-muted);
+  padding: 0.6rem 0;
+  border-bottom: 1px solid var(--rf-border-primary);
+}
+
+.rf-nav-links a.is-active,
+.rf-nav-links a:hover {
+  color: var(--rf-primary);
+}
+
+.rf-nav-group-label {
+  width: 100%;
+  color: var(--rf-highlight);
+  opacity: 0.8;
+  margin: 1.1rem 0 -0.5rem;
+}
+
+.rf-nav-group-label:first-child {
+  margin-top: 0;
+}
+
+/* ════════════════════════════════════════════
+   FOOTER
+════════════════════════════════════════════ */
+
+.rf-footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1.4rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1.5rem 3rem;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: var(--rf-text-muted);
+  text-align: center;
+}
+
+.rf-footer a {
+  color: var(--rf-primary);
+  font-weight: 600;
+}
+
+/* ════════════════════════════════════════════
+   SKIP LINK
+════════════════════════════════════════════ */
+
+.rf-skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--rf-highlight);
+  color: #111;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.rf-skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+}
