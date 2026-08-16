@@ -104,17 +104,23 @@ svg {
   position: sticky;
   top: 0;
   z-index: 50;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 0.7rem clamp(1rem, 4vw, 2rem);
+  gap: clamp(0.4rem, 2vw, 1rem);
+  padding: 0.7rem clamp(0.75rem, 4vw, 2rem);
   background: color-mix(in srgb, var(--rf-bg) 86%, transparent);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--rf-border-primary);
+  /* Trava a barra em uma única linha, sem permitir que ela quebre/distorça
+     em telas estreitas — os itens encolhem/truncam em vez de empilhar. */
+  flex-wrap: nowrap;
 }
 
 .rf-nav-brand {
+  grid-column: 2;
+  min-width: 0;
+  text-align: center;
   font-family: "JetBrains Mono", monospace;
   font-size: 0.78rem;
   letter-spacing: 0.08em;
@@ -138,17 +144,108 @@ svg {
 }
 
 .rf-nav-toggle {
+  grid-column: 1;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  gap: 0.4rem;
   flex-shrink: 0;
   background: transparent;
   border: 1px solid var(--rf-border-secondary);
   color: var(--rf-text-primary);
   border-radius: 8px;
   padding: 0.4rem 0.7rem;
-  font-size: 0.9rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
   cursor: pointer;
+}
+
+.rf-nav-toggle-label {
+  text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+  .rf-nav-toggle-label {
+    display: none;
+  }
+  .rf-nav-toggle {
+    padding: 0.4rem;
+  }
+}
+
+/* ── Presentation tools (laser / draw / fullscreen) ── */
+
+.rf-nav-tools {
+  grid-column: 3;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: clamp(0.25rem, 1.2vw, 0.5rem);
+  flex-shrink: 0;
+}
+
+.rf-tool-draw-group {
+  position: relative;
+}
+
+.rf-tool-btn {
+  width: clamp(30px, 3.2vw, 36px);
+  height: clamp(30px, 3.2vw, 36px);
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--rf-border-secondary);
+  background: transparent;
+  color: var(--rf-text-primary);
+  cursor: pointer;
+}
+
+.rf-tool-btn--small {
+  width: 28px;
+  height: 28px;
+}
+
+.rf-tool-btn.is-active {
+  border-color: var(--rf-highlight);
+  color: var(--rf-highlight);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--rf-highlight) 30%, transparent);
+}
+
+.rf-tool-popover {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: color-mix(in srgb, var(--rf-bg) 92%, transparent);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--rf-border-primary);
+  border-radius: 999px;
+  padding: 0.4rem 0.5rem;
+  white-space: nowrap;
+}
+
+.rf-tool-swatch {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.rf-tool-swatch.is-active {
+  border-color: var(--rf-text-primary);
+}
+
+@media print {
+  .rf-nav-tools {
+    display: none !important;
+  }
 }
 
 .rf-nav-backdrop {

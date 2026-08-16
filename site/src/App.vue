@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { slideMeta } from './slideMeta'
-import PresentationToolkit from './components/PresentationToolkit.vue'
+import Icon from './components/Icon.vue'
+import PresentationOverlay from './components/PresentationOverlay.vue'
 
 import CoverIntro from './slides/CoverIntro.vue'
 import QuemSouEu from './slides/QuemSouEu.vue'
@@ -37,6 +38,13 @@ import CoverFinal from './slides/CoverFinal.vue'
 const navOpen = ref(false)
 const activeId = ref('inicio')
 const progress = ref(0)
+
+type ToolMode = 'off' | 'laser' | 'draw'
+const toolMode = ref<ToolMode>('off')
+const toolColor = ref('#ff4d4f')
+const toolColors = ['#ff4d4f', '#ffd43b', '#40c057', '#339af0', '#ffffff']
+const isFullscreen = ref(false)
+const overlayRef = ref<InstanceType<typeof PresentationOverlay> | null>(null)
 
 const groupedNav = computed(() => {
   const groups: { name: string; items: typeof slideMeta }[] = []
@@ -82,15 +90,60 @@ const pagingKeys: Record<string, number> = {
   PageUp: -1,
 }
 
-function onPagingKeydown(e: KeyboardEvent) {
+function setToolMode(next: ToolMode) {
+  toolMode.value = toolMode.value === next ? 'off' : next
+}
+
+function clearDrawing() {
+  overlayRef.value?.clearCanvas()
+}
+
+function toggleFullscreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen?.().catch(() => {})
+  } else {
+    document.exitFullscreen?.()
+  }
+}
+
+function onFullscreenChange() {
+  isFullscreen.value = !!document.fullscreenElement
+}
+
+function onKeydown(e: KeyboardEvent) {
   const target = e.target as HTMLElement | null
-  if (target && ['INPUT', 'TEXTAREA', 'BUTTON', 'A'].includes(target.tagName)) return
+  if (target && ['INPUT', 'TEXTAREA'].includes(target.tagName)) return
   if (e.metaKey || e.ctrlKey || e.altKey) return
+
+  if (e.key === 'l' || e.key === 'L') {
+    setToolMode('laser')
+    return
+  }
+  if (e.key === 'd' || e.key === 'D') {
+    setToolMode('draw')
+    return
+  }
+  if (e.key === 'f' || e.key === 'F') {
+    toggleFullscreen()
+    return
+  }
+  if (e.key === 'Escape' && toolMode.value !== 'off') {
+    toolMode.value = 'off'
+    return
+  }
+  if ((e.key === 'c' || e.key === 'C') && toolMode.value === 'draw') {
+    clearDrawing()
+    return
+  }
+
+  if (target && ['BUTTON', 'A'].includes(target.tagName)) return
   const offset = pagingKeys[e.key]
   if (offset === undefined) return
   e.preventDefault()
   goToOffset(offset)
 }
+
+watch(activeId, () => clearDrawing())
 
 onMounted(() => {
   const sections = Array.from(document.querySelectorAll<HTMLElement>('[data-slide]'))
@@ -106,14 +159,16 @@ onMounted(() => {
   sections.forEach((s) => observer!.observe(s))
 
   window.addEventListener('scroll', onScroll, { passive: true })
-  window.addEventListener('keydown', onPagingKeydown)
+  window.addEventListener('keydown', onKeydown)
+  document.addEventListener('fullscreenchange', onFullscreenChange)
   onScroll()
 })
 
 onBeforeUnmount(() => {
   observer?.disconnect()
   window.removeEventListener('scroll', onScroll)
-  window.removeEventListener('keydown', onPagingKeydown)
+  window.removeEventListener('keydown', onKeydown)
+  document.removeEventListener('fullscreenchange', onFullscreenChange)
 })
 </script>
 
@@ -121,10 +176,6 @@ onBeforeUnmount(() => {
   <a href="#inicio" class="rf-skip-link">Pular para o conteúdo</a>
 
   <header class="rf-nav">
-    <a href="#inicio" class="rf-nav-brand" @click="closeNav">
-      A era da IA Generativa <b>· R. M. Ferrari</b>
-    </a>
-
     <button
       type="button"
       class="rf-nav-toggle"
@@ -132,8 +183,72 @@ onBeforeUnmount(() => {
       aria-label="Abrir sumário da apresentação"
       @click="navOpen = !navOpen"
     >
-      {{ navOpen ? '✕ fechar' : '☰ sumário' }}
+      <Icon :name="navOpen ? 'close' : 'menu'" />
+      <span class="rf-nav-toggle-label">sumário</span>
     </button>
+
+    <a href="#inicio" class="rf-nav-brand" @click="closeNav">
+      A era da IA Generativa <b>· R. M. Ferrari</b>
+    </a>
+
+    <div class="rf-nav-tools">
+      <button
+        type="button"
+        class="rf-tool-btn"
+        :class="{ 'is-active': toolMode === 'laser' }"
+        title="Ponteiro laser (L)"
+        aria-label="Ativar ponteiro laser"
+        @click="setToolMode('laser')"
+      >
+        <Icon name="laser" />
+      </button>
+
+      <div class="rf-tool-draw-group">
+        <button
+          type="button"
+          class="rf-tool-btn"
+          :class="{ 'is-active': toolMode === 'draw' }"
+          title="Desenhar (D)"
+          aria-label="Ativar desenho livre"
+          @click="setToolMode('draw')"
+        >
+          <Icon name="pencil" />
+        </button>
+
+        <div v-if="toolMode === 'draw'" class="rf-tool-popover">
+          <button
+            v-for="c in toolColors"
+            :key="c"
+            type="button"
+            class="rf-tool-swatch"
+            :class="{ 'is-active': toolColor === c }"
+            :style="{ background: c }"
+            :aria-label="`Cor ${c}`"
+            @click="toolColor = c"
+          />
+          <button
+            type="button"
+            class="rf-tool-btn rf-tool-btn--small"
+            title="Limpar (C)"
+            aria-label="Limpar desenho"
+            @click="clearDrawing"
+          >
+            <Icon name="trash" />
+          </button>
+        </div>
+      </div>
+
+      <button
+        type="button"
+        class="rf-tool-btn"
+        :class="{ 'is-active': isFullscreen }"
+        title="Tela cheia (F)"
+        aria-label="Alternar tela cheia"
+        @click="toggleFullscreen"
+      >
+        <Icon :name="isFullscreen ? 'compress' : 'expand'" />
+      </button>
+    </div>
 
     <nav class="rf-nav-links" :class="{ 'is-open': navOpen }" aria-label="Sumário da apresentação">
       <template v-for="group in groupedNav" :key="group.name">
@@ -197,5 +312,5 @@ onBeforeUnmount(() => {
     <a href="#inicio">voltar ao início</a>
   </footer>
 
-  <PresentationToolkit :active-id="activeId" />
+  <PresentationOverlay ref="overlayRef" :mode="toolMode" :color="toolColor" />
 </template>
