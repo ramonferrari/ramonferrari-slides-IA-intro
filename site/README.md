@@ -58,6 +58,34 @@ npm run preview   # serve o build de produção
   palco fixo do Slidev; aqui recebe uma altura explícita
   (`min(58vh, 480px)`) para funcionar em fluxo normal de página.
 
+## Modo apresentação (TV/telão)
+
+- **Paginação por seção** — setas ←→↑↓, `Espaço` e `PageUp`/`PageDown`
+  pulam para a seção anterior/seguinte inteira (funciona com clickers de
+  apresentação, que costumam emitir essas mesmas teclas).
+- **Tela cheia** — botão ⛶ (canto inferior direito) ou tecla `F`, via
+  Fullscreen API do navegador.
+- **Ponteiro laser** — tecla `L` ou botão 🔴: um ponto vermelho segue o
+  cursor/caneta, sem interferir em cliques.
+- **Desenho livre** — tecla `D` ou botão ✏️: canvas transparente por cima
+  da tela para grifar/anotar ao vivo (mouse, caneta ou touch). Escolha de
+  cor, `C` ou 🧹 limpa, `Esc` desativa. O desenho é limpo automaticamente
+  ao trocar de seção.
+- **Margem de segurança (overscan)** — em telas ≥1600px de largura o
+  padding lateral/vertical passa a acompanhar o viewport (`vw`/`vh`) em
+  vez de ficar fixo, para não colar conteúdo na borda em TVs que cortam
+  a imagem.
+- **Fontes locais** — `@font-face` em `../styles/theme.css` já aponta
+  para arquivos em `public/fonts/` (servidos via `publicDir` apontando
+  para a pasta `public/` da raiz), não para um CDN — o visual não
+  depende da internet do local do evento.
+
+Antes de apresentar em um telão desconhecido, vale rodar
+`npm run build && npm run preview` e abrir de fato na TV/projetor via
+HDMI com antecedência: resolução, aspect ratio, navegador e suporte a
+`backdrop-filter`/`color-mix` (usados no visual) variam bastante em
+Smart TVs e podem não ter sido testados aqui.
+
 ## Deploy
 
 Este projeto tem `package.json`/`vite.config.ts` próprios em `site/`, agindo

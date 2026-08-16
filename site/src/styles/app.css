@@ -51,6 +51,18 @@ svg {
   margin: 0 auto;
 }
 
+/* TVs/projetores antigos cortam as bordas (overscan) — em telas muito
+   largas o padding em rem para de acompanhar o tamanho da tela, então
+   garantimos uma margem mínima proporcional. */
+@media (min-width: 1600px) {
+  .rf-slide {
+    padding-left: max(3rem, 5vw);
+    padding-right: max(3rem, 5vw);
+    padding-top: max(2.5rem, 4vh);
+    padding-bottom: max(2.5rem, 4vh);
+  }
+}
+
 .rf-slide--hero {
   padding: 0;
   min-height: 100vh;

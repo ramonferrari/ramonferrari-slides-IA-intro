@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { slideMeta } from './slideMeta'
+import PresentationToolkit from './components/PresentationToolkit.vue'
 
 import CoverIntro from './slides/CoverIntro.vue'
 import QuemSouEu from './slides/QuemSouEu.vue'
@@ -63,6 +64,34 @@ function closeNav() {
   navOpen.value = false
 }
 
+function goToOffset(offset: number) {
+  const ids = slideMeta.map((s) => s.id)
+  const currentIndex = Math.max(0, ids.indexOf(activeId.value))
+  const nextIndex = Math.min(ids.length - 1, Math.max(0, currentIndex + offset))
+  const el = document.getElementById(ids[nextIndex])
+  el?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
+const pagingKeys: Record<string, number> = {
+  ArrowRight: 1,
+  ArrowDown: 1,
+  PageDown: 1,
+  ' ': 1,
+  ArrowLeft: -1,
+  ArrowUp: -1,
+  PageUp: -1,
+}
+
+function onPagingKeydown(e: KeyboardEvent) {
+  const target = e.target as HTMLElement | null
+  if (target && ['INPUT', 'TEXTAREA', 'BUTTON', 'A'].includes(target.tagName)) return
+  if (e.metaKey || e.ctrlKey || e.altKey) return
+  const offset = pagingKeys[e.key]
+  if (offset === undefined) return
+  e.preventDefault()
+  goToOffset(offset)
+}
+
 onMounted(() => {
   const sections = Array.from(document.querySelectorAll<HTMLElement>('[data-slide]'))
   observer = new IntersectionObserver(
@@ -77,12 +106,14 @@ onMounted(() => {
   sections.forEach((s) => observer!.observe(s))
 
   window.addEventListener('scroll', onScroll, { passive: true })
+  window.addEventListener('keydown', onPagingKeydown)
   onScroll()
 })
 
 onBeforeUnmount(() => {
   observer?.disconnect()
   window.removeEventListener('scroll', onScroll)
+  window.removeEventListener('keydown', onPagingKeydown)
 })
 </script>
 
@@ -165,4 +196,6 @@ onBeforeUnmount(() => {
     <span>·</span>
     <a href="#inicio">voltar ao início</a>
   </footer>
+
+  <PresentationToolkit :active-id="activeId" />
 </template>
