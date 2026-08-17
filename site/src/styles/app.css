@@ -15,11 +15,13 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  /* Sem "fixed": o glow deve ficar ancorado ao topo/rodapé do documento
+     inteiro (aparece uma vez só), não ao viewport — "fixed" o colava no
+     canto da tela e ele "reaparecia" a cada scroll. */
   background:
     radial-gradient(circle at 100% 0%, var(--rf-glow) 0%, transparent 40%),
     radial-gradient(circle at 0% 100%, var(--rf-glow) 0%, transparent 35%),
     var(--rf-bg);
-  background-attachment: fixed;
 }
 
 html.light body {
@@ -49,6 +51,13 @@ svg {
 .rf-slide-inner {
   max-width: 1080px;
   margin: 0 auto;
+}
+
+/* No deck original o h1 fica centralizado verticalmente no slide 16:9;
+   aqui o conteúdo vem logo abaixo, então precisa de mais respiro do
+   que os 1.8rem pensados para aquele layout. */
+.rf-slide-inner > h1:not(.rf-hero)::after {
+  margin-bottom: 3rem !important;
 }
 
 /* TVs/projetores antigos cortam as bordas (overscan) — em telas muito
@@ -266,7 +275,7 @@ svg {
 .rf-nav-links {
   position: fixed;
   z-index: 51;
-  inset: 60px 0 0 auto;
+  inset: 60px auto 0 0;
   width: min(340px, 88vw);
   height: calc(100vh - 60px);
   overflow-y: auto;
@@ -274,13 +283,13 @@ svg {
   flex-direction: column;
   gap: 0;
   background: var(--rf-bg-soft);
-  border-left: 1px solid var(--rf-border-primary);
+  border-right: 1px solid var(--rf-border-primary);
   padding: 1.25rem clamp(1.25rem, 6vw, 2rem) 3rem;
   font-family: "JetBrains Mono", monospace;
   font-size: 0.72rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  transform: translateX(100%);
+  transform: translateX(-100%);
   transition: transform 0.25s var(--rf-ease);
 }
 

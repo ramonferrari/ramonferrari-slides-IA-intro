@@ -106,7 +106,10 @@ defineExpose({ clearCanvas })
 .rf-draw-canvas {
   position: fixed;
   inset: 0;
-  z-index: 250;
+  /* Abaixo da nav (z-index 50) para não capturar cliques nela — o
+     desenho deve ficar só sobre o conteúdo do slide, nunca sobre a
+     barra superior/botões. */
+  z-index: 45;
   pointer-events: none;
   touch-action: none;
 }
