@@ -10,12 +10,32 @@
 html {
   scroll-behavior: smooth;
   background: var(--rf-bg);
+  /* Cada seção ocupa a tela inteira e a rolagem (mouse, trackpad,
+     teclado) sempre para alinhada no início da próxima — como slides,
+     não como um scroll livre contínuo. */
+  scroll-snap-type: y mandatory;
 }
 
 body {
   margin: 0;
-  background: var(--rf-bg);
   min-height: 100vh;
+  /* Um único glow ancorado à tela (não ao documento nem a cada seção) —
+     "fixed" faz ele ficar parado no canto do viewport enquanto o
+     conteúdo rola por baixo, em vez de repetir a cada slide. */
+  background:
+    radial-gradient(circle at 100% 0%, var(--rf-glow) 0%, transparent 40%),
+    radial-gradient(circle at 0% 100%, var(--rf-glow) 0%, transparent 35%),
+    var(--rf-bg);
+  background-attachment: fixed;
+}
+
+html.light body {
+  background: var(--rf-bg);
+}
+
+/* O glow do body já cobre a ambientação — cada seção não deve ter o seu. */
+.slidev-layout {
+  background: none !important;
 }
 
 img,
@@ -23,13 +43,20 @@ svg {
   max-width: 100%;
 }
 
-/* Each slide-section is a real block in document flow, not a fixed canvas */
+/* Each slide-section fills the screen and centers its content, like an
+   actual slide — advancing needs a deliberate scroll/space/next action. */
 .rf-slide {
   position: relative;
   width: 100%;
+  min-height: calc(100vh - 76px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: clamp(2.5rem, 6vw, 5rem) clamp(1.25rem, 5vw, 3rem);
   overflow-x: hidden;
   scroll-margin-top: 76px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
   border-bottom: 1px solid var(--rf-border-primary);
 }
 
