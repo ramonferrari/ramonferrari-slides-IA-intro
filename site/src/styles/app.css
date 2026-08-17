@@ -119,6 +119,12 @@ svg {
 .rf-slide--hero .cover {
   width: 100%;
   min-height: 100vh;
+  /* O CoverSlide é compartilhado com o deck Slidev original (16:9), onde
+     justify-between faz sentido num palco baixo e fixo. Na página cheia
+     de altura do site isso empurra o rodapé pro fundo absoluto da tela,
+     exagerando o vão vazio — aqui o bloco inteiro (título + rodapé)
+     centraliza junto, como um grupo só. */
+  justify-content: center;
 }
 
 /* Allow long titles to wrap on narrow screens instead of shrinking to near-nothing */
