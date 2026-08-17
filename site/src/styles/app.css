@@ -57,7 +57,6 @@ svg {
   scroll-margin-top: 76px;
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  border-bottom: 1px solid var(--rf-border-primary);
 }
 
 .rf-slide-inner {
