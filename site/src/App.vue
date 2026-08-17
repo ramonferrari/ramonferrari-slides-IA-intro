@@ -45,6 +45,7 @@ const toolColor = ref('#ff4d4f')
 const toolColors = ['#ff4d4f', '#ffd43b', '#40c057', '#339af0', '#ffffff']
 const isFullscreen = ref(false)
 const overlayRef = ref<InstanceType<typeof PresentationOverlay> | null>(null)
+const isLight = ref(false)
 
 const groupedNav = computed(() => {
   const groups: { name: string; items: typeof slideMeta }[] = []
@@ -110,6 +111,16 @@ function onFullscreenChange() {
   isFullscreen.value = !!document.fullscreenElement
 }
 
+function toggleTheme() {
+  isLight.value = !isLight.value
+  document.documentElement.classList.toggle('light', isLight.value)
+  try {
+    localStorage.setItem('rf-theme', isLight.value ? 'light' : 'dark')
+  } catch {
+    // localStorage indisponível (modo privado etc.) — segue sem persistir
+  }
+}
+
 function onKeydown(e: KeyboardEvent) {
   const target = e.target as HTMLElement | null
   if (target && ['INPUT', 'TEXTAREA'].includes(target.tagName)) return
@@ -146,6 +157,8 @@ function onKeydown(e: KeyboardEvent) {
 watch(activeId, () => clearDrawing())
 
 onMounted(() => {
+  isLight.value = document.documentElement.classList.contains('light')
+
   const sections = Array.from(document.querySelectorAll<HTMLElement>('[data-slide]'))
   observer = new IntersectionObserver(
     (entries) => {
@@ -247,6 +260,16 @@ onBeforeUnmount(() => {
         @click="toggleFullscreen"
       >
         <Icon :name="isFullscreen ? 'compress' : 'expand'" />
+      </button>
+
+      <button
+        type="button"
+        class="rf-tool-btn"
+        title="Alternar tema claro/escuro"
+        aria-label="Alternar tema claro/escuro"
+        @click="toggleTheme"
+      >
+        <Icon :name="isLight ? 'moon' : 'sun'" />
       </button>
     </div>
 

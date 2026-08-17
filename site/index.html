@@ -7,6 +7,15 @@
     <title>A era da IA Generativa — R. M. Ferrari</title>
     <meta name="description" content="O que muda quando computadores passam a gerar conteúdo? — Apresentação de R. M. Ferrari." />
     <link rel="icon" href="data:,">
+    <script>
+      // Aplica o tema salvo antes do primeiro paint, pra não piscar o
+      // tema errado (FOUC) quando a preferência salva é "light".
+      try {
+        if (localStorage.getItem('rf-theme') === 'light') {
+          document.documentElement.classList.add('light')
+        }
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <div id="app"></div>

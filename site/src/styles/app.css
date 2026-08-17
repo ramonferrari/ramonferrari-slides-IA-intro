@@ -43,15 +43,16 @@ svg {
   max-width: 100%;
 }
 
-/* Each slide-section fills the screen and centers its content, like an
-   actual slide — advancing needs a deliberate scroll/space/next action. */
+/* Each slide-section fills the screen, like an actual slide — advancing
+   needs a deliberate scroll/space/next action. O título fica ancorado no
+   topo (como um slide de verdade); só o conteúdo abaixo dele centraliza
+   no espaço restante, pra não sobrar vazio estranho quando é pouco. */
 .rf-slide {
   position: relative;
   width: 100%;
   min-height: calc(100vh - 76px);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: clamp(2.5rem, 6vw, 5rem) clamp(1.25rem, 5vw, 3rem);
   overflow-x: hidden;
   scroll-margin-top: 76px;
@@ -60,8 +61,27 @@ svg {
 }
 
 .rf-slide-inner {
+  width: 100%;
   max-width: 1080px;
   margin: 0 auto;
+}
+
+/* Nos slides normais (não a capa, que tem seu próprio layout): o h1 fica
+   ancorado no topo, e só o bloco de conteúdo abaixo dele centraliza no
+   espaço que sobra — evita vazio esquisito quando o slide tem pouco
+   conteúdo, sem quebrar o espaçamento entre os itens desse bloco. */
+.rf-slide:not(.rf-slide--hero) .rf-slide-inner {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.rf-slide:not(.rf-slide--hero) .rf-slide-inner > h1 + * {
+  margin-top: auto;
+}
+
+.rf-slide:not(.rf-slide--hero) .rf-slide-inner > :last-child:not(h1) {
+  margin-bottom: auto;
 }
 
 /* No deck original o h1 fica centralizado verticalmente no slide 16:9;

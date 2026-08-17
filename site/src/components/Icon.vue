@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineProps<{
-  name: 'menu' | 'close' | 'laser' | 'pencil' | 'expand' | 'compress' | 'trash'
+  name: 'menu' | 'close' | 'laser' | 'pencil' | 'expand' | 'compress' | 'trash' | 'sun' | 'moon'
 }>()
 </script>
 
@@ -60,6 +60,22 @@ defineProps<{
       <line x1="14" y1="11" x2="14" y2="17" />
       <path d="M6 7l1 12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2l1-12" />
       <path d="M9 7V4a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v3" />
+    </template>
+
+    <template v-else-if="name === 'sun'">
+      <circle cx="12" cy="12" r="4.5" />
+      <line x1="12" y1="2" x2="12" y2="4.5" />
+      <line x1="12" y1="19.5" x2="12" y2="22" />
+      <line x1="2" y1="12" x2="4.5" y2="12" />
+      <line x1="19.5" y1="12" x2="22" y2="12" />
+      <line x1="4.9" y1="4.9" x2="6.6" y2="6.6" />
+      <line x1="17.4" y1="17.4" x2="19.1" y2="19.1" />
+      <line x1="4.9" y1="19.1" x2="6.6" y2="17.4" />
+      <line x1="17.4" y1="6.6" x2="19.1" y2="4.9" />
+    </template>
+
+    <template v-else-if="name === 'moon'">
+      <path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z" />
     </template>
   </svg>
 </template>
