@@ -14,23 +14,8 @@ html {
 
 body {
   margin: 0;
-  min-height: 100vh;
-  /* Sem "fixed": o glow deve ficar ancorado ao topo/rodapé do documento
-     inteiro (aparece uma vez só), não ao viewport — "fixed" o colava no
-     canto da tela e ele "reaparecia" a cada scroll. */
-  background:
-    radial-gradient(circle at 100% 0%, var(--rf-glow) 0%, transparent 40%),
-    radial-gradient(circle at 0% 100%, var(--rf-glow) 0%, transparent 35%),
-    var(--rf-bg);
-}
-
-html.light body {
   background: var(--rf-bg);
-}
-
-/* One ambient glow for the whole page instead of one per section */
-.slidev-layout {
-  background: none !important;
+  min-height: 100vh;
 }
 
 img,
@@ -223,8 +208,9 @@ svg {
 
 .rf-tool-popover {
   position: absolute;
-  top: calc(100% + 10px);
-  right: 0;
+  top: 50%;
+  right: calc(100% + 8px);
+  transform: translateY(-50%);
   z-index: 60;
   display: flex;
   align-items: center;
@@ -312,7 +298,7 @@ svg {
   width: 100%;
   color: var(--rf-highlight);
   opacity: 0.8;
-  margin: 1.1rem 0 -0.5rem;
+  margin: 1.1rem 0 0.4rem;
 }
 
 .rf-nav-group-label:first-child {
